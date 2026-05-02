@@ -1,0 +1,764 @@
+/* User-side compact UI pass
+   Keeps admin area untouched and trims bulky spacing/font sizes
+   across major customer-facing pages. */
+
+.mmt-container {
+  max-width: 1200px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.home-page,
+.hotels-page,
+.trains-page-v2,
+.bus-page-v2,
+.cabs-page-shell,
+.cab-page-v2,
+.offers-page,
+.about-us-page,
+.contact-us-page,
+.elite-packages-page,
+.elite-package-detail,
+.unified-booking-flow,
+.flights-page-v2,
+.pf-root,
+.wallet-page,
+.auth-page-container,
+.login-page-container,
+.signup-page-container,
+.forgot-container,
+.bs-page {
+  font-size: 15px !important;
+}
+
+.home-page h1,
+.hotels-page h1,
+.trains-page-v2 h1,
+.bus-page-v2 h1,
+.cabs-page-shell h1,
+.cab-page-v2 h1,
+.offers-page h1,
+.about-us-page h1,
+.contact-us-page h1,
+.elite-packages-page h1,
+.elite-package-detail h1,
+.unified-booking-flow h1,
+.flights-page-v2 h1,
+.pf-root h1,
+.wallet-page h1,
+.auth-page-container h1,
+.login-page-container h1,
+.signup-page-container h1,
+.forgot-container h1,
+.bs-page h1 {
+  font-size: clamp(28px, 4vw, 42px) !important;
+  line-height: 1.05 !important;
+}
+
+.home-page h2,
+.hotels-page h2,
+.trains-page-v2 h2,
+.bus-page-v2 h2,
+.cabs-page-shell h2,
+.cab-page-v2 h2,
+.offers-page h2,
+.about-us-page h2,
+.contact-us-page h2,
+.elite-packages-page h2,
+.elite-package-detail h2,
+.unified-booking-flow h2,
+.flights-page-v2 h2,
+.pf-root h2,
+.wallet-page h2,
+.auth-page-container h2,
+.login-page-container h2,
+.signup-page-container h2,
+.forgot-container h2,
+.bs-page h2 {
+  font-size: clamp(22px, 3vw, 30px) !important;
+  line-height: 1.1 !important;
+}
+
+.home-page h3,
+.hotels-page h3,
+.trains-page-v2 h3,
+.bus-page-v2 h3,
+.cabs-page-shell h3,
+.cab-page-v2 h3,
+.offers-page h3,
+.about-us-page h3,
+.contact-us-page h3,
+.elite-packages-page h3,
+.elite-package-detail h3,
+.unified-booking-flow h3,
+.flights-page-v2 h3,
+.pf-root h3,
+.wallet-page h3,
+.auth-page-container h3,
+.login-page-container h3,
+.signup-page-container h3,
+.forgot-container h3,
+.bs-page h3 {
+  font-size: clamp(18px, 2.2vw, 24px) !important;
+}
+
+.home-page p,
+.home-page span,
+.home-page li,
+.home-page a,
+.home-page button,
+.home-page input,
+.home-page select,
+.home-page textarea,
+.hotels-page p,
+.hotels-page span,
+.hotels-page li,
+.hotels-page a,
+.hotels-page button,
+.hotels-page input,
+.hotels-page select,
+.hotels-page textarea,
+.trains-page-v2 p,
+.trains-page-v2 span,
+.trains-page-v2 li,
+.trains-page-v2 a,
+.trains-page-v2 button,
+.trains-page-v2 input,
+.trains-page-v2 select,
+.trains-page-v2 textarea,
+.bus-page-v2 p,
+.bus-page-v2 span,
+.bus-page-v2 li,
+.bus-page-v2 a,
+.bus-page-v2 button,
+.bus-page-v2 input,
+.bus-page-v2 select,
+.bus-page-v2 textarea,
+.cabs-page-shell p,
+.cabs-page-shell span,
+.cabs-page-shell li,
+.cabs-page-shell a,
+.cabs-page-shell button,
+.cabs-page-shell input,
+.cabs-page-shell select,
+.cabs-page-shell textarea,
+.cab-page-v2 p,
+.cab-page-v2 span,
+.cab-page-v2 li,
+.cab-page-v2 a,
+.cab-page-v2 button,
+.cab-page-v2 input,
+.cab-page-v2 select,
+.cab-page-v2 textarea,
+.offers-page p,
+.offers-page span,
+.offers-page li,
+.offers-page a,
+.offers-page button,
+.offers-page input,
+.offers-page select,
+.offers-page textarea,
+.about-us-page p,
+.about-us-page span,
+.about-us-page li,
+.about-us-page a,
+.about-us-page button,
+.about-us-page input,
+.about-us-page select,
+.about-us-page textarea,
+.contact-us-page p,
+.contact-us-page span,
+.contact-us-page li,
+.contact-us-page a,
+.contact-us-page button,
+.contact-us-page input,
+.contact-us-page select,
+.contact-us-page textarea,
+.elite-packages-page p,
+.elite-packages-page span,
+.elite-packages-page li,
+.elite-packages-page a,
+.elite-packages-page button,
+.elite-packages-page input,
+.elite-packages-page select,
+.elite-packages-page textarea,
+.elite-package-detail p,
+.elite-package-detail span,
+.elite-package-detail li,
+.elite-package-detail a,
+.elite-package-detail button,
+.elite-package-detail input,
+.elite-package-detail select,
+.elite-package-detail textarea,
+.unified-booking-flow p,
+.unified-booking-flow span,
+.unified-booking-flow li,
+.unified-booking-flow a,
+.unified-booking-flow button,
+.unified-booking-flow input,
+.unified-booking-flow select,
+.unified-booking-flow textarea,
+.flights-page-v2 p,
+.flights-page-v2 span,
+.flights-page-v2 li,
+.flights-page-v2 a,
+.flights-page-v2 button,
+.flights-page-v2 input,
+.flights-page-v2 select,
+.flights-page-v2 textarea,
+.pf-root p,
+.pf-root span,
+.pf-root li,
+.pf-root a,
+.pf-root button,
+.pf-root input,
+.pf-root select,
+.pf-root textarea,
+.wallet-page p,
+.wallet-page span,
+.wallet-page li,
+.wallet-page a,
+.wallet-page button,
+.wallet-page input,
+.wallet-page select,
+.wallet-page textarea,
+.auth-page-container p,
+.auth-page-container span,
+.auth-page-container li,
+.auth-page-container a,
+.auth-page-container button,
+.auth-page-container input,
+.auth-page-container select,
+.auth-page-container textarea,
+.login-page-container p,
+.login-page-container span,
+.login-page-container li,
+.login-page-container a,
+.login-page-container button,
+.login-page-container input,
+.login-page-container select,
+.login-page-container textarea,
+.signup-page-container p,
+.signup-page-container span,
+.signup-page-container li,
+.signup-page-container a,
+.signup-page-container button,
+.signup-page-container input,
+.signup-page-container select,
+.signup-page-container textarea,
+.forgot-container p,
+.forgot-container span,
+.forgot-container li,
+.forgot-container a,
+.forgot-container button,
+.forgot-container input,
+.forgot-container select,
+.forgot-container textarea,
+.bs-page p,
+.bs-page span,
+.bs-page li,
+.bs-page a,
+.bs-page button,
+.bs-page input,
+.bs-page select,
+.bs-page textarea {
+  font-size: 14px !important;
+}
+
+.hero-search-section,
+.hotels-header,
+.trains-hero-v2,
+.bus-hero-v2,
+.cab-hero-v2,
+.offers-hero,
+.about-hero,
+.contact-header,
+.elite-pkg-hero,
+.pkg-hero,
+.flights-hero-v2,
+.pf-hero {
+  padding-top: 56px !important;
+  padding-bottom: 88px !important;
+}
+
+.pf-hero {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+.premium-card,
+.card-v4,
+.booking-card-elite,
+.need-help-card,
+.premium-flight-card,
+.premium-bus-card,
+.premium-train-card,
+.hotel-card-v2,
+.elite-pkg-card,
+.premium-cab-card,
+.summary-card,
+.location-card,
+.cab-card,
+.summary-card-v4,
+.sidebar-info-card,
+.auth-content,
+.login-card,
+.signup-card,
+.forgot-box,
+.bs-ticket,
+.bs-fb-card-elite,
+.pf-sidebar,
+.pf-wallet-stat-card,
+.pf-pay-history-card,
+.pf-booking-card,
+.premium-ticket-card,
+.wallet-balance-card,
+.wallet-stat-card,
+.wallet-ledger-card {
+  border-radius: 20px !important;
+}
+
+.auth-content,
+.login-card,
+.forgot-box {
+  padding: 28px !important;
+}
+
+.signup-card {
+  padding: 36px 34px !important;
+  border-radius: 28px !important;
+}
+
+.wallet-balance-card,
+.wallet-stat-card,
+.wallet-ledger-card,
+.pf-sidebar,
+.pf-wallet-stat-card,
+.pf-pay-history-card,
+.bs-fb-card-elite {
+  padding: 22px !important;
+}
+
+.bs-ticket,
+.premium-ticket-card,
+.pf-booking-card {
+  border-radius: 24px !important;
+}
+
+.pf-body,
+.wallet-hero,
+.pf-wallet-stats,
+.pf-payment-overview-grid,
+.pf-payment-filter-grid {
+  gap: 18px !important;
+}
+
+.pf-sidebar {
+  top: 20px !important;
+}
+
+.pf-nav-btn,
+.pf-btn-primary,
+.pf-btn-outline,
+.pf-btn-sm,
+.bs-action-btn,
+.bs-fb-btn,
+.auth-chip,
+.pf-chip {
+  min-height: 42px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.pf-hero-avatar {
+  width: 110px !important;
+  height: 110px !important;
+  font-size: 44px !important;
+}
+
+.pf-hero-name {
+  font-size: clamp(28px, 4.2vw, 42px) !important;
+}
+
+.pf-section-sub,
+.wallet-hero-copy,
+.auth-page-header p,
+.bs-header-box p {
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+
+.bs-t-header,
+.bs-t-body {
+  padding: 32px !important;
+}
+
+.bs-route-box,
+.bs-p-card {
+  padding: 22px !important;
+}
+
+.bs-point .time {
+  font-size: 28px !important;
+}
+
+.auth-logo .logo-text,
+.logo-text {
+  font-size: clamp(28px, 4vw, 36px) !important;
+}
+
+@media (max-width: 900px) {
+  .mmt-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .hero-search-section,
+  .hotels-header,
+  .trains-hero-v2,
+  .bus-hero-v2,
+  .cab-hero-v2,
+  .offers-hero,
+  .about-hero,
+  .contact-header,
+  .elite-pkg-hero,
+  .pkg-hero,
+  .flights-hero-v2,
+  .pf-hero {
+    padding-top: 42px !important;
+    padding-bottom: 72px !important;
+  }
+
+  .wallet-hero,
+  .pf-body,
+  .pf-wallet-stats,
+  .pf-payment-overview-grid,
+  .pf-payment-filter-grid {
+    gap: 14px !important;
+  }
+
+  .signup-card,
+  .auth-content,
+  .login-card,
+  .forgot-box,
+  .wallet-balance-card,
+  .wallet-stat-card,
+  .wallet-ledger-card,
+  .pf-sidebar,
+  .pf-wallet-stat-card,
+  .pf-pay-history-card,
+  .bs-ticket,
+  .bs-fb-card-elite {
+    padding: 20px !important;
+  }
+}
+
+/* Travel pages compact pass */
+.home-page .mmt-container,
+.flights-page-v2 .mmt-container,
+.hotels-page .mmt-container,
+.trains-page-v2 .mmt-container,
+.bus-page-v2 .mmt-container,
+.cabs-page-shell .mmt-container,
+.cab-page-v2 .mmt-container,
+.elite-packages-page .mmt-container,
+.elite-package-detail .mmt-container {
+  max-width: 1160px !important;
+}
+
+.home-page,
+.flights-page-v2,
+.hotels-page,
+.trains-page-v2,
+.bus-page-v2,
+.cabs-page-shell,
+.cab-page-v2,
+.elite-packages-page,
+.elite-package-detail {
+  font-size: 14px !important;
+}
+
+.home-page h1,
+.flights-page-v2 h1,
+.hotels-page h1,
+.trains-page-v2 h1,
+.bus-page-v2 h1,
+.cabs-page-shell h1,
+.cab-page-v2 h1,
+.elite-packages-page h1,
+.elite-package-detail h1 {
+  font-size: clamp(24px, 3.4vw, 36px) !important;
+  line-height: 1.08 !important;
+}
+
+.home-page h2,
+.flights-page-v2 h2,
+.hotels-page h2,
+.trains-page-v2 h2,
+.bus-page-v2 h2,
+.cabs-page-shell h2,
+.cab-page-v2 h2,
+.elite-packages-page h2,
+.elite-package-detail h2 {
+  font-size: clamp(19px, 2.6vw, 26px) !important;
+  line-height: 1.12 !important;
+}
+
+.home-page h3,
+.flights-page-v2 h3,
+.hotels-page h3,
+.trains-page-v2 h3,
+.bus-page-v2 h3,
+.cabs-page-shell h3,
+.cab-page-v2 h3,
+.elite-packages-page h3,
+.elite-package-detail h3 {
+  font-size: clamp(16px, 2vw, 21px) !important;
+  line-height: 1.18 !important;
+}
+
+.home-page p,
+.home-page span,
+.home-page li,
+.home-page a,
+.home-page button,
+.home-page input,
+.home-page select,
+.home-page textarea,
+.flights-page-v2 p,
+.flights-page-v2 span,
+.flights-page-v2 li,
+.flights-page-v2 a,
+.flights-page-v2 button,
+.flights-page-v2 input,
+.flights-page-v2 select,
+.flights-page-v2 textarea,
+.hotels-page p,
+.hotels-page span,
+.hotels-page li,
+.hotels-page a,
+.hotels-page button,
+.hotels-page input,
+.hotels-page select,
+.hotels-page textarea,
+.trains-page-v2 p,
+.trains-page-v2 span,
+.trains-page-v2 li,
+.trains-page-v2 a,
+.trains-page-v2 button,
+.trains-page-v2 input,
+.trains-page-v2 select,
+.trains-page-v2 textarea,
+.bus-page-v2 p,
+.bus-page-v2 span,
+.bus-page-v2 li,
+.bus-page-v2 a,
+.bus-page-v2 button,
+.bus-page-v2 input,
+.bus-page-v2 select,
+.bus-page-v2 textarea,
+.cabs-page-shell p,
+.cabs-page-shell span,
+.cabs-page-shell li,
+.cabs-page-shell a,
+.cabs-page-shell button,
+.cabs-page-shell input,
+.cabs-page-shell select,
+.cabs-page-shell textarea,
+.cab-page-v2 p,
+.cab-page-v2 span,
+.cab-page-v2 li,
+.cab-page-v2 a,
+.cab-page-v2 button,
+.cab-page-v2 input,
+.cab-page-v2 select,
+.cab-page-v2 textarea,
+.elite-packages-page p,
+.elite-packages-page span,
+.elite-packages-page li,
+.elite-packages-page a,
+.elite-packages-page button,
+.elite-packages-page input,
+.elite-packages-page select,
+.elite-packages-page textarea,
+.elite-package-detail p,
+.elite-package-detail span,
+.elite-package-detail li,
+.elite-package-detail a,
+.elite-package-detail button,
+.elite-package-detail input,
+.elite-package-detail select,
+.elite-package-detail textarea {
+  font-size: 13px !important;
+}
+
+.hero-search-section,
+.flights-hero-v2,
+.hotels-header,
+.trains-hero-v2,
+.bus-hero-v2,
+.cab-hero-v2,
+.elite-pkg-hero,
+.pkg-hero {
+  padding-top: 44px !important;
+  padding-bottom: 72px !important;
+}
+
+.flights-search-wrapper,
+.flights-search-container-v2,
+.hotels-search-container,
+.trains-search-bar-v2,
+.bus-search-bar-v2,
+.elite-horizontal-search,
+.flights-filters-sidebar,
+.filters-sidebar,
+.trains-filters-sidebar,
+.bus-filters-sidebar,
+.elite-filters-sidebar,
+.booking-card-elite,
+.need-help-card,
+.premium-flight-card,
+.hotel-card-v2,
+.premium-train-card,
+.premium-bus-card,
+.premium-cab-card,
+.elite-pkg-card,
+.cab-stat-chip,
+.card-v3,
+.ultra-dest-card,
+.neon-test-card,
+.glass-about-card,
+.elite-cat-card,
+.info-card-elite {
+  border-radius: 18px !important;
+}
+
+.flights-search-container-v2,
+.hotels-search-container,
+.trains-search-bar-v2,
+.bus-search-bar-v2,
+.elite-horizontal-search,
+.flights-filters-sidebar,
+.filters-sidebar,
+.trains-filters-sidebar,
+.bus-filters-sidebar,
+.elite-filters-sidebar,
+.booking-card-elite,
+.need-help-card,
+.premium-flight-card,
+.hotel-card-v2,
+.premium-train-card,
+.premium-bus-card,
+.premium-cab-card,
+.elite-pkg-card,
+.card-v3,
+.ultra-dest-card,
+.neon-test-card,
+.glass-about-card,
+.info-card-elite {
+  padding: 18px !important;
+}
+
+.elite-cat-card {
+  min-height: 84px !important;
+  padding: 14px !important;
+}
+
+.cab-hero-highlights,
+.elite-hero-categories,
+.card-top-header,
+.card-action-footer,
+.pkg-card-footer,
+.elite-cards-grid,
+.flight-search-inputs {
+  gap: 14px !important;
+}
+
+.cab-hero-highlights span,
+.hero-tagline,
+.hero-eyebrow,
+.cab-stat-chip,
+.search-input-group,
+.search-field-v2,
+.filter-option-box,
+.class-pill-item {
+  border-radius: 14px !important;
+}
+
+.search-btn-v2,
+.flight-search-btn-v2,
+.hs-search-btn,
+.retry-search-btn,
+.clear-search-btn,
+.clear-filters-btn,
+.view-more-btn-filter {
+  min-height: 40px !important;
+  padding: 10px 16px !important;
+  font-size: 13px !important;
+}
+
+.search-input-group,
+.search-field-v2,
+.flights-search-container-v2 .premium-autosuggest-container,
+.trains-search-bar-v2 .premium-autosuggest-container,
+.bus-search-bar-v2 .premium-autosuggest-container {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.station-time,
+.bs-point .time,
+.cab-stat-value {
+  font-size: 15px !important;
+}
+
+.card-top-header,
+.card-action-footer {
+  margin-bottom: 16px !important;
+  padding-top: 16px !important;
+}
+
+@media (max-width: 900px) {
+  .hero-search-section,
+  .flights-hero-v2,
+  .hotels-header,
+  .trains-hero-v2,
+  .bus-hero-v2,
+  .cab-hero-v2,
+  .elite-pkg-hero,
+  .pkg-hero {
+    padding-top: 32px !important;
+    padding-bottom: 56px !important;
+  }
+
+  .flights-search-container-v2,
+  .hotels-search-container,
+  .trains-search-bar-v2,
+  .bus-search-bar-v2,
+  .elite-horizontal-search,
+  .flights-filters-sidebar,
+  .filters-sidebar,
+  .trains-filters-sidebar,
+  .bus-filters-sidebar,
+  .elite-filters-sidebar,
+  .booking-card-elite,
+  .need-help-card,
+  .premium-flight-card,
+  .hotel-card-v2,
+  .premium-train-card,
+  .premium-bus-card,
+  .premium-cab-card,
+  .elite-pkg-card,
+  .card-v3,
+  .ultra-dest-card,
+  .neon-test-card,
+  .glass-about-card,
+  .info-card-elite {
+    padding: 16px !important;
+  }
+
+  .elite-cat-card {
+    min-height: 72px !important;
+    padding: 12px !important;
+  }
+}

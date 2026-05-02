@@ -1,0 +1,208 @@
+.cab-search-shell.travel-search-shell {
+  width: min(100%, 1280px);
+  margin: 20px auto 34px;
+  padding: 14px 18px;
+  overflow: visible;
+  border: 1px solid rgba(159, 176, 192, 0.18);
+  background:
+    linear-gradient(135deg, rgba(19, 41, 64, 0.92) 0%, rgba(10, 25, 41, 0.86) 62%, rgba(39, 28, 16, 0.7) 100%);
+  box-shadow: 0 24px 80px rgba(2, 8, 23, 0.42);
+}
+
+.cab-search-shell .travel-search-shell__grid {
+  align-items: stretch;
+}
+
+.cab-search-shell .travel-search-shell__grid > .travel-search-shell__field {
+  position: relative;
+  min-height: 92px;
+  padding: 0 18px;
+  border-right-color: rgba(159, 176, 192, 0.1);
+}
+
+.cab-search-shell .travel-search-shell__grid > .travel-search-shell__field:last-of-type {
+  border-right: 0;
+}
+
+.cab-search-shell .travel-search-shell__body {
+  min-height: 34px;
+  align-items: center;
+  gap: 10px;
+}
+
+.cab-search-shell .travel-search-shell__icon {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(79, 140, 255, 0.1);
+  color: #9ad8ff;
+  opacity: 1;
+}
+
+.cab-search-shell .travel-search-shell__icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.cab-search-input-group {
+  position: relative;
+  gap: 6px;
+  border-radius: 20px;
+  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cab-search-input-group:hover,
+.cab-search-input-group:focus-within {
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: inset 0 0 0 1px rgba(79, 140, 255, 0.18);
+}
+
+.cab-search-input-group label {
+  color: #6ec5ff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.cab-search-input-group input {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--app-text);
+  font-size: 17px;
+  font-weight: 700;
+  outline: none;
+  line-height: 1.45;
+}
+
+.cab-search-input-group input::placeholder {
+  color: rgba(148, 163, 184, 0.75);
+  font-weight: 600;
+}
+
+.cab-date-group input[type="datetime-local"] {
+  color-scheme: dark;
+}
+
+.cab-location-btn {
+  min-width: 150px;
+  white-space: nowrap;
+  align-self: center;
+  min-height: 62px;
+  border-radius: 20px;
+  box-shadow: 0 16px 32px rgba(10, 132, 255, 0.28);
+}
+
+.cab-suggestions-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  background: rgba(10, 21, 36, 0.98);
+  border: 1px solid var(--app-border);
+  box-shadow: var(--app-shadow);
+  z-index: 20;
+  max-height: 320px;
+  overflow-y: auto;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.cab-suggestion-item {
+  width: 100%;
+  padding: 14px 18px;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background: transparent;
+  transition: background 0.2s ease, padding-left 0.2s ease;
+}
+
+.cab-suggestion-item:last-child {
+  border-bottom: 0;
+}
+
+.cab-suggestion-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+  padding-left: 22px;
+}
+
+.cab-suggestion-item .sug-title {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--app-text);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cab-suggestion-item .sug-sub {
+  display: block;
+  color: var(--app-text-muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.has-error {
+  background: rgba(255, 107, 107, 0.06);
+  box-shadow: inset 0 0 0 1px rgba(255, 107, 107, 0.18);
+}
+
+.has-error label {
+  color: #fecaca;
+}
+
+.cab-input-error {
+  position: absolute;
+  top: 100%;
+  left: 22px;
+  margin-top: 6px;
+  color: #fecaca;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+@media (max-width: 1120px) {
+  .cab-search-shell.travel-search-shell {
+    margin: 18px auto 28px;
+  }
+
+  .cab-search-input-group {
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  .cab-location-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .cab-search-shell.travel-search-shell {
+    margin: 14px auto 24px;
+    padding: 16px;
+  }
+
+  .cab-search-shell .travel-search-shell__grid > .travel-search-shell__field {
+    min-height: auto;
+    padding: 10px 0;
+  }
+
+  .cab-search-shell .travel-search-shell__icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .cab-search-input-group input {
+    font-size: 16px;
+  }
+
+  .cab-location-btn {
+    min-width: 0;
+  }
+}

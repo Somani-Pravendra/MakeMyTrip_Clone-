@@ -1,0 +1,276 @@
+.travel-search-shell {
+  width: min(100%, 1160px);
+  padding: 10px 16px;
+  border-radius: 28px;
+  background: rgba(10, 25, 41, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.52);
+  backdrop-filter: blur(32px) saturate(160%);
+  -webkit-backdrop-filter: blur(32px) saturate(160%);
+  position: relative;
+  z-index: 20;
+}
+
+.travel-search-shell--hero {
+  margin: -58px auto 28px;
+}
+
+.travel-search-shell--inline {
+  margin: 0 auto 20px;
+}
+
+.travel-search-shell__grid {
+  display: grid;
+  grid-template-columns: var(--travel-search-columns, 1fr);
+  align-items: center;
+  gap: 0;
+}
+
+.travel-search-shell__grid > .premium-autosuggest-container,
+.travel-search-shell__grid > .travel-search-shell__field {
+  min-width: 0;
+  min-height: 82px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.travel-search-shell__field--no-border {
+  border-right: 0;
+}
+
+.travel-search-shell .premium-autosuggest-container {
+  z-index: 40;
+}
+
+.travel-search-shell .premium-input-box {
+  padding: 0;
+  height: auto;
+}
+
+.travel-search-shell .premium-input-box.active {
+  background: transparent;
+}
+
+.travel-search-shell__label,
+.travel-search-shell .premium-input-box label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0 0 6px;
+  color: #6ec5ff;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.travel-search-shell__meta {
+  color: var(--app-text-muted);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.travel-search-shell__body {
+  display: flex;
+  align-items: center;
+}
+
+.travel-search-shell__body input,
+.travel-search-shell__body select,
+.travel-search-shell .premium-input-box input {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: inherit;
+}
+
+.travel-search-shell__body input::placeholder,
+.travel-search-shell__body select::placeholder,
+.travel-search-shell .premium-input-box input::placeholder {
+  color: rgba(159, 176, 192, 0.82);
+}
+
+.travel-search-shell__body input[type="date"],
+.travel-search-shell__body input[type="datetime-local"] {
+  color-scheme: dark;
+}
+
+.travel-search-shell__body input[type="date"]::-webkit-calendar-picker-indicator,
+.travel-search-shell__body input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  width: 0;
+  margin: 0;
+}
+
+.travel-search-shell__body input[type="date"]::-webkit-inner-spin-button,
+.travel-search-shell__body input[type="datetime-local"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.travel-search-shell__body select {
+  appearance: none;
+}
+
+.travel-search-shell__swap {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto;
+  border-radius: 999px;
+  border: 1px solid rgba(110, 197, 255, 0.18);
+  background: rgba(15, 53, 95, 0.45);
+  color: #8ad8ff;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22);
+}
+
+.travel-search-shell__swap:hover {
+  transform: translateY(-1px) rotate(180deg);
+  background: rgba(10, 132, 255, 0.6);
+  border-color: #4bb8ff;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(10, 132, 255, 0.28);
+}
+
+.travel-search-shell__action,
+.travel-search-shell__actions .travel-search-shell__action {
+  min-height: 58px;
+  padding: 0 32px;
+  border: 0;
+  border-radius: 18px;
+  background: linear-gradient(90deg, #1d6fd6 0%, #1557ab 50%, #f2a23a 100%);
+  background-size: 200% auto;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  box-shadow: 0 12px 32px rgba(10, 132, 255, 0.32);
+  transition: all 0.4s var(--transition-smooth, ease);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.travel-search-shell__action:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background-position: right center;
+  box-shadow: 0 16px 48px rgba(10, 132, 255, 0.42);
+}
+
+.travel-search-shell__action:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.travel-search-shell__action--secondary {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--app-border);
+  box-shadow: none;
+  color: #dbeafe;
+  letter-spacing: 0.08em;
+}
+
+.travel-search-shell__action--secondary:hover:not(:disabled) {
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.travel-search-shell__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 12px;
+}
+
+.travel-search-shell__error {
+  margin-top: 12px;
+  color: #fecaca;
+  font-size: 13px;
+  font-weight: 700;
+  background: rgba(220, 38, 38, 0.1);
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-left: 3px solid #ef4444;
+}
+
+.travel-search-shell__icon {
+  margin-left: auto;
+  opacity: 0.6;
+  color: #8ad8ff;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.travel-search-shell__icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1024px) {
+  .travel-search-shell--hero {
+    margin: -42px 18px 24px;
+    width: auto;
+  }
+
+  .travel-search-shell {
+    padding: 16px 18px;
+    border-radius: 24px;
+  }
+
+  .travel-search-shell__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .travel-search-shell__swap {
+    display: none;
+  }
+
+  .travel-search-shell__grid > .premium-autosuggest-container,
+  .travel-search-shell__grid > .travel-search-shell__field {
+    min-height: auto;
+    padding: 14px 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--app-border);
+  }
+
+  .travel-search-shell__action,
+  .travel-search-shell__actions {
+    grid-column: 1 / -1;
+  }
+
+  .travel-search-shell__actions {
+    padding: 10px 0 0;
+  }
+
+  .travel-search-shell__action {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .travel-search-shell__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .travel-search-shell__actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+}

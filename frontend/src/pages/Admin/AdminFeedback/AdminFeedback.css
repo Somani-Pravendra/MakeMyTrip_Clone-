@@ -1,0 +1,351 @@
+.admin-container.admin-luxury-theme .admin-feedback-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-header.feedback-header {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-header .header-main {
+  max-width: 100%;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-header h1,
+.admin-container.admin-luxury-theme .admin-feedback-page .management-header p {
+  text-align: left;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-content-shell {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .admin-page-panel {
+  padding: 14px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .admin-page-panel__head {
+  margin-bottom: 10px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-filters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 260px));
+  gap: 12px;
+  padding: 0;
+  margin-bottom: 12px;
+  background: transparent;
+  border: 0;
+  backdrop-filter: none;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-filter-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .form-select {
+  min-height: 52px;
+  width: 100%;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 0;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-table {
+  width: 100%;
+  min-width: 1180px;
+  table-layout: fixed !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 0;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-col--sr {
+  width: 84px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-col--user {
+  width: 250px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-col--category {
+  width: 140px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-col--rating {
+  width: 150px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-col--title {
+  width: 190px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-col--message {
+  width: auto;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-col--actions {
+  width: 140px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-table thead tr {
+  background: transparent;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-table thead th {
+  padding: 14px 16px;
+  white-space: nowrap;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-table tbody tr {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-table tbody tr:hover {
+  background: rgba(214, 179, 106, 0.045);
+  box-shadow: none;
+  transform: none;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-table tbody td {
+  padding: 14px 16px;
+  vertical-align: middle;
+  border-top: 1px solid rgba(214, 179, 106, 0.06);
+  position: static !important;
+  overflow: hidden;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-sr-no {
+  color: var(--admin-text);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .user-name {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--admin-text);
+  white-space: normal;
+  word-break: break-word;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .user-email {
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--admin-text-muted);
+  word-break: break-word;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-user-cell,
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-title-cell,
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-message-cell {
+  text-align: left;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-category-cell,
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-rating-cell,
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-actions-cell {
+  text-align: center;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .category-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 114px;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .category-tag.flight {
+  background: rgba(79, 140, 255, 0.15);
+  color: #6ea8ff;
+  border-color: rgba(79, 140, 255, 0.28);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .category-tag.hotel {
+  background: rgba(124, 108, 255, 0.15);
+  color: #9a8dff;
+  border-color: rgba(124, 108, 255, 0.28);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .category-tag.train {
+  background: rgba(244, 171, 94, 0.15);
+  color: #ffc27a;
+  border-color: rgba(244, 171, 94, 0.28);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .category-tag.bus {
+  background: rgba(52, 211, 153, 0.14);
+  color: #67e3b3;
+  border-color: rgba(52, 211, 153, 0.25);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .category-tag.cab {
+  background: rgba(79, 209, 197, 0.14);
+  color: #79e4da;
+  border-color: rgba(79, 209, 197, 0.25);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .category-tag.package {
+  background: rgba(214, 179, 106, 0.14);
+  color: #efd399;
+  border-color: rgba(214, 179, 106, 0.25);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .category-tag.other {
+  background: rgba(148, 163, 184, 0.14);
+  color: #c5d0df;
+  border-color: rgba(148, 163, 184, 0.25);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-rating-stars {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  color: #f4c84f;
+  white-space: nowrap;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-title-standalone {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--admin-text);
+  word-break: break-word;
+  white-space: normal;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-content {
+  max-width: none;
+  word-break: break-word;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-message {
+  margin: 0 0 6px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--admin-text-soft);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-meta-line {
+  display: block;
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .action-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .delete-feedback-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 88px;
+  height: 36px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 107, 107, 0.26);
+  background: rgba(255, 107, 107, 0.12);
+  color: #ff9f9f;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, background-color 0.22s ease;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .delete-feedback-btn:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 107, 107, 0.18);
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(239, 68, 68, 0.18);
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .pagination-container {
+  padding: 14px 16px 16px;
+  margin-top: 0;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .empty-table {
+  padding: 5rem !important;
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--admin-text-muted);
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .admin-container.admin-luxury-theme .admin-feedback-page .management-header.feedback-header {
+    padding: 16px !important;
+  }
+
+  .admin-container.admin-luxury-theme .admin-feedback-page .management-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-container.admin-luxury-theme .admin-feedback-page .table-responsive {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .admin-container.admin-luxury-theme .admin-feedback-page .table-responsive::-webkit-scrollbar {
+    display: none;
+  }
+
+  .admin-container.admin-luxury-theme .admin-feedback-page .management-table {
+    min-width: 1180px;
+  }
+}

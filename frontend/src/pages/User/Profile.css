@@ -1,0 +1,3192 @@
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   Profile.css â€” Premium Elite User Dashboard
+   Elite Dark Theme | Glassmorphism | Plus Jakarta Sans
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --blue: var(--primary-blue);
+  --blue-grad: var(--gradient-primary);
+  --blue-glow: rgba(14, 165, 233, 0.3);
+  --bg-page: var(--bg-dark);
+  --bg-card: var(--bg-card);
+  --border: var(--border-glass);
+  --text-main: var(--text-main);
+  --text-dim: var(--text-secondary);
+  --text-muted: var(--text-dim);
+  --radius-lg: var(--radius-xl);
+  --radius-md: var(--radius-lg);
+  --radius-sm: var(--radius-md);
+  --transition: var(--transition-smooth);
+}
+
+.pf-root {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(29, 111, 214, 0.08), transparent 26%),
+    linear-gradient(180deg, #081421 0%, #0c1b2b 100%);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: var(--text-main);
+  padding-bottom: 80px;
+}
+
+/* â”€â”€ Hero section â”€â”€ */
+.pf-hero {
+  background:
+    radial-gradient(circle at 50% 10%, rgba(242, 162, 58, 0.14), transparent 24%),
+    linear-gradient(160deg, rgba(16, 34, 53, 0.92) 0%, rgba(8, 20, 33, 0.98) 100%);
+  padding: 88px 32px 136px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+}
+
+.pf-hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: var(--bg-page);
+  clip-path: ellipse(55% 100% at 50% 100%);
+}
+
+.pf-hero::before {
+  content: '';
+  position: absolute;
+  inset: auto 0 32px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.14), transparent);
+}
+
+.pf-hero-avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 35px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+  font-weight: 900;
+  margin: 0 auto 24px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 2;
+  letter-spacing: -2px;
+  animation: avatarFloat 6s ease-in-out infinite;
+}
+
+@keyframes avatarFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.pf-hero-avatar::before {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border-radius: 40px;
+  background: var(--blue-grad);
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.pf-hero-name {
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 950;
+  letter-spacing: -2px;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(to bottom, #fff, #aaa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pf-hero-email {
+  font-size: 14px;
+  color: var(--text-muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.pf-hero-meta {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+
+.pf-hero-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* â”€â”€ Layout â”€â”€ */
+.pf-body {
+  max-width: 1280px;
+  margin: -62px auto 0;
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 28px;
+  padding: 0 24px;
+  position: relative;
+  z-index: 10;
+}
+
+/* â”€â”€ Sidebar â”€â”€ */
+.pf-sidebar {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(30px);
+  border-radius: 28px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
+  height: fit-content;
+  position: sticky;
+  top: 28px;
+}
+
+.pf-sidebar-head {
+  padding: 6px 6px 18px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.pf-sidebar-kicker {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.pf-sidebar-head strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.pf-sidebar-head p {
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.pf-nav-btn {
+  width: 100%;
+  text-align: left;
+  padding: 16px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-dim);
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.pf-nav-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  transform: translateX(5px);
+}
+
+.pf-nav-btn.active {
+  background: rgba(0, 119, 255, 0.1);
+  border-color: rgba(0, 119, 255, 0.3);
+  color: #f2a23a;
+  font-weight: 800;
+  box-shadow: 0 0 30px rgba(0, 119, 255, 0.1);
+}
+
+.pf-nav-icon {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/* â”€â”€ Content Area â”€â”€ */
+.pf-content {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(30px);
+  border-radius: 30px;
+  padding: 44px;
+  border: 1px solid var(--border);
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
+  min-height: 600px;
+}
+
+.pf-section-title {
+  font-size: 28px;
+  font-weight: 950;
+  margin-bottom: 40px;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pf-section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border), transparent);
+}
+
+/* â”€â”€ Stats Grid â”€â”€ */
+.pf-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.pf-stat-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: var(--transition);
+}
+
+.pf-stat-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.pf-stat-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.pf-stat-label {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.pf-stat-value {
+  font-size: 22px;
+  font-weight: 900;
+  margin: 4px 0 0;
+  letter-spacing: -0.5px;
+}
+
+/* â”€â”€ Quick Info â”€â”€ */
+.pf-quick-info {
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  margin-bottom: 40px;
+}
+
+.pf-qi-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pf-qi-row:last-child {
+  border-bottom: none;
+}
+
+.pf-qi-row span {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-dim);
+}
+
+.pf-qi-row strong {
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.pf-quick-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.pf-qa-btn {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  color: #fff;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pf-qa-btn:hover {
+  background: var(--blue-dim);
+  border-color: var(--blue);
+  color: #f2a23a;
+}
+
+/* â”€â”€ Filter Chips â”€â”€ */
+.pf-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.pf-filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pf-filter-label {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pf-filter-dropdown {
+  position: relative;
+}
+
+.pf-filter-trigger {
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 13px;
+  font-weight: 800;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 160px;
+}
+
+.pf-filter-trigger:hover {
+  border-color: rgba(0, 210, 255, 0.3);
+  background: rgba(0, 210, 255, 0.08);
+  transform: translateY(-2px);
+}
+
+.pf-filter-dropdown.is-open .pf-filter-trigger,
+.pf-filter-trigger:focus {
+  border-color: rgba(0, 210, 255, 0.5);
+  background: linear-gradient(135deg, rgba(0, 119, 255, 0.15), rgba(0, 210, 255, 0.12));
+  box-shadow: 0 8px 24px rgba(0, 210, 255, 0.15);
+}
+
+.pf-filter-caret {
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.pf-filter-dropdown.is-open .pf-filter-caret {
+  transform: rotate(-135deg);
+  margin-top: 3px;
+}
+
+.pf-filter-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  z-index: 30;
+  padding: 10px 0;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 210, 255, 0.2);
+  background: linear-gradient(180deg, #151c2b 0%, #0f1726 100%);
+  box-shadow: 0 24px 60px rgba(2, 8, 23, 0.65);
+  overflow: hidden;
+}
+
+.pf-filter-option {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: #f8fafc;
+  text-align: left;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.pf-filter-option:hover {
+  background: rgba(59, 130, 246, 0.16);
+  color: #ffffff;
+}
+
+.pf-filter-option.is-selected {
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.9), rgba(59, 130, 246, 0.82));
+  color: #ffffff;
+}
+
+.pf-filter-option + .pf-filter-option {
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/* â”€â”€ Booking Cards (Premium Style V2) â”€â”€ */
+.pf-booking-card {
+  background:
+    radial-gradient(circle at top right, rgba(0, 210, 255, 0.08), transparent 22%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.03));
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 30px;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 24px;
+  transition: all 0.5s ease;
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.34);
+  position: relative;
+}
+
+.pf-booking-card:hover {
+  transform: translateY(-8px);
+  border-color: #f2a23a;
+  box-shadow: 0 25px 55px rgba(0, 0, 0, 0.45);
+}
+
+.pf-booking-card--cancelled {
+  position: relative;
+  border-color: rgba(239, 68, 68, 0.3);
+  background:
+    radial-gradient(circle at top right, rgba(239, 68, 68, 0.1), transparent 28%),
+    linear-gradient(135deg, rgba(239, 68, 68, 0.08), rgba(255, 255, 255, 0.03));
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+}
+
+.pf-booking-card--cancelled::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(239, 68, 68, 0.03);
+  backdrop-filter: blur(2px);
+  pointer-events: none;
+  border-radius: 28px;
+}
+
+.pf-booking-card--cancelled:hover {
+  transform: translateY(-8px);
+  border-color: rgba(239, 68, 68, 0.4);
+  box-shadow: 0 25px 55px rgba(239, 68, 68, 0.2);
+}
+
+.pf-bk-stripe {
+  width: 10px;
+  background: #333;
+  position: relative;
+}
+
+.pf-bk-stripe--flight { background: #1d6fd6; }
+.pf-bk-stripe--hotel { background: #f59e0b; }
+.pf-bk-stripe--train { background: #ef4444; }
+.pf-bk-stripe--bus { background: #10b981; }
+.pf-bk-stripe--cab { background: #6366f1; }
+.pf-bk-stripe--package { background: #ec4899; }
+
+.pf-bk-body {
+  flex: 1;
+  padding: 22px 28px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pf-bk-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 18px;
+}
+
+.pf-bk-title {
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0;
+  letter-spacing: 0.18em;
+  color: #f2a23a;
+  text-transform: uppercase;
+}
+
+.pf-bk-date {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.82);
+  font-weight: 800;
+  margin: 8px 0 0;
+}
+
+.pf-status {
+  padding: 6px 14px;
+  border-radius: 99px;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 1px solid transparent;
+}
+
+.pf-status--confirmed { 
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+  border-color: rgba(16, 185, 129, 0.2);
+}
+.pf-status--pending { 
+  background: rgba(245, 158, 11, 0.1); 
+  color: #f59e0b;
+  border-color: rgba(245, 158, 11, 0.2);
+}
+.pf-status--cancelled { 
+  background: rgba(239, 68, 68, 0.1); 
+  color: #ef4444;
+  border-color: rgba(239, 68, 68, 0.2);
+}
+.pf-status--fully-cancelled {
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+  border-color: rgba(239, 68, 68, 0.32);
+}
+.pf-status--partially-cancelled {
+  background: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+  border-color: rgba(245, 158, 11, 0.32);
+}
+
+.pf-bk-mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 12px;
+}
+
+.pf-bk-route {
+  font-size: clamp(22px, 3vw, 28px);
+  font-weight: 950;
+  margin: 0;
+  color: #fff;
+  letter-spacing: -0.05em;
+  line-height: 1.08;
+}
+
+.pf-bk-sub {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.52);
+  margin: 10px 0 0;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.pf-bk-fare {
+  padding: 0;
+  border-radius: 0;
+  text-align: right;
+  background: transparent;
+  border: none;
+}
+
+.pf-bk-fare-label {
+  font-size: 10px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 0.1em;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+
+.pf-bk-fare-val {
+  font-size: 22px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.02em;
+}
+
+.pf-bk-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  gap: 16px;
+}
+
+.pf-bk-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+.pf-bk-id {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: monospace;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.pf-bk-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+.pf-bk-actions .pf-btn-sm {
+  margin-left: 0 !important;
+  padding: 10px 18px;
+  min-height: auto;
+  border-radius: 12px;
+  font-size: 11px;
+}
+
+.pf-bk-actions > * {
+  margin-left: 0 !important;
+}
+
+.pf-bk-cancel-note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pf-bk-cancel-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255, 202, 202, 0.9);
+}
+
+.pf-bk-refund-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 100px;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1.5px solid rgba(16, 185, 129, 0.25);
+  color: #6ee7b7;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.pf-bk-refund-pill--partial {
+  background: rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.22);
+  color: #fbbf24;
+}
+
+.pf-bk-refund-pill--partial-credit {
+  background: rgba(16, 185, 129, 0.12);
+  border-color: rgba(16, 185, 129, 0.25);
+  color: #6ee7b7;
+}
+
+.pf-bk-breakdown {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pf-bk-breakdown-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.pf-bk-breakdown-row span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.pf-bk-breakdown-row strong {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.pf-bk-breakdown-note {
+  margin: 2px 0 0;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.pf-booking-card--cancelled .pf-bk-mid,
+.pf-booking-card--cancelled .pf-bk-route,
+.pf-booking-card--cancelled .pf-bk-sub,
+.pf-booking-card--cancelled .pf-bk-fare-label,
+.pf-booking-card--cancelled .pf-bk-id {
+  opacity: 0.72;
+}
+
+.pf-booking-card--cancelled .pf-bk-title,
+.pf-booking-card--cancelled .pf-bk-fare-val {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.pf-booking-card--cancelled .pf-bk-stripe {
+  opacity: 0.45;
+}
+
+@media (max-width: 900px) {
+  .pf-bk-mid,
+  .pf-bk-foot {
+    grid-template-columns: 1fr;
+  }
+
+  .pf-bk-fare {
+    text-align: left;
+  }
+}
+
+/* â”€â”€ General Buttons â”€â”€ */
+.pf-btn-primary {
+  background: var(--blue-grad);
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 8px 20px var(--blue-glow);
+}
+
+.pf-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px var(--blue-glow);
+}
+
+.pf-btn-sm {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.pf-btn-sm:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.pf-btn-outline {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 10px 24px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+/* â”€â”€ Form Styling â”€â”€ */
+.pf-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.pf-fg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pf-fg--full {
+  grid-column: 1 / -1;
+}
+
+.pf-fg label {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pf-fg input, .pf-fg select {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 18px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  transition: var(--transition);
+  font-family: inherit;
+}
+
+.pf-fg input:focus, .pf-fg select:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 4px rgba(0, 119, 255, 0.15);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.pf-fg input:disabled, .pf-fg select:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  border-style: dashed;
+}
+
+.pf-pay-form {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  padding: 32px;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+
+.pf-pay-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.pf-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.pf-check input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--blue);
+}
+
+/* â”€â”€ Payments Sections â”€â”€ */
+.pf-pay-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 8px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+
+.pf-pay-tab {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-weight: 800;
+  font-size: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.pf-pay-tab.active {
+  background: rgba(255, 255, 255, 0.05);
+  color: #f2a23a;
+}
+
+.pf-upi-list, .pf-wallet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.pf-upi-item, .pf-wallet-item {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  padding: 20px 24px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: var(--transition);
+}
+
+.pf-upi-item:hover, .pf-wallet-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.pf-upi-icon, .pf-wallet-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.pf-upi-info {
+  flex: 1;
+}
+
+.pf-upi-app {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.pf-upi-id {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 2px 0 0;
+}
+
+.pf-wallet-bal {
+  text-align: right;
+}
+
+.pf-wallet-amt {
+  font-size: 18px;
+  font-weight: 900;
+  margin: 2px 0 0;
+}
+
+.pf-security-note {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 24px;
+}
+
+.pf-pay-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.pf-pay-card {
+  aspect-ratio: 1.6 / 1;
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  border-radius: 20px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.pf-pay-card--default {
+  border-color: var(--blue);
+  box-shadow: 0 0 30px rgba(0, 119, 255, 0.2);
+}
+
+.pf-pay-card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.pf-pay-chip {
+  width: 44px;
+  height: 32px;
+  background: linear-gradient(135deg, #fcd34d 0%, #d97706 100%);
+  border-radius: 6px;
+}
+
+.pf-pay-brand {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.pf-pay-number {
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.pf-pay-card-bot {
+  display: flex;
+  gap: 32px;
+}
+
+.pf-pay-lbl {
+  font-size: 12px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pf-pay-val {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.pf-pay-actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.pf-pay-card:hover .pf-pay-actions {
+  opacity: 1;
+}
+
+.pf-pay-actbtn {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 12px;
+  cursor: pointer;
+  width: 160px;
+}
+
+.pf-pay-actbtn.danger {
+  background: #ef4444;
+  color: #fff;
+}
+
+.pf-default-badge {
+  background: var(--blue);
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+/* â”€â”€ Section Header â”€â”€ */
+.pf-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* â”€â”€ Security List â”€â”€ */
+.pf-security-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pf-security-btn {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  padding: 24px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+  cursor: pointer;
+  transition: var(--transition);
+  color: inherit;
+  width: 100%;
+}
+
+.pf-security-btn:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(8px);
+}
+
+.pf-security-btn.danger:hover {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.05);
+}
+
+.pf-security-btn-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.pf-security-btn-title {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.pf-security-btn-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 4px 0 0;
+}
+
+.pf-security-btn-arrow {
+  margin-left: auto;
+  font-size: 24px;
+  color: var(--text-muted);
+}
+
+/* â”€â”€ Empty State â”€â”€ */
+.pf-empty {
+  text-align: center;
+  padding: 80px 40px;
+  background: rgba(255, 255, 255, 0.01);
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.pf-empty span {
+  font-size: 64px;
+  display: block;
+  margin-bottom: 24px;
+  opacity: 0.5;
+}
+
+.pf-empty p {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-dim);
+  margin-bottom: 32px;
+}
+
+/* â”€â”€ Loading Spinner â”€â”€ */
+.pf-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.pf-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 119, 255, 0.1);
+  border-top-color: var(--blue);
+  border-radius: 50%;
+  animation: pf-spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes pf-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* â”€â”€ Password Modal â”€â”€ */
+.cp-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cp-modal {
+  background: #0a1120;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.8);
+}
+
+.cp-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.cp-close::before {
+  content: 'x';
+  font-size: 24px;
+  color: var(--text-muted);
+}
+
+.cp-icon {
+  width: 70px;
+  height: 70px;
+  background: var(--blue-dim);
+  border-radius: 20px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.cp-title {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0 0 12px;
+}
+
+.cp-desc {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-bottom: 32px;
+}
+
+.cp-field {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.cp-field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.cp-field input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  padding: 14px 18px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+.cp-submit {
+  width: 100%;
+  background: var(--blue-grad);
+  border: none;
+  padding: 16px;
+  border-radius: 14px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.cp-cancel {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* â”€â”€ Responsive â”€â”€ */
+@media (max-width: 992px) {
+  .pf-body {
+    grid-template-columns: 1fr;
+    margin-top: -60px;
+  }
+  
+  .pf-sidebar {
+    display: flex;
+    overflow-x: auto;
+    padding: 12px;
+    gap: 8px;
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+  }
+
+  .pf-sidebar-head {
+    display: none;
+  }
+  
+  .pf-nav-btn {
+    width: auto;
+    white-space: nowrap;
+    margin-bottom: 0;
+    padding: 10px 18px;
+  }
+  
+  .pf-content {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pf-form-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pf-hero {
+    padding: 80px 20px 120px;
+  }
+
+  .pf-hero-meta {
+    gap: 8px;
+  }
+
+  .pf-hero-pill {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .pf-hero-avatar {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+  }
+  
+  .pf-bk-mid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pf-bk-fare {
+    text-align: left;
+  }
+}
+
+/* â”€â”€ Cancellation & Refund Styles â”€â”€ */
+.pf-btn-danger-lite {
+  color: #ef4444 !important;
+  border-color: rgba(239, 68, 68, 0.3) !important;
+  background: rgba(239, 68, 68, 0.05) !important;
+}
+.pf-btn-danger-lite:hover {
+  background: #ef4444 !important;
+  color: #fff !important;
+  border-color: #ef4444 !important;
+  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.4);
+}
+.refund-policy-preview {
+  margin: 24px 0;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.refund-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.refund-table th {
+  text-align: left;
+  padding: 14px;
+  color: var(--blue);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+/* Redesign overrides */
+.pf-root {
+  background:
+    radial-gradient(circle at top center, rgba(0, 119, 255, 0.12), transparent 20%),
+    radial-gradient(circle at 15% 20%, rgba(34, 211, 238, 0.06), transparent 22%),
+    linear-gradient(180deg, #04101e 0%, #020814 58%, #010611 100%);
+}
+
+.pf-hero {
+  padding: 74px 24px 124px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.15), transparent 20%),
+    linear-gradient(180deg, #0a203a 0%, #051326 46%, #03101f 100%);
+}
+
+.pf-hero-avatar {
+  width: 108px;
+  height: 108px;
+  margin-bottom: 18px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(28, 95, 139, 0.94), rgba(20, 83, 119, 0.92));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    0 20px 48px rgba(0, 0, 0, 0.42);
+  animation: none;
+}
+
+.pf-hero-avatar::before {
+  inset: -4px;
+  border-radius: 34px;
+  opacity: 0.12;
+}
+
+.pf-hero-name {
+  font-size: clamp(34px, 4.8vw, 50px);
+  letter-spacing: -0.06em;
+}
+
+.pf-hero-email {
+  letter-spacing: 0.18em;
+  font-size: 11px;
+}
+
+.pf-hero-pill {
+  min-height: 40px;
+  padding: 10px 18px;
+  background: rgba(8, 19, 35, 0.62);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.pf-body {
+  max-width: 1360px;
+  margin-top: -56px;
+  grid-template-columns: 286px minmax(0, 1fr);
+  gap: 24px;
+}
+
+.pf-sidebar,
+.pf-content {
+  background: linear-gradient(180deg, rgba(12, 20, 34, 0.92), rgba(9, 16, 29, 0.88));
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 28px 70px rgba(0, 0, 0, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.pf-sidebar {
+  border-radius: 26px;
+  padding: 20px;
+  top: 24px;
+}
+
+.pf-sidebar-head {
+  margin-bottom: 16px;
+  padding: 4px 6px 18px;
+}
+
+.pf-nav-btn {
+  padding: 12px 14px;
+  gap: 12px;
+  border-radius: 18px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.pf-nav-btn:hover {
+  transform: none;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.pf-nav-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.pf-nav-btn.active {
+  background: linear-gradient(135deg, rgba(8, 77, 160, 0.24), rgba(15, 113, 165, 0.14));
+  color: #dbeafe;
+  border-color: rgba(59, 130, 246, 0.24);
+}
+
+.pf-nav-btn.active .pf-nav-icon {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.84), rgba(34, 211, 238, 0.74));
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 12px 26px rgba(37, 99, 235, 0.28);
+}
+
+.pf-content {
+  border-radius: 28px;
+  padding: 34px 36px 40px;
+}
+
+.pf-section-title {
+  margin-bottom: 12px;
+}
+
+.pf-section-sub {
+  margin: -2px 0 28px;
+  color: rgba(255, 255, 255, 0.54);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.pf-stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.pf-stat-card {
+  min-height: 118px;
+  padding: 20px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.022));
+  align-items: center;
+}
+
+.pf-stat-icon {
+  color: #09111d;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pf-stat-value {
+  font-size: 24px;
+}
+
+.pf-quick-info {
+  border-radius: 24px;
+  padding: 14px 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.018));
+  margin-bottom: 24px;
+}
+
+.pf-qi-row {
+  min-height: 54px;
+  align-items: center;
+}
+
+.pf-qi-row span {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 11px;
+}
+
+.pf-quick-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.pf-qa-btn {
+  min-height: 52px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.08);
+  font-size: 13px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  letter-spacing: 0.03em;
+}
+
+.pf-qa-btn:hover {
+  background: rgba(0, 119, 255, 0.08);
+  border-color: rgba(0, 210, 255, 0.2);
+}
+
+.ticket-cat-icon,
+.pf-security-btn-icon,
+.pf-tx-icon-box,
+.pf-stat-color-box,
+.pf-ph-icon-box,
+.cp-icon,
+.cp-success-icon {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.pf-security-btn-icon {
+  color: #e0f2fe;
+}
+
+.pf-stat-color-box span {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.pf-empty span {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 24px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  color: #dbeafe;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 1100px) {
+  .pf-stats-grid,
+  .pf-quick-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .pf-sidebar {
+    gap: 10px;
+  }
+
+  .pf-nav-icon {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (max-width: 640px) {
+  .pf-content {
+    padding: 24px 20px 28px;
+  }
+
+  .pf-stats-grid,
+  .pf-quick-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .pf-hero {
+    padding: 66px 18px 112px;
+  }
+}
+.refund-table td {
+  padding: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+}
+.refund-table tr.highlight {
+  background: rgba(0, 119, 255, 0.1);
+  border-radius: 8px;
+}
+.refund-table tr.highlight td {
+  color: #f2a23a;
+  font-weight: 800;
+}
+.estimated-refund-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  background: rgba(16, 185, 129, 0.08);
+  border: 2px dashed rgba(16, 185, 129, 0.4);
+  border-radius: 14px;
+}
+.estimated-refund-box .label {
+  font-weight: 800;
+  color: #10b981;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.estimated-refund-box .val {
+  font-size: 24px;
+  font-weight: 950;
+  color: #fff;
+}
+.cancellation-modal {
+  max-width: 500px !important;
+  background: rgba(3, 10, 21, 0.95) !important;
+  border: 1px solid rgba(239, 68, 68, 0.3) !important;
+}
+.pf-btn-danger {
+  background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%) !important;
+  box-shadow: 0 10px 25px rgba(239, 68, 68, 0.3) !important;
+}
+.modal-actions-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+/* ðŸŽŸï¸ YOUR TICKETS (ELITE V2) ðŸŽŸï¸ */
+.tickets-grid-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.premium-ticket-card {
+  display: flex;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 22px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Serrated Stub effect on the perforation line */
+.premium-ticket-card::before,
+.premium-ticket-card::after {
+  content: '';
+  position: absolute;
+  left: calc(100% - 175px - 9px);
+  width: 18px;
+  height: 18px;
+  background: #081421; /* Match page BG */
+  border-radius: 50%;
+  z-index: 10;
+}
+.premium-ticket-card::before { top: -9px; }
+.premium-ticket-card::after { bottom: -9px; }
+
+.premium-ticket-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(242, 162, 58, 0.4);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);
+}
+
+.ticket-main-info {
+  flex: 1;
+  padding: 24px 34px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.ticket-cat-icon {
+  width: 52px;
+  height: 52px;
+  background: rgba(0, 119, 255, 0.1);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #f2a23a;
+  border: 1px solid rgba(0, 119, 255, 0.2);
+}
+
+.ticket-type-label h4 {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 1.5px;
+  color: #f2a23a;
+  text-transform: uppercase;
+}
+
+.ticket-type-label p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.35);
+  font-family: 'Outfit', sans-serif;
+}
+
+.ticket-status-pill {
+  margin-left: auto;
+  padding: 6px 14px;
+  background: rgba(16, 185, 129, 0.08);
+  color: #10b981;
+  border-radius: 100px;
+  font-size: 10.5px;
+  font-weight: 950;
+  letter-spacing: 0.8px;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  text-transform: uppercase;
+}
+
+.ticket-status-pill--partial {
+  background: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+  border-color: rgba(245, 158, 11, 0.24);
+}
+
+.ticket-route-v2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
+  margin-bottom: 20px;
+}
+
+.ticket-journey-preview {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: -8px 0 20px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: rgba(242, 162, 58, 0.06);
+  border: 1px solid rgba(242, 162, 58, 0.12);
+}
+
+.ticket-journey-preview__label {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.42);
+  flex: none;
+}
+
+.ticket-journey-preview__value {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: #e2e8f0;
+  letter-spacing: 0.1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ticket-partial-badge {
+  display: grid;
+  gap: 6px;
+  margin: -6px 0 18px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.16);
+}
+
+.ticket-partial-badge--credit {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(45, 212, 191, 0.08));
+  border-color: rgba(16, 185, 129, 0.2);
+}
+
+.ticket-partial-badge strong {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.ticket-partial-badge span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.ticket-fare-breakdown {
+  display: grid;
+  gap: 10px;
+  margin: -4px 0 18px;
+  padding: 14px 15px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ticket-fare-breakdown__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.ticket-fare-breakdown__row span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.ticket-fare-breakdown__row strong {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.ticket-fare-breakdown__note {
+  margin: 2px 0 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.route-stop { flex: none; display: flex; flex-direction: column; }
+.route-city {
+  font-size: 28px;
+  font-weight: 950;
+  letter-spacing: -1.2px;
+  color: #fff;
+  line-height: 1;
+}
+.route-time {
+  font-size: 20px;
+  font-weight: 800;
+  color: #f2a23a;
+  margin: 4px 0;
+  display: block;
+}
+.route-label {
+  font-size: 12px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+}
+.route-stop.text-right { text-align: right; align-items: flex-end; }
+
+.route-line-v2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 24px;
+}
+.route-line-v2::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent);
+  z-index: 1;
+}
+.route-line-v2 .plane {
+  font-size: 24px;
+  z-index: 2;
+  background: #081421;
+  padding: 0 15px;
+  color: #f2a23a;
+  filter: drop-shadow(0 0 10px rgba(0, 210, 255, 0.4));
+}
+
+.ticket-details-v2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.detail-item .label {
+  font-size: 12px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.3);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.detail-item .val {
+  font-size: 14.5px;
+  font-weight: 800;
+  color: #fafafa;
+}
+
+/* Vertical Perforation */
+.ticket-actions-v2 {
+  width: 175px;
+  background: rgba(255, 255, 255, 0.012);
+  border-left: 1.5px dashed rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px;
+  z-index: 5;
+}
+
+.t-btn {
+  width: 100%;
+  padding: 13px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+}
+
+.t-btn-download {
+  background: var(--blue-grad);
+  color: #fff;
+  border: none;
+  box-shadow: 0 8px 25px rgba(0, 119, 255, 0.4);
+}
+.t-btn-download:hover { transform: translateY(-2px); box-shadow: 0 12px 35px rgba(0, 119, 255, 0.55); }
+
+.t-btn-cancel {
+  background: rgba(239, 68, 68, 0.05);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+.t-btn-cancel:hover { background: #ef4444; color: #fff; border-color: #ef4444; }
+
+/* ðŸ‘› ELITE WALLET UI ðŸ‘› */
+.pf-wallet-hero {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.pf-wallet-label {
+  font-size: 12px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.pf-wallet-amount {
+  font-size: 28px;
+  font-weight: 950;
+  letter-spacing: -1px;
+  color: #fff;
+  margin: 4px 0 20px 0;
+}
+.pf-wallet-btn {
+  background: var(--blue-grad);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(0, 119, 255, 0.4);
+  transition: all 0.3s ease;
+}
+.pf-wallet-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px rgba(0, 119, 255, 0.55);
+}
+
+.pf-wallet-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 48px;
+}
+.pf-wallet-stat-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+.pf-wallet-stat-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.pf-stat-color-box {
+  width: 58px;
+  height: 58px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+.pf-box-green { background: linear-gradient(135deg, #86efac 0%, #4ade80 100%); }
+.pf-box-pink  { background: linear-gradient(135deg, #fca5a5 0%, #f87171 100%); }
+.pf-box-blue  { background: linear-gradient(135deg, #93c5fd 0%, #60a5fa 100%); }
+
+.pf-stat-text-box {
+  display: flex;
+  flex-direction: column;
+}
+.pf-stat-title {
+  font-size: 12px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.pf-stat-val {
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.pf-wallet-ledger {
+  margin-top: 40px;
+}
+.pf-ledger-title {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+.pf-transaction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pf-tx-item-glass {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+.pf-tx-item-glass:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+.pf-tx-icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+.pf-tx-details {
+  flex: 1;
+}
+.pf-tx-desc {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 6px 0;
+}
+.pf-tx-date {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+.pf-tx-amounts {
+  text-align: right;
+  flex-shrink: 0;
+}
+.pf-tx-amount {
+  font-size: 18px;
+  font-weight: 900;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.5px;
+}
+.pf-tx-amount.text-green { color: #10b981; }
+.pf-tx-amount.text-red { color: #ef4444; }
+
+.pf-tx-bal {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+
+/* ðŸ’¸ PAYMENT HISTORY LEDGER ðŸ’¸ */
+.pf-pay-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.pf-pay-history-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+
+.pf-pay-history-card--green {
+  border-color: rgba(16, 185, 129, 0.45);
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(255, 255, 255, 0.03));
+}
+
+.pf-pay-history-card--red {
+  border-color: rgba(239, 68, 68, 0.5);
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.12), rgba(255, 255, 255, 0.02));
+}
+
+.pf-pay-history-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateX(6px);
+}
+
+.pf-payment-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 18px;
+}
+
+.pf-payment-label {
+  display: block;
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pf-payment-select,
+.pf-payment-input {
+  width: 100%;
+  min-height: 48px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(7, 15, 32, 0.72);
+  color: #ffffff;
+  padding: 12px 16px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pf-payment-input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.pf-payment-select:focus,
+.pf-payment-input:focus {
+  border-color: rgba(0, 210, 255, 0.55);
+  box-shadow: 0 0 0 4px rgba(0, 210, 255, 0.12);
+}
+
+.pf-payment-filter-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.pf-payment-field {
+  min-width: 0;
+}
+
+.pf-payment-field .pf-filter-group,
+.pf-payment-field .pf-filter-dropdown {
+  width: 100%;
+}
+
+.pf-payment-field .pf-filter-label {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.pf-payment-field .pf-filter-trigger {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: rgba(7, 15, 32, 0.72);
+  border-color: rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+.pf-payment-field .pf-filter-trigger:hover {
+  transform: none;
+  border-color: rgba(0, 210, 255, 0.34);
+  background: rgba(8, 25, 48, 0.92);
+}
+
+.pf-payment-field .pf-filter-dropdown.is-open .pf-filter-trigger,
+.pf-payment-field .pf-filter-trigger:focus {
+  border-color: rgba(0, 210, 255, 0.55);
+  background: rgba(8, 25, 48, 0.96);
+  box-shadow: 0 0 0 4px rgba(0, 210, 255, 0.12);
+}
+
+.pf-payment-field .pf-filter-menu {
+  top: calc(100% + 8px);
+  right: auto;
+  min-width: 100%;
+  border-radius: 18px;
+  border-color: rgba(0, 210, 255, 0.22);
+  background: linear-gradient(180deg, #122038 0%, #0a1322 100%);
+}
+
+.pf-payment-field .pf-filter-option {
+  padding: 13px 16px;
+}
+
+.pf-payment-clear-btn {
+  min-height: 42px;
+}
+
+.pf-payment-clear-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pf-payment-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.pf-payment-overview-card {
+  padding: 18px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+  box-shadow: 0 18px 34px rgba(2, 6, 23, 0.18);
+}
+
+.pf-payment-overview-card--payments {
+  border-color: rgba(56, 189, 248, 0.28);
+}
+
+.pf-payment-overview-card--paid {
+  border-color: rgba(59, 130, 246, 0.28);
+}
+
+.pf-payment-overview-card--refunded {
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.pf-payment-overview-card--wallet {
+  border-color: rgba(244, 114, 182, 0.28);
+}
+
+.pf-payment-overview-label {
+  margin: 0 0 10px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.pf-payment-overview-value {
+  margin: 0;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+.pf-payment-overview-meta {
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.pf-ph-icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.pf-ph-main {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pf-ph-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pf-ph-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+
+.pf-ph-date {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+
+.pf-ph-route {
+  margin: 4px 0 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.66);
+}
+
+.pf-ph-wallet-credit {
+  margin: 4px 0 0;
+  font-size: 12px;
+  font-weight: 800;
+  color: #6ee7b7;
+}
+
+.pf-ph-refund-tag {
+  margin: 4px 0 0;
+  font-size: 12px;
+  font-weight: 800;
+  color: #fcd34d;
+}
+
+.pf-ph-details {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pf-ph-method {
+  font-size: 12px;
+  font-weight: 950;
+  color: #f2a23a;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.pf-ph-booking-id {
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.12em;
+  margin: 2px 0 0;
+}
+
+.pf-ph-amount {
+  font-size: 24px;
+  font-weight: 950;
+  color: #fff;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.pf-ph-amount.text-green {
+  color: #6ee7b7;
+}
+
+.pf-ph-amount.text-red {
+  color: #fca5a5;
+}
+
+.pf-payment-empty {
+  margin-top: 8px;
+}
+
+/* Profile refresh overrides */
+.pf-content {
+  background:
+    radial-gradient(circle at top right, rgba(0, 210, 255, 0.08), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.02));
+}
+
+.pf-section-sub {
+  margin: -18px 0 32px;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 720px;
+}
+
+.pf-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.pf-chip {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.88);
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.pf-chip:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 210, 255, 0.3);
+  background: rgba(0, 210, 255, 0.08);
+}
+
+.pf-chip.active {
+  background: linear-gradient(135deg, rgba(0, 119, 255, 0.2), rgba(0, 210, 255, 0.18));
+  border-color: rgba(0, 210, 255, 0.34);
+  color: #ffffff;
+  box-shadow: 0 18px 30px rgba(0, 119, 255, 0.16);
+}
+
+.pf-wallet-shell {
+  display: grid;
+  gap: 28px;
+  margin-bottom: 14px;
+}
+
+.pf-wallet-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 34px 34px 30px;
+  border-radius: 28px;
+  border: 1px solid rgba(0, 210, 255, 0.16);
+  background:
+    radial-gradient(circle at top right, rgba(0, 210, 255, 0.14), transparent 24%),
+    linear-gradient(135deg, rgba(8, 25, 54, 0.92), rgba(7, 13, 29, 0.98));
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.34);
+}
+
+.pf-wallet-hero::after {
+  content: '';
+  position: absolute;
+  right: -56px;
+  top: 18px;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 210, 255, 0.18), transparent 70%);
+  pointer-events: none;
+}
+
+.pf-wallet-label {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 10px;
+}
+
+.pf-wallet-amount {
+  font-size: clamp(34px, 5vw, 48px);
+  line-height: 1;
+  margin: 0 0 14px;
+  letter-spacing: -0.04em;
+}
+
+.pf-wallet-copy {
+  max-width: 540px;
+  margin: 0 0 20px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.pf-wallet-btn {
+  min-width: 178px;
+  padding: 14px 24px;
+  border-radius: 16px;
+  font-size: 15px;
+}
+
+.pf-wallet-note {
+  display: inline-flex;
+  margin-top: 14px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.pf-wallet-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 0;
+}
+
+.pf-wallet-stat-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.025));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pf-wallet-stat-card::after {
+  content: '';
+  position: absolute;
+  inset: auto 18px 0 18px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.16), transparent);
+}
+
+.pf-wallet-stat-card--balance {
+  border-color: rgba(56, 189, 248, 0.34);
+}
+
+.pf-wallet-stat-card--credit {
+  border-color: rgba(74, 222, 128, 0.34);
+}
+
+.pf-wallet-stat-card--used {
+  border-color: rgba(248, 113, 113, 0.34);
+}
+
+.pf-wallet-stat-card--transactions {
+  border-color: rgba(96, 165, 250, 0.34);
+}
+
+.pf-box-balance { background: linear-gradient(135deg, #67e8f9 0%, #38bdf8 100%); }
+
+.pf-wallet-ledger {
+  margin-top: 26px;
+  padding-top: 6px;
+}
+
+.pf-ledger-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+.pf-ledger-title {
+  margin-bottom: 6px;
+}
+
+.pf-ledger-sub {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.pf-ledger-pill {
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.pf-transaction-list {
+  gap: 16px;
+}
+
+.pf-tx-item-glass {
+  padding: 22px 24px;
+  border-radius: 20px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.018));
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.pf-tx-icon-box {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(0, 119, 255, 0.2), rgba(0, 210, 255, 0.08));
+  border: 1px solid rgba(0, 210, 255, 0.18);
+  color: #8fdfff;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.pf-tx-desc {
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.pf-tx-date {
+  font-size: 13px;
+}
+
+.pf-tx-amount {
+  font-size: 20px;
+}
+
+.tickets-grid-v2 {
+  gap: 22px;
+}
+
+.premium-ticket-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  align-items: stretch;
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at top right, rgba(0, 210, 255, 0.08), transparent 22%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.025));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.34);
+  overflow: hidden;
+}
+
+.premium-ticket-card::before,
+.premium-ticket-card::after {
+  display: none;
+}
+
+.ticket-main-info {
+  padding: 24px 28px;
+  gap: 0;
+}
+
+.ticket-header {
+  justify-content: space-between;
+  margin-bottom: 22px;
+  gap: 18px;
+}
+
+.ticket-cat-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(0, 119, 255, 0.18), rgba(0, 210, 255, 0.08));
+  border-color: rgba(0, 210, 255, 0.18);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.ticket-type-label h4 {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  margin-bottom: 6px;
+}
+
+.ticket-type-label p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 800;
+}
+
+.ticket-status-pill {
+  padding: 8px 14px;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  align-self: flex-start;
+  border-radius: 99px;
+}
+
+.ticket-route-v2 {
+  padding: 26px 0;
+  margin-bottom: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.14);
+}
+
+.route-city {
+  font-size: clamp(30px, 3.5vw, 40px);
+  letter-spacing: -0.05em;
+}
+
+.route-time {
+  font-size: 22px;
+  margin: 10px 0 8px;
+}
+
+.route-label {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+}
+
+.route-line-v2::before {
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.04), rgba(0, 210, 255, 0.28), rgba(255, 255, 255, 0.04));
+}
+
+.route-line-v2 .plane {
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(5, 15, 32, 0.98);
+  border: 1px solid rgba(0, 210, 255, 0.14);
+  font-size: 22px;
+}
+
+.ticket-details-v2 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.detail-item {
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.detail-item .label {
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+.detail-item .val {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.pf-ticket-fare-override + .val {
+  display: none;
+}
+
+.ticket-actions-v2 {
+  width: auto;
+  padding: 20px 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015));
+  gap: 12px;
+}
+
+.ticket-action-summary {
+  margin-bottom: 4px;
+  padding: 14px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.ticket-action-kicker {
+  margin: 0 0 8px;
+  color: rgba(0, 210, 255, 0.86);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.ticket-action-summary h5 {
+  margin: 0 0 8px;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+.ticket-action-summary p:last-child {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.ticket-cancel-visibility {
+  display: grid;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 12px 13px;
+  border-radius: 14px;
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.16);
+}
+
+.ticket-cancel-visibility--partial {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(0, 210, 255, 0.1));
+  border-color: rgba(45, 212, 191, 0.22);
+}
+
+.ticket-cancel-visibility strong {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.ticket-cancel-visibility span {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.t-btn {
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+
+.ticket-actions-v2 .t-btn-summary,
+.ticket-actions-v2 .t-btn-email,
+.ticket-actions-v2 .t-btn-cancel {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.t-btn-email[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.t-btn-cancel {
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.22);
+  color: #ffd4d4;
+}
+
+.ticket-actions-v2 .t-btn-cancel {
+  min-height: 48px;
+  white-space: normal;
+  line-height: 1.35;
+}
+
+@media (max-width: 1100px) {
+  .pf-payment-overview-grid,
+  .pf-payment-filter-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .premium-ticket-card {
+    grid-template-columns: 1fr;
+  }
+
+  .ticket-actions-v2 {
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .pf-wallet-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .pf-content {
+    padding: 22px;
+  }
+
+  .pf-ph-main {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .pf-payment-overview-grid,
+  .pf-payment-filter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pf-pay-history-card {
+    padding: 18px;
+    align-items: flex-start;
+  }
+
+  .pf-ph-details {
+    text-align: left;
+  }
+
+  .pf-section-sub {
+    margin-top: -10px;
+    margin-bottom: 24px;
+  }
+
+  .pf-wallet-hero {
+    padding: 24px;
+  }
+
+  .pf-wallet-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .pf-wallet-note,
+  .pf-ledger-pill {
+    white-space: normal;
+  }
+
+  .pf-ledger-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .premium-ticket-card {
+    border-radius: 24px;
+  }
+
+  .ticket-main-info,
+  .ticket-actions-v2 {
+    padding: 22px;
+  }
+
+  .ticket-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ticket-route-v2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .route-stop.text-right {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .route-line-v2 {
+    width: 100%;
+    margin: 0;
+    min-height: 44px;
+  }
+
+  .ticket-details-v2 {
+    grid-template-columns: 1fr;
+  }
+
+  .pf-tx-item-glass {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pf-tx-amounts {
+    text-align: left;
+  }
+}

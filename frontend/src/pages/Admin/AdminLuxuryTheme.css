@@ -1,0 +1,1944 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap');
+
+.admin-container.admin-luxury-theme {
+    --admin-bg: #07111f;
+    --admin-bg-soft: #0b1526;
+    --admin-panel: rgba(15, 24, 39, 0.88);
+    --admin-panel-strong: rgba(11, 18, 30, 0.96);
+    --admin-panel-alt: rgba(19, 30, 49, 0.78);
+    --admin-border: rgba(214, 179, 106, 0.16);
+    --admin-border-soft: rgba(148, 163, 184, 0.14);
+    --admin-text: #f5f7fb;
+    --admin-text-soft: #c3cfdf;
+    --admin-text-muted: #88a0bc;
+    --admin-gold: #d6b36a;
+    --admin-gold-soft: rgba(214, 179, 106, 0.16);
+    --admin-teal: #4fd1c5;
+    --admin-danger: #ff7a7a;
+    --admin-success: #34d399;
+    --admin-shadow: 0 18px 40px rgba(2, 8, 20, 0.34);
+    --admin-shadow-soft: 0 12px 28px rgba(2, 8, 20, 0.22);
+    font-family: 'Manrope', 'Segoe UI', sans-serif;
+    background:
+        radial-gradient(circle at top left, rgba(79, 209, 197, 0.08), transparent 28%),
+        radial-gradient(circle at top right, rgba(214, 179, 106, 0.12), transparent 22%),
+        linear-gradient(180deg, #07111f 0%, #081320 42%, #0a1422 100%);
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .admin-sidebar {
+    width: 258px;
+    background:
+        linear-gradient(180deg, rgba(10, 17, 28, 0.98) 0%, rgba(8, 14, 24, 0.98) 100%);
+    border-right: 1px solid rgba(214, 179, 106, 0.12);
+    box-shadow: 18px 0 50px rgba(1, 5, 14, 0.38);
+}
+
+.admin-container.admin-luxury-theme.sidebar-collapsed .admin-sidebar {
+    width: 84px;
+}
+
+.admin-container.admin-luxury-theme .sidebar-toggle {
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+    border-color: #0a1321;
+    background: linear-gradient(180deg, #152235, #0f1b2d);
+    color: var(--admin-gold);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
+}
+
+.admin-container.admin-luxury-theme .sidebar-header {
+    min-height: 74px;
+    padding: 22px 18px 18px;
+    gap: 12px;
+}
+
+.admin-container.admin-luxury-theme .sidebar-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    color: #f3d59a;
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.22), rgba(79, 209, 197, 0.12));
+    border: 1px solid rgba(214, 179, 106, 0.24);
+    box-shadow: 0 14px 26px rgba(214, 179, 106, 0.12);
+}
+
+.admin-container.admin-luxury-theme .sidebar-header h2 {
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.04em;
+    background: linear-gradient(180deg, #fff8e8, #d8e4f0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.admin-container.admin-luxury-theme .sidebar-profile {
+    margin: 0 14px 14px;
+    padding: 14px;
+    gap: 12px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgba(20, 30, 45, 0.84), rgba(12, 19, 30, 0.94));
+    border: 1px solid rgba(214, 179, 106, 0.1);
+}
+
+.admin-container.admin-luxury-theme .profile-avatar {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    box-shadow: 0 8px 18px rgba(214, 179, 106, 0.18);
+    background: linear-gradient(135deg, #c99a46, #8bdad2);
+}
+
+.admin-container.admin-luxury-theme .profile-name {
+    font-size: 14px;
+}
+
+.admin-container.admin-luxury-theme .profile-badge,
+.admin-container.admin-luxury-theme .sidebar-section-label {
+    color: rgba(214, 179, 106, 0.76);
+}
+
+.admin-container.admin-luxury-theme .sidebar-section-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.admin-container.admin-luxury-theme .sidebar-section-label__icon {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1ddb0;
+    opacity: 0.9;
+}
+
+.admin-container.admin-luxury-theme .sidebar-section-label__icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+.admin-container.admin-luxury-theme .sidebar-menu {
+    gap: 4px;
+    padding: 8px 12px;
+}
+
+.admin-container.admin-luxury-theme .sidebar-item {
+    gap: 12px;
+    padding: 11px 14px;
+    border-radius: 14px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--admin-text-soft);
+    transition: transform 0.22s ease, background 0.22s ease, border-color 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.admin-container.admin-luxury-theme .sidebar-item::before {
+    width: 3px;
+    background: linear-gradient(180deg, var(--admin-gold), var(--admin-teal));
+}
+
+.admin-container.admin-luxury-theme .sidebar-item--dashboard,
+.admin-container.admin-luxury-theme .sidebar-item.active {
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.14), rgba(79, 209, 197, 0.08)) !important;
+    border: 1px solid rgba(214, 179, 106, 0.18);
+    box-shadow: 0 12px 28px rgba(2, 8, 20, 0.2);
+}
+
+.admin-container.admin-luxury-theme .sidebar-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateX(4px);
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .nav-icon {
+    width: 32px;
+    height: 28px;
+    border-radius: 10px;
+    color: #e6edf7;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+}
+
+.admin-container.admin-luxury-theme .nav-icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.admin-container.admin-luxury-theme .sidebar-item:hover .nav-icon,
+.admin-container.admin-luxury-theme .sidebar-item.active .nav-icon {
+    transform: translateY(-1px) scale(1.04);
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.18), rgba(79, 209, 197, 0.14));
+    box-shadow: 0 10px 22px rgba(2, 8, 20, 0.22);
+}
+
+.admin-container.admin-luxury-theme .sidebar-footer {
+    padding: 18px 12px 14px;
+    gap: 10px;
+}
+
+.admin-container.admin-luxury-theme .home-btn-sidebar,
+.admin-container.admin-luxury-theme .logout-btn-sidebar {
+    padding: 11px 12px;
+    font-size: 13px;
+    border-radius: 14px;
+}
+
+.admin-container.admin-luxury-theme .admin-main {
+    padding: 24px 24px 30px;
+    background:
+        radial-gradient(circle at top right, rgba(214, 179, 106, 0.08), transparent 18%),
+        radial-gradient(circle at top left, rgba(79, 209, 197, 0.06), transparent 22%),
+        linear-gradient(180deg, #07111f 0%, #091320 100%);
+}
+
+.admin-container.admin-luxury-theme .admin-main::-webkit-scrollbar {
+    width: 10px;
+}
+
+.admin-container.admin-luxury-theme .admin-main::-webkit-scrollbar-thumb {
+    background: rgba(214, 179, 106, 0.22);
+    border-radius: 999px;
+}
+
+.admin-container.admin-luxury-theme :is(.management-container, .admin-overview-page, .admin-users-page, .admin-hotels-container) {
+    max-width: 1440px !important;
+    margin: 0 auto;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme :is(.management-container, .admin-overview-page, .admin-users-page) {
+    padding-bottom: 20px !important;
+}
+
+.admin-container.admin-luxury-theme :is(.management-header, .admin-header, .admin-users-header) {
+    margin-bottom: 22px !important;
+    padding: 22px 24px !important;
+    border-radius: 24px !important;
+    background: linear-gradient(180deg, rgba(16, 25, 40, 0.9), rgba(11, 18, 30, 0.95)) !important;
+    border: 1px solid var(--admin-border) !important;
+    box-shadow: var(--admin-shadow-soft) !important;
+    backdrop-filter: blur(18px);
+}
+
+.admin-container.admin-luxury-theme :is(.management-header h1, .admin-header h1, .admin-users-header h1) {
+    font-family: 'Sora', 'Manrope', sans-serif !important;
+    font-size: clamp(24px, 3vw, 32px) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.05em !important;
+    text-transform: none !important;
+    margin-bottom: 8px !important;
+}
+
+.admin-container.admin-luxury-theme :is(.management-header p, .admin-header p, .admin-users-header p, .subtitle) {
+    font-size: 13.5px !important;
+    line-height: 1.65 !important;
+    color: var(--admin-text-muted) !important;
+    max-width: 760px;
+}
+
+.admin-container.admin-luxury-theme :is(.management-actions, .management-controls, .header-buttons) {
+    gap: 10px !important;
+}
+
+.admin-container.admin-luxury-theme :is(.search-box, .admin-users-search) {
+    min-height: 44px;
+    max-width: 360px !important;
+    padding: 8px 12px !important;
+    border-radius: 16px !important;
+    background: linear-gradient(180deg, rgba(12, 21, 34, 0.88), rgba(14, 20, 32, 0.96)) !important;
+    border: 1px solid var(--admin-border-soft) !important;
+    box-shadow: none !important;
+}
+
+.admin-container.admin-luxury-theme :is(.search-box input, .admin-users-search input) {
+    font-size: 13px !important;
+    padding: 6px 8px !important;
+    color: var(--admin-text) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.management-card, .data-table-container, .dashboard-section, .activity-list--panel, .dashboard-summary-chip, .admin-users-summary-pill, .stat-card, .booking-stat-card, .admin-users-metric-card, .analysis-stat-card) {
+    border-radius: 22px !important;
+    background: linear-gradient(180deg, rgba(14, 22, 36, 0.92), rgba(10, 17, 28, 0.98)) !important;
+    border: 1px solid var(--admin-border-soft) !important;
+    box-shadow: var(--admin-shadow-soft) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.management-card, .dashboard-section, .activity-list--panel, .dashboard-summary-chip, .admin-users-summary-pill, .analysis-stat-card) {
+    padding: 18px !important;
+}
+
+.admin-container.admin-luxury-theme .stat-cards-grid,
+.admin-container.admin-luxury-theme .booking-stats-grid,
+.admin-container.admin-luxury-theme .admin-users-metrics,
+.admin-container.admin-luxury-theme .admin-users-summary-bar {
+    gap: 14px !important;
+    margin-bottom: 18px !important;
+}
+
+.admin-container.admin-luxury-theme :is(.stat-card, .booking-stat-card, .admin-users-metric-card) {
+    padding: 18px !important;
+}
+
+.admin-container.admin-luxury-theme :is(.stat-card h3, .booking-info h4, .admin-users-metric-card span, .management-table th, .data-table th, .mini-data-table th) {
+    font-size: 11.5px !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase;
+}
+
+.admin-container.admin-luxury-theme :is(.stat-card .value, .booking-count, .admin-users-metric-card strong, .stat-value) {
+    font-size: clamp(22px, 2.3vw, 30px) !important;
+    line-height: 1.05 !important;
+}
+
+.admin-container.admin-luxury-theme :is(.view-details, .booking-caption, .dashboard-summary-chip span, .user-email, .feedback-meta-line, .analysis-stat-label) {
+    font-size: 12px !important;
+    color: var(--admin-text-muted) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.management-tabs, .bookings-tabs-container) {
+    margin-bottom: 14px !important;
+}
+
+.admin-container.admin-luxury-theme :is(.tab-link, .tab-btn) {
+    min-height: 38px;
+    padding: 8px 14px !important;
+    border-radius: 12px !important;
+    font-size: 12.5px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.04em;
+}
+
+.admin-container.admin-luxury-theme :is(.tab-link.active, .tab-btn.active, .page-num.active, .page-num.selected) {
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.9), rgba(79, 209, 197, 0.72)) !important;
+    color: #08111d !important;
+    box-shadow: 0 10px 20px rgba(214, 179, 106, 0.18) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.data-table, .management-table, .mini-data-table) {
+    font-size: 13px !important;
+}
+
+.admin-container.admin-luxury-theme :is(.data-table thead th, .management-table thead th, .mini-data-table thead th) {
+    padding: 14px 14px !important;
+    color: #ecd9ad !important;
+    border-bottom: 1px solid rgba(214, 179, 106, 0.1) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.data-table tbody td, .management-table tbody td, .mini-data-table tbody td) {
+    padding: 13px 14px !important;
+    color: var(--admin-text-soft) !important;
+    vertical-align: middle;
+}
+
+.admin-container.admin-luxury-theme :is(.data-table tbody tr, .management-table tbody tr, .mini-data-table tbody tr) {
+    background: rgba(255, 255, 255, 0.015) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.data-table tbody tr:hover, .management-table tbody tr:hover, .mini-data-table tbody tr:hover) {
+    background: rgba(214, 179, 106, 0.04) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.form-group input, .form-group select, .form-group textarea, .form-select, .status-select-inline, .form-input, .form-field input, .form-field select, .form-field textarea) {
+    min-height: 42px;
+    padding: 10px 12px !important;
+    border-radius: 14px !important;
+    font-size: 13px !important;
+    background: rgba(8, 15, 25, 0.88) !important;
+    border: 1px solid rgba(148, 163, 184, 0.16) !important;
+    color: var(--admin-text) !important;
+    box-shadow: none !important;
+}
+
+.admin-container.admin-luxury-theme :is(.form-group textarea, .form-field textarea) {
+    min-height: 110px;
+}
+
+.admin-container.admin-luxury-theme :is(.form-group label, .feedback-filter-label) {
+    margin-bottom: 7px !important;
+    color: #e8d8b3 !important;
+    font-size: 11px !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase;
+}
+
+.admin-container.admin-luxury-theme :is(.upload-btn, .export-btn, .submit-btn, .edit-btn, .delete-btn, .cancel-btn, .page-nav, .page-num, .page-btn, .refresh-btn, .btn-add, .add-btn, .confirm-btn, .analysis-close-btn, .assign-btn, .inline-add-btn, .confirm-upload-btn, .admin-users-toggle-btn, .admin-users-delete-btn, .retry-btn) {
+    min-height: 38px;
+    padding: 9px 14px !important;
+    border-radius: 12px !important;
+    font-size: 12.5px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.02em !important;
+}
+
+.admin-container.admin-luxury-theme :is(.upload-btn, .export-btn, .submit-btn, .refresh-btn, .btn-add, .add-btn, .confirm-btn, .confirm-upload-btn, .analysis-close-btn, .assign-btn, .admin-users-toggle-btn, .retry-btn) {
+    background: linear-gradient(135deg, #d6b36a, #4fd1c5) !important;
+    color: #08111d !important;
+    border: none !important;
+    box-shadow: 0 12px 22px rgba(79, 209, 197, 0.14) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.cancel-btn, .page-nav, .page-num, .page-btn, .edit-btn) {
+    background: rgba(255, 255, 255, 0.04) !important;
+    color: var(--admin-text-soft) !important;
+    border: 1px solid rgba(148, 163, 184, 0.16) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.delete-btn, .admin-users-delete-btn) {
+    background: rgba(255, 122, 122, 0.12) !important;
+    color: #ffb4b4 !important;
+    border: 1px solid rgba(255, 122, 122, 0.16) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.pagination-container, .pagination-wrapper) {
+    margin-top: 14px !important;
+    padding-top: 14px !important;
+}
+
+.admin-container.admin-luxury-theme :is(.pagination-info, .pagination-controls) {
+    font-size: 12.5px !important;
+}
+
+.admin-container.admin-luxury-theme .modal-overlay {
+    background: rgba(5, 10, 17, 0.72) !important;
+    backdrop-filter: blur(10px);
+}
+
+.admin-container.admin-luxury-theme .modal-content-glass {
+    width: min(1080px, 92vw) !important;
+    max-height: 88vh !important;
+    padding: 0 !important;
+    border-radius: 24px !important;
+    background: linear-gradient(180deg, rgba(13, 20, 33, 0.98), rgba(9, 15, 26, 0.99)) !important;
+    border: 1px solid rgba(214, 179, 106, 0.16) !important;
+    box-shadow: 0 26px 60px rgba(2, 6, 23, 0.52) !important;
+}
+
+.admin-container.admin-luxury-theme .modal-header {
+    padding: 18px 20px !important;
+    border-bottom: 1px solid rgba(214, 179, 106, 0.1) !important;
+}
+
+.admin-container.admin-luxury-theme .modal-header h2,
+.admin-container.admin-luxury-theme .modal-header h3 {
+    font-family: 'Sora', 'Manrope', sans-serif !important;
+    font-size: 20px !important;
+    letter-spacing: -0.03em;
+}
+
+.admin-container.admin-luxury-theme .modal-body,
+.admin-container.admin-luxury-theme .admin-form,
+.admin-container.admin-luxury-theme .upload-section,
+.admin-container.admin-luxury-theme .preview-results,
+.admin-container.admin-luxury-theme .upload-results {
+    padding: 18px 20px !important;
+}
+
+.admin-container.admin-luxury-theme :is(.activity-item, .feedback-content, .booking-summary, .user-info) {
+    gap: 10px;
+}
+
+.admin-container.admin-luxury-theme :is(.activity-item, .booking-stat-card, .stat-card, .admin-users-metric-card):hover {
+    transform: translateY(-3px) !important;
+}
+
+.admin-container.admin-luxury-theme :is(.service-tag-mini, .category-tag, .booking-status-pill, .admin-users-type-pill) {
+    border-radius: 999px !important;
+    padding: 6px 10px !important;
+    font-size: 11px !important;
+    letter-spacing: 0.04em;
+}
+
+.admin-container.admin-luxury-theme .table-responsive,
+.admin-container.admin-luxury-theme .mini-table-wrapper {
+    border-radius: 18px;
+}
+
+.admin-container.admin-luxury-theme .stat-card,
+.admin-container.admin-luxury-theme .booking-stat-card,
+.admin-container.admin-luxury-theme .admin-users-card,
+.admin-container.admin-luxury-theme .admin-users-detail-tile,
+.admin-container.admin-luxury-theme .modal-list-row,
+.admin-container.admin-luxury-theme .activity-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.admin-container.admin-luxury-theme .stat-card::after,
+.admin-container.admin-luxury-theme .booking-stat-card::after,
+.admin-container.admin-luxury-theme .admin-users-card::after,
+.admin-container.admin-luxury-theme .modal-list-row::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.04) 32%, transparent 60%);
+    opacity: 0;
+    transform: translateX(-30%);
+    transition: opacity 0.25s ease, transform 0.55s ease;
+}
+
+.admin-container.admin-luxury-theme .stat-card:hover::after,
+.admin-container.admin-luxury-theme .booking-stat-card:hover::after,
+.admin-container.admin-luxury-theme .admin-users-card:hover::after,
+.admin-container.admin-luxury-theme .modal-list-row:hover::after {
+    opacity: 1;
+    transform: translateX(18%);
+}
+
+.admin-container.admin-luxury-theme .admin-header {
+    align-items: center !important;
+}
+
+.admin-container.admin-luxury-theme :is(.management-header, .admin-header, .admin-users-header)::after {
+    content: "";
+    position: absolute;
+    inset: auto 24px 0 24px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(214, 179, 106, 0), rgba(214, 179, 106, 0.3), rgba(79, 209, 197, 0));
+    opacity: 0.85;
+}
+
+.admin-container.admin-luxury-theme .admin-header > div:first-child,
+.admin-container.admin-luxury-theme .header-main {
+    position: relative;
+}
+
+.admin-container.admin-luxury-theme .admin-header > div:first-child::before,
+.admin-container.admin-luxury-theme .header-main::before {
+    content: "Luxury Command Center";
+    display: inline-flex;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.12), rgba(79, 209, 197, 0.08));
+    border: 1px solid rgba(214, 179, 106, 0.16);
+}
+
+.admin-container.admin-luxury-theme .admin-overview-page .stat-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    min-height: 138px;
+}
+
+.admin-container.admin-luxury-theme .overview-hero-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.95fr);
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.admin-container.admin-luxury-theme .overview-hero-copy,
+.admin-container.admin-luxury-theme .overview-spotlight-card {
+    padding: 22px;
+    border-radius: 26px;
+    background: linear-gradient(180deg, rgba(15, 24, 39, 0.95), rgba(10, 17, 28, 0.98));
+    border: 1px solid rgba(214, 179, 106, 0.12);
+    box-shadow: var(--admin-shadow-soft);
+}
+
+.admin-container.admin-luxury-theme .overview-hero-copy {
+    position: relative;
+    overflow: hidden;
+}
+
+.admin-container.admin-luxury-theme .overview-hero-copy::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at top right, rgba(214, 179, 106, 0.14), transparent 24%),
+        radial-gradient(circle at bottom left, rgba(79, 209, 197, 0.1), transparent 26%);
+    pointer-events: none;
+}
+
+.admin-container.admin-luxury-theme .overview-hero-kicker,
+.admin-container.admin-luxury-theme .overview-section-kicker {
+    display: inline-flex;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.12), rgba(79, 209, 197, 0.08));
+    border: 1px solid rgba(214, 179, 106, 0.16);
+}
+
+.admin-container.admin-luxury-theme .overview-hero-copy h2 {
+    max-width: 680px;
+    margin: 0 0 10px;
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: clamp(26px, 3vw, 38px);
+    line-height: 1.06;
+    letter-spacing: -0.06em;
+    color: var(--admin-text);
+    position: relative;
+}
+
+.admin-container.admin-luxury-theme .overview-hero-copy p {
+    position: relative;
+    max-width: 660px;
+    font-size: 13.5px;
+    line-height: 1.8;
+    color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .overview-hero-chips {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.admin-container.admin-luxury-theme .overview-hero-chip {
+    padding: 14px 15px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.admin-container.admin-luxury-theme .overview-hero-chip span {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+}
+
+.admin-container.admin-luxury-theme .overview-hero-chip strong {
+    font-size: 18px;
+    line-height: 1.1;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.15), transparent 36%),
+        linear-gradient(135deg, rgba(214, 179, 106, 0.24), rgba(79, 209, 197, 0.16));
+    border: 1px solid rgba(214, 179, 106, 0.18);
+    color: #f7e6bf;
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-head h3 {
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.04em;
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-card p {
+    font-size: 13px;
+    color: var(--admin-text-muted);
+    line-height: 1.75;
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-metrics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin: 16px 0 14px;
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-metrics > div {
+    padding: 12px 14px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-metrics span {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-metrics strong {
+    font-size: 20px;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .overview-spotlight-action {
+    min-height: 40px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 14px;
+    font-size: 12.5px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    background: linear-gradient(135deg, #d6b36a, #4fd1c5);
+    color: #08111d;
+    box-shadow: 0 12px 24px rgba(79, 209, 197, 0.16);
+    cursor: pointer;
+}
+
+.admin-container.admin-luxury-theme .overview-quick-actions {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.admin-container.admin-luxury-theme .overview-quick-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    text-align: left;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(13, 22, 36, 0.92), rgba(10, 17, 28, 0.98));
+    color: var(--admin-text);
+    box-shadow: var(--admin-shadow-soft);
+    cursor: pointer;
+    transition: transform 0.24s ease, border-color 0.24s ease, box-shadow 0.24s ease;
+}
+
+.admin-container.admin-luxury-theme .overview-quick-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(214, 179, 106, 0.18);
+    box-shadow: 0 18px 34px rgba(2, 8, 20, 0.26);
+}
+
+.admin-container.admin-luxury-theme .overview-quick-card__icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.18), rgba(79, 209, 197, 0.12));
+    border: 1px solid rgba(214, 179, 106, 0.14);
+    color: #f6e1b0;
+    flex-shrink: 0;
+}
+
+.admin-container.admin-luxury-theme .overview-quick-card__icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+.admin-container.admin-luxury-theme .overview-quick-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.admin-container.admin-luxury-theme .overview-quick-card__content strong {
+    font-size: 13px;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .overview-quick-card__content small {
+    font-size: 11.5px;
+    line-height: 1.55;
+    color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .overview-section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.admin-container.admin-luxury-theme .overview-section-head h3 {
+    margin-top: 4px;
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: 24px;
+    letter-spacing: -0.05em;
+}
+
+.admin-container.admin-luxury-theme .overview-service-meta {
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #f2ddb0;
+}
+
+.admin-container.admin-luxury-theme .admin-overview-page .stat-card .icon,
+.admin-container.admin-luxury-theme .booking-icon,
+.admin-container.admin-luxury-theme .admin-users-metric-card__icon,
+.admin-container.admin-luxury-theme .activity-icon,
+.admin-container.admin-luxury-theme .cat-icon,
+.admin-container.admin-luxury-theme .admin-users-empty-state__icon {
+    background:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.16), transparent 34%),
+        linear-gradient(135deg, rgba(214, 179, 106, 0.22), rgba(79, 209, 197, 0.14));
+    border: 1px solid rgba(214, 179, 106, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 10px 24px rgba(2, 8, 20, 0.24);
+}
+
+.admin-container.admin-luxury-theme .admin-overview-page .stat-card .icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f7e5bd;
+}
+
+.admin-container.admin-luxury-theme .admin-overview-page .stat-card .icon svg,
+.admin-container.admin-luxury-theme .booking-icon svg,
+.admin-container.admin-luxury-theme .activity-icon svg,
+.admin-container.admin-luxury-theme .cat-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+.admin-container.admin-luxury-theme .stat-card--users {
+    border-color: rgba(79, 209, 197, 0.18) !important;
+}
+
+.admin-container.admin-luxury-theme .stat-card--bookings {
+    border-color: rgba(214, 179, 106, 0.18) !important;
+}
+
+.admin-container.admin-luxury-theme .stat-card--revenue {
+    border-color: rgba(52, 211, 153, 0.18) !important;
+}
+
+.admin-container.admin-luxury-theme .dashboard-section-layout {
+    display: grid;
+    grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
+    gap: 18px;
+    align-items: start;
+}
+
+.admin-container.admin-luxury-theme .dashboard-section-intro {
+    padding: 18px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(214, 179, 106, 0.04));
+    border: 1px solid rgba(214, 179, 106, 0.1);
+}
+
+.admin-container.admin-luxury-theme .dashboard-section-kicker {
+    color: #f2ddb0 !important;
+    font-size: 10px !important;
+    letter-spacing: 0.16em !important;
+}
+
+.admin-container.admin-luxury-theme .dashboard-section-intro h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0 14px;
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.04em;
+}
+
+.admin-container.admin-luxury-theme .dashboard-summary-chip {
+    padding: 14px 16px !important;
+}
+
+.admin-container.admin-luxury-theme .activity-list--panel {
+    padding: 12px !important;
+}
+
+.admin-container.admin-luxury-theme .activity-item {
+    padding: 14px 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.admin-container.admin-luxury-theme .activity-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6e1b0;
+    flex-shrink: 0;
+}
+
+.admin-container.admin-luxury-theme .activity-message {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .activity-date {
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .activity-amount,
+.admin-container.admin-luxury-theme .revenue-amt {
+    color: #f7e6bf !important;
+    font-weight: 800 !important;
+}
+
+.admin-container.admin-luxury-theme .modal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admin-container.admin-luxury-theme .modal-list-header {
+    padding: 0 14px 8px;
+    color: var(--admin-text-muted);
+    font-size: 10.5px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.admin-container.admin-luxury-theme .modal-list-row {
+    border-radius: 18px;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0.015));
+    box-shadow: none;
+}
+
+.admin-container.admin-luxury-theme .user-avatar {
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.86), rgba(79, 209, 197, 0.72)) !important;
+    color: #08111d !important;
+    box-shadow: 0 10px 20px rgba(79, 209, 197, 0.14);
+}
+
+.admin-container.admin-luxury-theme .user-details-expanded {
+    margin-top: 10px;
+    padding: 14px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(214, 179, 106, 0.08);
+}
+
+.admin-container.admin-luxury-theme .revenue-progress-container {
+    margin-top: 6px;
+    height: 8px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+}
+
+.admin-container.admin-luxury-theme .revenue-progress-bar {
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #d6b36a, #4fd1c5);
+    box-shadow: 0 8px 16px rgba(79, 209, 197, 0.18);
+}
+
+.admin-container.admin-luxury-theme .admin-users-table-card {
+    padding: 18px !important;
+    border-radius: 24px !important;
+    background: linear-gradient(180deg, rgba(14, 22, 36, 0.92), rgba(10, 17, 28, 0.98)) !important;
+    border: 1px solid rgba(148, 163, 184, 0.14) !important;
+    box-shadow: var(--admin-shadow-soft) !important;
+}
+
+.admin-container.admin-luxury-theme .admin-users-table-card__header {
+    gap: 14px;
+    margin-bottom: 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(214, 179, 106, 0.08);
+}
+
+.admin-container.admin-luxury-theme .admin-users-table-card__header h2 {
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: 21px;
+    letter-spacing: -0.04em;
+}
+
+.admin-container.admin-luxury-theme .admin-users-table-card__header p {
+    font-size: 12.5px;
+    color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .admin-users-card {
+    padding: 14px 16px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0.015));
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    box-shadow: none;
+}
+
+.admin-container.admin-luxury-theme .admin-users-row__main {
+    gap: 16px;
+}
+
+.admin-container.admin-luxury-theme .admin-users-avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.9), rgba(79, 209, 197, 0.76));
+    color: #08111d;
+    font-size: 15px;
+    font-weight: 800;
+    box-shadow: 0 12px 22px rgba(79, 209, 197, 0.14);
+}
+
+.admin-container.admin-luxury-theme .admin-users-row__identity strong {
+    font-size: 14px;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .admin-users-row__identity span,
+.admin-container.admin-luxury-theme .admin-users-row__meta span,
+.admin-container.admin-luxury-theme .admin-users-row__stats span,
+.admin-container.admin-luxury-theme .admin-users-row__activity span,
+.admin-container.admin-luxury-theme .admin-users-row__activity small {
+    font-size: 12px;
+    color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .admin-users-row__expanded {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(214, 179, 106, 0.08);
+}
+
+.admin-container.admin-luxury-theme .admin-users-detail-grid {
+    gap: 10px;
+}
+
+.admin-container.admin-luxury-theme .admin-users-detail-tile {
+    padding: 14px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.admin-container.admin-luxury-theme .admin-users-detail-tile span {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #e9d5a4;
+}
+
+.admin-container.admin-luxury-theme .admin-users-detail-tile strong {
+    margin-top: 8px;
+    display: block;
+    font-size: 14px;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .admin-users-timeline-section {
+    margin-top: 16px;
+    padding: 16px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.admin-container.admin-luxury-theme .admin-users-section-heading h3 {
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.admin-container.admin-luxury-theme .admin-users-section-heading p {
+    font-size: 12px;
+    color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .admin-users-timeline-item {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.admin-container.admin-luxury-theme .admin-users-timeline-item:last-child {
+    border-bottom: none;
+}
+
+.admin-container.admin-luxury-theme .admin-users-timeline-item__icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.18), rgba(79, 209, 197, 0.1));
+    border: 1px solid rgba(214, 179, 106, 0.14);
+    color: #f6e1b0;
+}
+
+.admin-container.admin-luxury-theme .admin-users-empty-state {
+    padding: 28px 18px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px dashed rgba(214, 179, 106, 0.16);
+}
+
+.admin-container.admin-luxury-theme .admin-users-empty-state h3 {
+    margin: 12px 0 6px;
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: 20px;
+}
+
+.admin-container.admin-luxury-theme .admin-users-empty-state p {
+    font-size: 12.5px;
+    color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .analysis-stat-card {
+    min-height: 94px;
+    justify-content: center;
+}
+
+.admin-container.admin-luxury-theme .analysis-stat-number {
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    color: #f7e6bf !important;
+}
+
+.admin-container.admin-luxury-theme :is(.admin-bookings-page, .admin-hotels-container, .admin-feedback-page) {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.9fr);
+    gap: 16px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__copy,
+.admin-container.admin-luxury-theme .admin-page-spotlight,
+.admin-container.admin-luxury-theme .admin-page-panel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(14, 22, 36, 0.94), rgba(9, 15, 26, 0.98));
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    box-shadow: var(--admin-shadow-soft);
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__copy,
+.admin-container.admin-luxury-theme .admin-page-spotlight {
+    padding: 22px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__copy::before,
+.admin-container.admin-luxury-theme .admin-page-spotlight::before,
+.admin-container.admin-luxury-theme .admin-page-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(circle at top right, rgba(214, 179, 106, 0.12), transparent 24%),
+        radial-gradient(circle at bottom left, rgba(79, 209, 197, 0.08), transparent 28%);
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__kicker,
+.admin-container.admin-luxury-theme .admin-page-panel__kicker {
+    position: relative;
+    display: inline-flex;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.12), rgba(79, 209, 197, 0.08));
+    border: 1px solid rgba(214, 179, 106, 0.16);
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__copy h2,
+.admin-container.admin-luxury-theme .admin-page-panel__head h3 {
+    position: relative;
+    margin: 0 0 8px;
+    font-family: 'Sora', 'Manrope', sans-serif;
+    letter-spacing: -0.05em;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__copy h2 {
+    max-width: 720px;
+    font-size: clamp(26px, 3vw, 36px);
+    line-height: 1.08;
+}
+
+.admin-container.admin-luxury-theme .admin-page-panel__head h3 {
+    font-size: 22px;
+}
+
+.admin-container.admin-luxury-theme :is(.admin-page-hero__copy p, .admin-page-panel__head p, .admin-page-spotlight p) {
+    position: relative;
+    font-size: 13px;
+    line-height: 1.8;
+    color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__chips,
+.admin-container.admin-luxury-theme .admin-page-metrics {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__chips {
+    margin-top: 18px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__chip,
+.admin-container.admin-luxury-theme .admin-page-metric-card,
+.admin-container.admin-luxury-theme .admin-page-spotlight__grid > div {
+    border-radius: 18px;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__chip {
+    padding: 14px 15px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__chip span,
+.admin-container.admin-luxury-theme .admin-page-metric-card span,
+.admin-container.admin-luxury-theme .admin-page-spotlight__grid span {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+}
+
+.admin-container.admin-luxury-theme .admin-page-hero__chip strong,
+.admin-container.admin-luxury-theme .admin-page-spotlight__grid strong {
+    font-size: 18px;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .admin-page-spotlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.admin-container.admin-luxury-theme .admin-page-spotlight__head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.admin-container.admin-luxury-theme .admin-page-spotlight__icon,
+.admin-container.admin-luxury-theme .admin-page-metric-card__icon {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.16), transparent 36%),
+        linear-gradient(135deg, rgba(214, 179, 106, 0.22), rgba(79, 209, 197, 0.14));
+    border: 1px solid rgba(214, 179, 106, 0.18);
+    color: #f7e5bd;
+    box-shadow: 0 10px 20px rgba(2, 8, 20, 0.24);
+    flex-shrink: 0;
+}
+
+.admin-container.admin-luxury-theme :is(.admin-page-spotlight__icon svg, .admin-page-metric-card__icon svg) {
+    width: 20px;
+    height: 20px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-spotlight__label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+}
+
+.admin-container.admin-luxury-theme .admin-page-spotlight h3 {
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.04em;
+}
+
+.admin-container.admin-luxury-theme .admin-page-spotlight__grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-spotlight__grid > div {
+    padding: 12px 14px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-metrics {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.admin-container.admin-luxury-theme .admin-page-metric-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    box-shadow: var(--admin-shadow-soft);
+}
+
+.admin-container.admin-luxury-theme .admin-page-metric-card strong {
+    display: block;
+    font-size: 18px;
+    line-height: 1.1;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .admin-page-panel {
+    padding: 18px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-panel__head {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.admin-container.admin-luxury-theme .admin-page-panel :is(.bookings-tabs-container, .management-filters) {
+    position: relative;
+    z-index: 1;
+}
+
+.admin-container.admin-luxury-theme .admin-page-panel .data-table-container,
+.admin-container.admin-luxury-theme .admin-page-panel .management-card {
+    position: relative;
+    z-index: 1;
+}
+
+.admin-container.admin-luxury-theme .admin-page-panel .bookings-tabs-container {
+    margin-bottom: 6px !important;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-filters {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 220px));
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .feedback-content-shell {
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+.admin-container.admin-luxury-theme .admin-feedback-page .management-card {
+    padding: 14px !important;
+}
+
+.admin-container.admin-luxury-theme .admin-bookings-page .search-box .search-icon,
+.admin-container.admin-luxury-theme .admin-hotels-container .search-box .search-icon {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+}
+
+.admin-container.admin-luxury-theme .admin-hotels-container .header-buttons,
+.admin-container.admin-luxury-theme .admin-bookings-page .management-actions {
+    align-items: center;
+}
+
+.admin-container.admin-luxury-theme .admin-hotels-container .add-btn {
+    min-height: 38px;
+}
+
+.admin-container.admin-luxury-theme :is(.admin-flights-container, .admin-trains-container, .admin-buses-container, .admin-cabs-container, .admin-holiday-container, .admin-offers-container) {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.admin-container.admin-luxury-theme .admin-flights-container .management-header {
+    background:
+        radial-gradient(circle at top right, rgba(79, 209, 197, 0.08), transparent 24%),
+        linear-gradient(180deg, rgba(14, 24, 42, 0.94), rgba(10, 17, 30, 0.98)) !important;
+}
+
+.admin-container.admin-luxury-theme .admin-trains-container .management-header {
+    background:
+        radial-gradient(circle at top right, rgba(214, 179, 106, 0.1), transparent 24%),
+        linear-gradient(180deg, rgba(18, 26, 40, 0.94), rgba(9, 17, 28, 0.98)) !important;
+}
+
+.admin-container.admin-luxury-theme .admin-buses-container .management-header {
+    background:
+        radial-gradient(circle at top right, rgba(255, 148, 74, 0.1), transparent 24%),
+        linear-gradient(180deg, rgba(22, 24, 36, 0.94), rgba(10, 16, 26, 0.98)) !important;
+}
+
+.admin-container.admin-luxury-theme .admin-cabs-container .management-header {
+    background:
+        radial-gradient(circle at top right, rgba(79, 209, 197, 0.1), transparent 24%),
+        linear-gradient(180deg, rgba(14, 26, 38, 0.94), rgba(8, 16, 26, 0.98)) !important;
+}
+
+.admin-container.admin-luxury-theme .admin-holiday-container .management-header {
+    background:
+        radial-gradient(circle at top right, rgba(214, 179, 106, 0.12), transparent 24%),
+        linear-gradient(180deg, rgba(24, 26, 38, 0.94), rgba(12, 18, 28, 0.98)) !important;
+}
+
+.admin-container.admin-luxury-theme .admin-offers-container .management-header {
+    background:
+        radial-gradient(circle at top right, rgba(255, 122, 122, 0.1), transparent 24%),
+        linear-gradient(180deg, rgba(25, 23, 38, 0.94), rgba(11, 17, 28, 0.98)) !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) :is(.management-header, .admin-users-header) {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr) !important;
+    gap: 22px 26px !important;
+    align-items: center !important;
+    padding: 26px 28px !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) .header-main {
+    max-width: 700px;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) .management-actions {
+    width: 100%;
+    display: grid !important;
+    gap: 14px !important;
+    align-items: stretch !important;
+    justify-self: end !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) :is(.search-box, .admin-users-search) {
+    width: 100% !important;
+    max-width: none !important;
+    min-height: 58px !important;
+    padding: 8px 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    border-radius: 22px !important;
+    background:
+        linear-gradient(180deg, rgba(31, 51, 81, 0.88), rgba(20, 33, 56, 0.92)) padding-box,
+        linear-gradient(135deg, rgba(214, 179, 106, 0.26), rgba(79, 209, 197, 0.22)) border-box !important;
+    border: 1px solid transparent !important;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.05),
+        0 14px 26px rgba(2, 8, 23, 0.18) !important;
+    transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) :is(.search-box, .admin-users-search):hover,
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) :is(.search-box, .admin-users-search):focus-within {
+    transform: translateY(-1px);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.07),
+        0 0 0 4px rgba(79, 209, 197, 0.08),
+        0 18px 30px rgba(2, 8, 23, 0.24) !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) .search-box .search-icon {
+    flex: 0 0 auto;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 76px !important;
+    min-height: 38px !important;
+    padding: 0 12px !important;
+    border-radius: 14px !important;
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.16), rgba(79, 209, 197, 0.14)) !important;
+    border: 1px solid rgba(214, 179, 106, 0.12) !important;
+    color: #f3dfb2 !important;
+    font-size: 10px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.14em !important;
+    text-transform: uppercase !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) :is(.search-box input, .admin-users-search input) {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 11px 12px !important;
+    font-size: 14px !important;
+    color: #f8fbff !important;
+    background: transparent !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) :is(.search-box input, .admin-users-search input)::placeholder {
+    color: rgba(203, 213, 225, 0.52) !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) .header-buttons {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-end !important;
+    gap: 12px !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) :is(.header-buttons > button, .management-actions > button) {
+    min-height: 48px !important;
+    padding: 0 20px !important;
+    border-radius: 16px !important;
+    font-size: 13.5px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.04em !important;
+    box-shadow: 0 12px 22px rgba(2, 8, 23, 0.14) !important;
+}
+
+.admin-container.admin-luxury-theme :is(
+    .admin-flights-container,
+    .admin-trains-container,
+    .admin-buses-container,
+    .admin-cabs-container,
+    .admin-hotels-container,
+    .admin-holiday-container,
+    .admin-offers-container,
+    .admin-bookings-page,
+    .admin-users-page
+) :is(.header-buttons > button, .management-actions > button):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 26px rgba(2, 8, 23, 0.2) !important;
+}
+
+.admin-container.admin-luxury-theme .admin-flights-container .header-main::before,
+.admin-container.admin-luxury-theme .admin-trains-container .header-main::before,
+.admin-container.admin-luxury-theme .admin-buses-container .header-main::before,
+.admin-container.admin-luxury-theme .admin-cabs-container .header-main::before,
+.admin-container.admin-luxury-theme .admin-holiday-container .header-main::before,
+.admin-container.admin-luxury-theme .admin-offers-container .header-main::before {
+    content: "Service Desk";
+}
+
+.admin-container.admin-luxury-theme :is(.admin-flights-container, .admin-trains-container, .admin-buses-container, .admin-cabs-container, .admin-holiday-container, .admin-offers-container) .search-box .search-icon {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #f2ddb0;
+}
+
+.admin-container.admin-luxury-theme :is(.admin-flights-container, .admin-trains-container, .admin-buses-container, .admin-cabs-container, .admin-holiday-container, .admin-offers-container) :is(.data-table-container, .management-card) {
+    position: relative;
+    overflow: hidden;
+}
+
+.admin-container.admin-luxury-theme :is(.admin-flights-container, .admin-trains-container, .admin-buses-container, .admin-cabs-container, .admin-holiday-container, .admin-offers-container) :is(.data-table-container, .management-card)::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(135deg, rgba(214, 179, 106, 0.04), transparent 42%),
+        radial-gradient(circle at bottom right, rgba(79, 209, 197, 0.06), transparent 26%);
+    pointer-events: none;
+}
+
+.admin-container.admin-luxury-theme :is(.admin-flights-container, .admin-trains-container, .admin-buses-container, .admin-cabs-container, .admin-holiday-container) .data-table tbody tr,
+.admin-container.admin-luxury-theme .admin-offers-container .management-table tbody tr {
+    transition: transform 0.22s ease, background 0.22s ease;
+}
+
+.admin-container.admin-luxury-theme :is(.admin-flights-container, .admin-trains-container, .admin-buses-container, .admin-cabs-container, .admin-holiday-container) .data-table tbody tr:hover,
+.admin-container.admin-luxury-theme .admin-offers-container .management-table tbody tr:hover {
+    transform: translateX(2px);
+}
+
+.admin-container.admin-luxury-theme .admin-cabs-container .management-tabs {
+    padding: 6px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.admin-container.admin-luxury-theme .admin-cabs-container .tab-link {
+    min-width: 112px;
+}
+
+.admin-container.admin-luxury-theme .admin-offers-container .offer-filters {
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid rgba(148, 163, 184, 0.08);
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.admin-container.admin-luxury-theme .sidebar-logo,
+.admin-container.admin-luxury-theme .profile-avatar,
+.admin-container.admin-luxury-theme .overview-quick-card,
+.admin-container.admin-luxury-theme .admin-page-metric-card {
+    transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+}
+
+.admin-container.admin-luxury-theme .sidebar-logo:hover,
+.admin-container.admin-luxury-theme .profile-avatar:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 16px 28px rgba(214, 179, 106, 0.16);
+}
+
+.admin-container.admin-luxury-theme .admin-confirm-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(5, 10, 17, 0.72);
+    backdrop-filter: blur(10px);
+}
+
+.admin-container.admin-luxury-theme .admin-confirm-dialog {
+    width: min(480px, 92vw);
+    padding: 22px;
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(13, 20, 33, 0.98), rgba(9, 15, 26, 0.99));
+    border: 1px solid rgba(214, 179, 106, 0.16);
+    box-shadow: 0 26px 60px rgba(2, 6, 23, 0.52);
+}
+
+.admin-container.admin-luxury-theme .admin-confirm-dialog__icon {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+    border-radius: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 800;
+    color: #f6e1b0;
+    background: linear-gradient(135deg, rgba(214, 179, 106, 0.18), rgba(79, 209, 197, 0.14));
+    border: 1px solid rgba(214, 179, 106, 0.18);
+}
+
+.admin-container.admin-luxury-theme .admin-confirm-dialog--danger .admin-confirm-dialog__icon {
+    color: #ffd2d2;
+    background: linear-gradient(135deg, rgba(255, 122, 122, 0.18), rgba(214, 179, 106, 0.12));
+    border-color: rgba(255, 122, 122, 0.18);
+}
+
+.admin-container.admin-luxury-theme .admin-confirm-dialog__title {
+    margin-bottom: 8px;
+    font-family: 'Sora', 'Manrope', sans-serif;
+    font-size: 24px;
+    letter-spacing: -0.05em;
+    color: var(--admin-text);
+}
+
+.admin-container.admin-luxury-theme .admin-confirm-dialog__message {
+    font-size: 13px;
+    line-height: 1.75;
+    color: var(--admin-text-muted);
+}
+
+.admin-container.admin-luxury-theme .admin-confirm-dialog__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.admin-container.admin-luxury-theme .management-container :is(.empty-table, .modal-empty, .empty-mini) {
+    color: var(--admin-text-muted) !important;
+    font-size: 12.5px !important;
+}
+
+@media (max-width: 1024px) {
+    .admin-container.admin-luxury-theme .admin-page-hero,
+    .admin-container.admin-luxury-theme .admin-page-metrics {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-container.admin-luxury-theme .admin-page-hero__chips {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-container.admin-luxury-theme .admin-feedback-page .management-filters {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-container.admin-luxury-theme .admin-confirm-dialog__actions {
+        flex-direction: column-reverse;
+    }
+
+    .admin-container.admin-luxury-theme .overview-hero-panel,
+    .admin-container.admin-luxury-theme .overview-quick-actions {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-container.admin-luxury-theme .overview-hero-chips {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-container.admin-luxury-theme .dashboard-section-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-container.admin-luxury-theme .admin-main {
+        padding: 18px 16px 24px;
+    }
+
+    .admin-container.admin-luxury-theme :is(.management-header, .admin-header, .admin-users-header) {
+        padding: 18px !important;
+    }
+
+    .admin-container.admin-luxury-theme :is(
+        .admin-flights-container,
+        .admin-trains-container,
+        .admin-buses-container,
+        .admin-cabs-container,
+        .admin-hotels-container,
+        .admin-holiday-container,
+        .admin-offers-container,
+        .admin-bookings-page,
+        .admin-users-page
+    ) :is(.management-header, .admin-users-header) {
+        grid-template-columns: 1fr !important;
+        align-items: stretch !important;
+    }
+
+    .admin-container.admin-luxury-theme :is(.stat-cards-grid, .booking-stats-grid, .admin-users-metrics) {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .admin-container.admin-luxury-theme .admin-sidebar {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .admin-container.admin-luxury-theme .admin-main {
+        padding: 14px 12px 20px;
+    }
+
+    .admin-container.admin-luxury-theme :is(.search-box, .admin-users-search) {
+        max-width: 100% !important;
+    }
+
+    .admin-container.admin-luxury-theme :is(
+        .admin-flights-container,
+        .admin-trains-container,
+        .admin-buses-container,
+        .admin-cabs-container,
+        .admin-hotels-container,
+        .admin-holiday-container,
+        .admin-offers-container,
+        .admin-bookings-page,
+        .admin-users-page
+    ) .search-box .search-icon {
+        min-width: 64px !important;
+        font-size: 9px !important;
+    }
+
+    .admin-container.admin-luxury-theme :is(
+        .admin-flights-container,
+        .admin-trains-container,
+        .admin-buses-container,
+        .admin-cabs-container,
+        .admin-hotels-container,
+        .admin-holiday-container,
+        .admin-offers-container,
+        .admin-bookings-page,
+        .admin-users-page
+    ) .header-buttons {
+        justify-content: stretch !important;
+    }
+
+    .admin-container.admin-luxury-theme :is(
+        .admin-flights-container,
+        .admin-trains-container,
+        .admin-buses-container,
+        .admin-cabs-container,
+        .admin-hotels-container,
+        .admin-holiday-container,
+        .admin-offers-container,
+        .admin-bookings-page,
+        .admin-users-page
+    ) :is(.header-buttons > button, .management-actions > button) {
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .admin-container.admin-luxury-theme .modal-content-glass {
+        width: min(96vw, 96vw) !important;
+        border-radius: 18px !important;
+    }
+
+    .admin-container.admin-luxury-theme .admin-overview-page .stat-card {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .admin-container.admin-luxury-theme .overview-section-head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

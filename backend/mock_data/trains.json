@@ -1,0 +1,1952 @@
+[
+  {
+    "trainNumber": "25938",
+    "trainName": "Mumbai - Goa Express",
+    "from": "Mumbai",
+    "to": "Goa",
+    "departureTime": "15:30",
+    "arrivalTime": "09:15",
+    "duration": "5h 15m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1142,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 27
+      },
+      {
+        "type": "2A",
+        "fare": 1713,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 29
+      },
+      {
+        "type": "SL",
+        "fare": 656,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 51
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-09"
+  },
+  {
+    "trainNumber": "15831",
+    "trainName": "Goa - Bengaluru Express",
+    "from": "Goa",
+    "to": "Bengaluru",
+    "departureTime": "18:00",
+    "arrivalTime": "07:45",
+    "duration": "20h 30m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1764,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 13
+      },
+      {
+        "type": "2A",
+        "fare": 2646,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 10
+      },
+      {
+        "type": "SL",
+        "fare": 1014,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 83
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-13"
+  },
+  {
+    "trainNumber": "11835",
+    "trainName": "Pune - Bengaluru Express",
+    "from": "Pune",
+    "to": "Bengaluru",
+    "departureTime": "04:45",
+    "arrivalTime": "04:45",
+    "duration": "9h 0m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 3162,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 35
+      },
+      {
+        "type": "2A",
+        "fare": 4125,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 2
+      },
+      {
+        "type": "SL",
+        "fare": 1581,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 52
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-11"
+  },
+  {
+    "trainNumber": "26598",
+    "trainName": "Delhi - Kolkata Express",
+    "from": "Delhi",
+    "to": "Kolkata",
+    "departureTime": "05:15",
+    "arrivalTime": "17:30",
+    "duration": "13h 0m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2402,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 1
+      },
+      {
+        "type": "2A",
+        "fare": 3603,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 10
+      },
+      {
+        "type": "SL",
+        "fare": 1201,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 70
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-17"
+  },
+  {
+    "trainNumber": "17193",
+    "trainName": "Mumbai - Bengaluru Express",
+    "from": "Mumbai",
+    "to": "Bengaluru",
+    "departureTime": "21:15",
+    "arrivalTime": "22:15",
+    "duration": "20h 15m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2040,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 10
+      },
+      {
+        "type": "2A",
+        "fare": 2661,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 19
+      },
+      {
+        "type": "SL",
+        "fare": 887,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 47
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-17"
+  },
+  {
+    "trainNumber": "14958",
+    "trainName": "Chennai - Delhi Express",
+    "from": "Chennai",
+    "to": "Delhi",
+    "departureTime": "20:45",
+    "arrivalTime": "17:00",
+    "duration": "8h 15m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2826,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 20
+      },
+      {
+        "type": "2A",
+        "fare": 4239,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 23
+      },
+      {
+        "type": "SL",
+        "fare": 1624,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 74
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-17"
+  },
+  {
+    "trainNumber": "29194",
+    "trainName": "Hyderabad - Delhi Express",
+    "from": "Hyderabad",
+    "to": "Delhi",
+    "departureTime": "12:00",
+    "arrivalTime": "13:00",
+    "duration": "14h 30m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2627,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 4
+      },
+      {
+        "type": "2A",
+        "fare": 3941,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 14
+      },
+      {
+        "type": "SL",
+        "fare": 1313,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 28
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-11"
+  },
+  {
+    "trainNumber": "26691",
+    "trainName": "Chennai - Hyderabad Express",
+    "from": "Chennai",
+    "to": "Hyderabad",
+    "departureTime": "21:15",
+    "arrivalTime": "19:30",
+    "duration": "17h 30m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2312,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 37
+      },
+      {
+        "type": "2A",
+        "fare": 3468,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 14
+      },
+      {
+        "type": "SL",
+        "fare": 1156,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 18
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-14"
+  },
+  {
+    "trainNumber": "28754",
+    "trainName": "Hyderabad - Goa Express",
+    "from": "Hyderabad",
+    "to": "Goa",
+    "departureTime": "06:00",
+    "arrivalTime": "21:15",
+    "duration": "18h 0m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2170,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 7
+      },
+      {
+        "type": "2A",
+        "fare": 3743,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 30
+      },
+      {
+        "type": "SL",
+        "fare": 1085,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 71
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-04"
+  },
+  {
+    "trainNumber": "13503",
+    "trainName": "Kolkata - Mumbai Express",
+    "from": "Kolkata",
+    "to": "Mumbai",
+    "departureTime": "18:15",
+    "arrivalTime": "08:00",
+    "duration": "11h 0m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2260,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 18
+      },
+      {
+        "type": "2A",
+        "fare": 3390,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 6
+      },
+      {
+        "type": "SL",
+        "fare": 1130,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 7
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-07"
+  },
+  {
+    "trainNumber": "25402",
+    "trainName": "Goa - Bengaluru Express",
+    "from": "Goa",
+    "to": "Bengaluru",
+    "departureTime": "06:45",
+    "arrivalTime": "23:00",
+    "duration": "16h 0m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2369,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 19
+      },
+      {
+        "type": "2A",
+        "fare": 3553,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 5
+      },
+      {
+        "type": "SL",
+        "fare": 1184,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 98
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-08"
+  },
+  {
+    "trainNumber": "28895",
+    "trainName": "Delhi - Kolkata Express",
+    "from": "Delhi",
+    "to": "Kolkata",
+    "departureTime": "09:00",
+    "arrivalTime": "18:30",
+    "duration": "10h 15m",
+    "days": "Daily",
+    "trainType": "Shatabdi",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 3438,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 16
+      },
+      {
+        "type": "2A",
+        "fare": 4485,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 8
+      },
+      {
+        "type": "SL",
+        "fare": 1719,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 55
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-06"
+  },
+  {
+    "trainNumber": "26590",
+    "trainName": "Chennai - Goa Express",
+    "from": "Chennai",
+    "to": "Goa",
+    "departureTime": "03:15",
+    "arrivalTime": "06:00",
+    "duration": "18h 0m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2455,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 45
+      },
+      {
+        "type": "2A",
+        "fare": 3682,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 14
+      },
+      {
+        "type": "SL",
+        "fare": 1227,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 19
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-18"
+  },
+  {
+    "trainNumber": "18521",
+    "trainName": "Mumbai - Delhi Express",
+    "from": "Mumbai",
+    "to": "Delhi",
+    "departureTime": "16:00",
+    "arrivalTime": "10:45",
+    "duration": "13h 15m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2478,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 13
+      },
+      {
+        "type": "2A",
+        "fare": 3232,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 25
+      },
+      {
+        "type": "SL",
+        "fare": 1077,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 25
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-18"
+  },
+  {
+    "trainNumber": "25765",
+    "trainName": "Delhi - Goa Express",
+    "from": "Delhi",
+    "to": "Goa",
+    "departureTime": "01:45",
+    "arrivalTime": "15:15",
+    "duration": "8h 30m",
+    "days": "Daily",
+    "trainType": "Shatabdi",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2016,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 12
+      },
+      {
+        "type": "2A",
+        "fare": 3024,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 12
+      },
+      {
+        "type": "SL",
+        "fare": 1008,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 73
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-15"
+  },
+  {
+    "trainNumber": "26937",
+    "trainName": "Chennai - Bengaluru Express",
+    "from": "Chennai",
+    "to": "Bengaluru",
+    "departureTime": "23:15",
+    "arrivalTime": "10:30",
+    "duration": "21h 15m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1076,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 10
+      },
+      {
+        "type": "2A",
+        "fare": 1856,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 5
+      },
+      {
+        "type": "SL",
+        "fare": 538,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 32
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-13"
+  },
+  {
+    "trainNumber": "28038",
+    "trainName": "Hyderabad - Pune Express",
+    "from": "Hyderabad",
+    "to": "Pune",
+    "departureTime": "13:15",
+    "arrivalTime": "21:30",
+    "duration": "11h 30m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2166,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 41
+      },
+      {
+        "type": "2A",
+        "fare": 3249,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 23
+      },
+      {
+        "type": "SL",
+        "fare": 1083,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 37
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-09"
+  },
+  {
+    "trainNumber": "16979",
+    "trainName": "Kolkata - Mumbai Express",
+    "from": "Kolkata",
+    "to": "Mumbai",
+    "departureTime": "23:45",
+    "arrivalTime": "14:15",
+    "duration": "12h 30m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1731,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 2
+      },
+      {
+        "type": "2A",
+        "fare": 2259,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 12
+      },
+      {
+        "type": "SL",
+        "fare": 865,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 72
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-08"
+  },
+  {
+    "trainNumber": "26720",
+    "trainName": "Mumbai - Goa Express",
+    "from": "Mumbai",
+    "to": "Goa",
+    "departureTime": "08:00",
+    "arrivalTime": "18:30",
+    "duration": "10h 0m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2642,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 34
+      },
+      {
+        "type": "2A",
+        "fare": 3963,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 27
+      },
+      {
+        "type": "SL",
+        "fare": 1321,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 62
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-09"
+  },
+  {
+    "trainNumber": "15862",
+    "trainName": "Delhi - Bengaluru Express",
+    "from": "Delhi",
+    "to": "Bengaluru",
+    "departureTime": "01:45",
+    "arrivalTime": "08:45",
+    "duration": "12h 0m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1288,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 46
+      },
+      {
+        "type": "2A",
+        "fare": 1680,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 7
+      },
+      {
+        "type": "SL",
+        "fare": 644,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 19
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-09"
+  },
+  {
+    "trainNumber": "16439",
+    "trainName": "Pune - Kolkata Express",
+    "from": "Pune",
+    "to": "Kolkata",
+    "departureTime": "11:30",
+    "arrivalTime": "23:30",
+    "duration": "20h 30m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1992,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 46
+      },
+      {
+        "type": "2A",
+        "fare": 3436,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 12
+      },
+      {
+        "type": "SL",
+        "fare": 996,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 56
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-07"
+  },
+  {
+    "trainNumber": "12763",
+    "trainName": "Delhi - Chennai Express",
+    "from": "Delhi",
+    "to": "Chennai",
+    "departureTime": "14:30",
+    "arrivalTime": "07:30",
+    "duration": "11h 15m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2976,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 22
+      },
+      {
+        "type": "2A",
+        "fare": 4464,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 28
+      },
+      {
+        "type": "SL",
+        "fare": 1488,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 8
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-07"
+  },
+  {
+    "trainNumber": "22753",
+    "trainName": "Hyderabad - Chennai Express",
+    "from": "Hyderabad",
+    "to": "Chennai",
+    "departureTime": "12:45",
+    "arrivalTime": "06:00",
+    "duration": "10h 0m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 3270,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 3
+      },
+      {
+        "type": "2A",
+        "fare": 5640,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 12
+      },
+      {
+        "type": "SL",
+        "fare": 1880,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 45
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-12"
+  },
+  {
+    "trainNumber": "13012",
+    "trainName": "Pune - Delhi Express",
+    "from": "Pune",
+    "to": "Delhi",
+    "departureTime": "19:45",
+    "arrivalTime": "04:15",
+    "duration": "20h 0m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2852,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 6
+      },
+      {
+        "type": "2A",
+        "fare": 4919,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 4
+      },
+      {
+        "type": "SL",
+        "fare": 1639,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 39
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-15"
+  },
+  {
+    "trainNumber": "14455",
+    "trainName": "Chennai - Hyderabad Express",
+    "from": "Chennai",
+    "to": "Hyderabad",
+    "departureTime": "23:30",
+    "arrivalTime": "13:00",
+    "duration": "22h 30m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2698,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 7
+      },
+      {
+        "type": "2A",
+        "fare": 4047,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 10
+      },
+      {
+        "type": "SL",
+        "fare": 1349,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 11
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-16"
+  },
+  {
+    "trainNumber": "19989",
+    "trainName": "Chennai - Goa Express",
+    "from": "Chennai",
+    "to": "Goa",
+    "departureTime": "13:00",
+    "arrivalTime": "06:45",
+    "duration": "4h 15m",
+    "days": "Daily",
+    "trainType": "Shatabdi",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2516,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 50
+      },
+      {
+        "type": "2A",
+        "fare": 4340,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 9
+      },
+      {
+        "type": "SL",
+        "fare": 1258,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 63
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-09"
+  },
+  {
+    "trainNumber": "16957",
+    "trainName": "Hyderabad - Kolkata Express",
+    "from": "Hyderabad",
+    "to": "Kolkata",
+    "departureTime": "20:30",
+    "arrivalTime": "04:30",
+    "duration": "17h 15m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2463,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 45
+      },
+      {
+        "type": "2A",
+        "fare": 3213,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 5
+      },
+      {
+        "type": "SL",
+        "fare": 1499,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 47
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-10"
+  },
+  {
+    "trainNumber": "25807",
+    "trainName": "Pune - Mumbai Express",
+    "from": "Pune",
+    "to": "Mumbai",
+    "departureTime": "14:30",
+    "arrivalTime": "12:30",
+    "duration": "10h 30m",
+    "days": "Daily",
+    "trainType": "Shatabdi",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2302,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 27
+      },
+      {
+        "type": "2A",
+        "fare": 3453,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 19
+      },
+      {
+        "type": "SL",
+        "fare": 1151,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 23
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-18"
+  },
+  {
+    "trainNumber": "14681",
+    "trainName": "Hyderabad - Mumbai Express",
+    "from": "Hyderabad",
+    "to": "Mumbai",
+    "departureTime": "04:00",
+    "arrivalTime": "06:30",
+    "duration": "18h 30m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1420,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 44
+      },
+      {
+        "type": "2A",
+        "fare": 2130,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 6
+      },
+      {
+        "type": "SL",
+        "fare": 710,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 28
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-13"
+  },
+  {
+    "trainNumber": "20743",
+    "trainName": "Hyderabad - Pune Express",
+    "from": "Hyderabad",
+    "to": "Pune",
+    "departureTime": "18:30",
+    "arrivalTime": "23:30",
+    "duration": "24h 15m",
+    "days": "Daily",
+    "trainType": "Shatabdi",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1124,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 16
+      },
+      {
+        "type": "2A",
+        "fare": 1686,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 9
+      },
+      {
+        "type": "SL",
+        "fare": 786,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 13
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-10"
+  },
+  {
+    "trainNumber": "16891",
+    "trainName": "Delhi - Chennai Express",
+    "from": "Delhi",
+    "to": "Chennai",
+    "departureTime": "14:15",
+    "arrivalTime": "07:15",
+    "duration": "10h 0m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2346,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 17
+      },
+      {
+        "type": "2A",
+        "fare": 3519,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 15
+      },
+      {
+        "type": "SL",
+        "fare": 1173,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 27
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-14"
+  },
+  {
+    "trainNumber": "29840",
+    "trainName": "Delhi - Goa Express",
+    "from": "Delhi",
+    "to": "Goa",
+    "departureTime": "10:00",
+    "arrivalTime": "23:45",
+    "duration": "24h 0m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2770,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 38
+      },
+      {
+        "type": "2A",
+        "fare": 4778,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 1
+      },
+      {
+        "type": "SL",
+        "fare": 1385,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 81
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-16"
+  },
+  {
+    "trainNumber": "19122",
+    "trainName": "Pune - Kolkata Express",
+    "from": "Pune",
+    "to": "Kolkata",
+    "departureTime": "13:45",
+    "arrivalTime": "12:45",
+    "duration": "9h 0m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1386,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 23
+      },
+      {
+        "type": "2A",
+        "fare": 2079,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 14
+      },
+      {
+        "type": "SL",
+        "fare": 693,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 35
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-14"
+  },
+  {
+    "trainNumber": "14295",
+    "trainName": "Chennai - Goa Express",
+    "from": "Chennai",
+    "to": "Goa",
+    "departureTime": "01:45",
+    "arrivalTime": "00:30",
+    "duration": "14h 0m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2156,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 26
+      },
+      {
+        "type": "2A",
+        "fare": 3234,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 10
+      },
+      {
+        "type": "SL",
+        "fare": 1078,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 56
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-06"
+  },
+  {
+    "trainNumber": "20330",
+    "trainName": "Goa - Delhi Express",
+    "from": "Goa",
+    "to": "Delhi",
+    "departureTime": "02:30",
+    "arrivalTime": "08:15",
+    "duration": "19h 30m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1096,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 15
+      },
+      {
+        "type": "2A",
+        "fare": 1644,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 6
+      },
+      {
+        "type": "SL",
+        "fare": 548,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 35
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-10"
+  },
+  {
+    "trainNumber": "14004",
+    "trainName": "Pune - Bengaluru Express",
+    "from": "Pune",
+    "to": "Bengaluru",
+    "departureTime": "00:00",
+    "arrivalTime": "03:45",
+    "duration": "21h 30m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2098,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 30
+      },
+      {
+        "type": "2A",
+        "fare": 3619,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 6
+      },
+      {
+        "type": "SL",
+        "fare": 1049,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 82
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-08"
+  },
+  {
+    "trainNumber": "20903",
+    "trainName": "Goa - Mumbai Express",
+    "from": "Goa",
+    "to": "Mumbai",
+    "departureTime": "13:00",
+    "arrivalTime": "06:00",
+    "duration": "5h 30m",
+    "days": "Daily",
+    "trainType": "Rajdhani",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1538,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 36
+      },
+      {
+        "type": "2A",
+        "fare": 2308,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 21
+      },
+      {
+        "type": "SL",
+        "fare": 769,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 95
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-07"
+  },
+  {
+    "trainNumber": "21867",
+    "trainName": "Hyderabad - Bengaluru Express",
+    "from": "Hyderabad",
+    "to": "Bengaluru",
+    "departureTime": "18:30",
+    "arrivalTime": "18:30",
+    "duration": "9h 15m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2970,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 14
+      },
+      {
+        "type": "2A",
+        "fare": 4455,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 12
+      },
+      {
+        "type": "SL",
+        "fare": 1707,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 26
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-10"
+  },
+  {
+    "trainNumber": "28260",
+    "trainName": "Chennai - Goa Express",
+    "from": "Chennai",
+    "to": "Goa",
+    "departureTime": "20:15",
+    "arrivalTime": "06:00",
+    "duration": "21h 30m",
+    "days": "Daily",
+    "trainType": "Shatabdi",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2633,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 38
+      },
+      {
+        "type": "2A",
+        "fare": 3950,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 21
+      },
+      {
+        "type": "SL",
+        "fare": 1145,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 43
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-10"
+  },
+  {
+    "trainNumber": "11344",
+    "trainName": "Chennai - Delhi Express",
+    "from": "Chennai",
+    "to": "Delhi",
+    "departureTime": "07:45",
+    "arrivalTime": "05:15",
+    "duration": "6h 15m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 3487,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 4
+      },
+      {
+        "type": "2A",
+        "fare": 4548,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 15
+      },
+      {
+        "type": "SL",
+        "fare": 1516,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 7
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-05"
+  },
+  {
+    "trainNumber": "22362",
+    "trainName": "Pune - Goa Express",
+    "from": "Pune",
+    "to": "Goa",
+    "departureTime": "16:45",
+    "arrivalTime": "16:45",
+    "duration": "22h 30m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1582,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 15
+      },
+      {
+        "type": "2A",
+        "fare": 2064,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 3
+      },
+      {
+        "type": "SL",
+        "fare": 791,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 19
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-16"
+  },
+  {
+    "trainNumber": "22328",
+    "trainName": "Delhi - Goa Express",
+    "from": "Delhi",
+    "to": "Goa",
+    "departureTime": "11:30",
+    "arrivalTime": "14:15",
+    "duration": "20h 30m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1387,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 25
+      },
+      {
+        "type": "2A",
+        "fare": 2393,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 29
+      },
+      {
+        "type": "SL",
+        "fare": 693,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 4
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-04"
+  },
+  {
+    "trainNumber": "18099",
+    "trainName": "Mumbai - Pune Express",
+    "from": "Mumbai",
+    "to": "Pune",
+    "departureTime": "06:45",
+    "arrivalTime": "18:30",
+    "duration": "10h 0m",
+    "days": "Daily",
+    "trainType": "Shatabdi",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2544,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 11
+      },
+      {
+        "type": "2A",
+        "fare": 3816,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 16
+      },
+      {
+        "type": "SL",
+        "fare": 1272,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 9
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-17"
+  },
+  {
+    "trainNumber": "25883",
+    "trainName": "Hyderabad - Delhi Express",
+    "from": "Hyderabad",
+    "to": "Delhi",
+    "departureTime": "01:15",
+    "arrivalTime": "01:45",
+    "duration": "4h 30m",
+    "days": "Daily",
+    "trainType": "Shatabdi",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 3208,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 28
+      },
+      {
+        "type": "2A",
+        "fare": 4185,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 24
+      },
+      {
+        "type": "SL",
+        "fare": 1395,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 13
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-14"
+  },
+  {
+    "trainNumber": "16517",
+    "trainName": "Bengaluru - Hyderabad Express",
+    "from": "Bengaluru",
+    "to": "Hyderabad",
+    "departureTime": "12:45",
+    "arrivalTime": "18:00",
+    "duration": "18h 15m",
+    "days": "Daily",
+    "trainType": "Vande Bharat",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 3372,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 4
+      },
+      {
+        "type": "2A",
+        "fare": 5817,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 8
+      },
+      {
+        "type": "SL",
+        "fare": 1939,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 21
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-18"
+  },
+  {
+    "trainNumber": "19898",
+    "trainName": "Pune - Kolkata Express",
+    "from": "Pune",
+    "to": "Kolkata",
+    "departureTime": "15:45",
+    "arrivalTime": "19:00",
+    "duration": "15h 30m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1876,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 7
+      },
+      {
+        "type": "2A",
+        "fare": 2814,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 7
+      },
+      {
+        "type": "SL",
+        "fare": 1078,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 73
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-10"
+  },
+  {
+    "trainNumber": "15280",
+    "trainName": "Kolkata - Delhi Express",
+    "from": "Kolkata",
+    "to": "Delhi",
+    "departureTime": "08:15",
+    "arrivalTime": "06:15",
+    "duration": "6h 15m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 1517,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 24
+      },
+      {
+        "type": "2A",
+        "fare": 2617,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 22
+      },
+      {
+        "type": "SL",
+        "fare": 758,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 68
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-11"
+  },
+  {
+    "trainNumber": "27018",
+    "trainName": "Bengaluru - Delhi Express",
+    "from": "Bengaluru",
+    "to": "Delhi",
+    "departureTime": "00:45",
+    "arrivalTime": "10:45",
+    "duration": "11h 15m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2497,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 31
+      },
+      {
+        "type": "2A",
+        "fare": 3746,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 29
+      },
+      {
+        "type": "SL",
+        "fare": 1248,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 41
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-12"
+  },
+  {
+    "trainNumber": "26709",
+    "trainName": "Kolkata - Goa Express",
+    "from": "Kolkata",
+    "to": "Goa",
+    "departureTime": "16:15",
+    "arrivalTime": "18:15",
+    "duration": "17h 15m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 3572,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 36
+      },
+      {
+        "type": "2A",
+        "fare": 6162,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 12
+      },
+      {
+        "type": "SL",
+        "fare": 1786,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 94
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-18"
+  },
+  {
+    "trainNumber": "26650",
+    "trainName": "Pune - Bengaluru Express",
+    "from": "Pune",
+    "to": "Bengaluru",
+    "departureTime": "06:00",
+    "arrivalTime": "21:30",
+    "duration": "13h 15m",
+    "days": "Daily",
+    "trainType": "Express",
+    "availableClasses": [
+      {
+        "type": "3A",
+        "fare": 2396,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 50,
+        "availableSeats": 39
+      },
+      {
+        "type": "2A",
+        "fare": 4133,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 30,
+        "availableSeats": 12
+      },
+      {
+        "type": "SL",
+        "fare": 1677,
+        "status": "Available",
+        "color": "green",
+        "totalSeats": 100,
+        "availableSeats": 59
+      }
+    ],
+    "isActive": true,
+    "date": "2026-04-07"
+  }
+]

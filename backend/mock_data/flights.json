@@ -1,0 +1,2102 @@
+[
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-881",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Pune",
+    "to": "Hyderabad",
+    "departureCity": "Pune",
+    "arrivalCity": "Hyderabad",
+    "date": "2026-04-05",
+    "departureTime": "04:45",
+    "arrivalTime": "18:15",
+    "duration": "5h 0m",
+    "stops": "Non Stop",
+    "basePrice": 13504,
+    "totalFare": 14004,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 14,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 13504,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 33760,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-845",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Bengaluru",
+    "to": "Delhi",
+    "departureCity": "Bengaluru",
+    "arrivalCity": "Delhi",
+    "date": "2026-04-18",
+    "departureTime": "21:00",
+    "arrivalTime": "02:30",
+    "duration": "4h 0m",
+    "stops": "Non Stop",
+    "basePrice": 6783,
+    "totalFare": 7283,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 123,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 6783,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 16957.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-506",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Hyderabad",
+    "to": "Goa",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Goa",
+    "date": "2026-04-15",
+    "departureTime": "21:30",
+    "arrivalTime": "03:45",
+    "duration": "10h 0m",
+    "stops": "1 Stop",
+    "basePrice": 6295,
+    "totalFare": 6795,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 79,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 6295,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 15737.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "SpiceJet",
+    "airlineName": "SpiceJet",
+    "flightNumber": "SG-199",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/SG.png",
+    "from": "Mumbai",
+    "to": "Chennai",
+    "departureCity": "Mumbai",
+    "arrivalCity": "Chennai",
+    "date": "2026-04-14",
+    "departureTime": "00:15",
+    "arrivalTime": "02:15",
+    "duration": "11h 45m",
+    "stops": "Non Stop",
+    "basePrice": 4445,
+    "totalFare": 4945,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 178,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 4445,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 11112.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-908",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Hyderabad",
+    "to": "Kolkata",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Kolkata",
+    "date": "2026-04-18",
+    "departureTime": "14:00",
+    "arrivalTime": "23:00",
+    "duration": "12h 45m",
+    "stops": "Non Stop",
+    "basePrice": 9660,
+    "totalFare": 10160,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 171,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 9660,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 24150,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-571",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Kolkata",
+    "to": "Bengaluru",
+    "departureCity": "Kolkata",
+    "arrivalCity": "Bengaluru",
+    "date": "2026-04-10",
+    "departureTime": "23:45",
+    "arrivalTime": "15:15",
+    "duration": "1h 15m",
+    "stops": "1 Stop",
+    "basePrice": 5478,
+    "totalFare": 5978,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 63,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 5478,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 13695,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Vistara",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-201",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/UK.png",
+    "from": "Kolkata",
+    "to": "Pune",
+    "departureCity": "Kolkata",
+    "arrivalCity": "Pune",
+    "date": "2026-04-11",
+    "departureTime": "20:15",
+    "arrivalTime": "21:15",
+    "duration": "7h 15m",
+    "stops": "1 Stop",
+    "basePrice": 9033,
+    "totalFare": 9533,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 103,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 9033,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 22582.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-668",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Bengaluru",
+    "to": "Chennai",
+    "departureCity": "Bengaluru",
+    "arrivalCity": "Chennai",
+    "date": "2026-04-18",
+    "departureTime": "11:45",
+    "arrivalTime": "22:30",
+    "duration": "13h 45m",
+    "stops": "1 Stop",
+    "basePrice": 5840,
+    "totalFare": 6340,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 110,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 5840,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 14600,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "SpiceJet",
+    "airlineName": "SpiceJet",
+    "flightNumber": "SG-261",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/SG.png",
+    "from": "Kolkata",
+    "to": "Chennai",
+    "departureCity": "Kolkata",
+    "arrivalCity": "Chennai",
+    "date": "2026-04-07",
+    "departureTime": "19:45",
+    "arrivalTime": "14:00",
+    "duration": "7h 45m",
+    "stops": "Non Stop",
+    "basePrice": 7840,
+    "totalFare": 8340,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 56,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 7840,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 19600,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-261",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Chennai",
+    "to": "Goa",
+    "departureCity": "Chennai",
+    "arrivalCity": "Goa",
+    "date": "2026-04-10",
+    "departureTime": "20:30",
+    "arrivalTime": "04:30",
+    "duration": "12h 15m",
+    "stops": "Non Stop",
+    "basePrice": 5816,
+    "totalFare": 6316,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 121,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 5816,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 14540,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Vistara",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-403",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/UK.png",
+    "from": "Pune",
+    "to": "Bengaluru",
+    "departureCity": "Pune",
+    "arrivalCity": "Bengaluru",
+    "date": "2026-04-18",
+    "departureTime": "18:15",
+    "arrivalTime": "23:45",
+    "duration": "12h 15m",
+    "stops": "Non Stop",
+    "basePrice": 5085,
+    "totalFare": 5585,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 95,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 5085,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 12712.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-225",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Hyderabad",
+    "to": "Chennai",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Chennai",
+    "date": "2026-04-06",
+    "departureTime": "14:00",
+    "arrivalTime": "01:00",
+    "duration": "13h 30m",
+    "stops": "1 Stop",
+    "basePrice": 7016,
+    "totalFare": 7516,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 85,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 7016,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 17540,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Vistara",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-651",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/UK.png",
+    "from": "Goa",
+    "to": "Bengaluru",
+    "departureCity": "Goa",
+    "arrivalCity": "Bengaluru",
+    "date": "2026-04-12",
+    "departureTime": "22:30",
+    "arrivalTime": "11:45",
+    "duration": "14h 45m",
+    "stops": "1 Stop",
+    "basePrice": 9378,
+    "totalFare": 9878,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 57,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 9378,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 23445,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-412",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Bengaluru",
+    "to": "Hyderabad",
+    "departureCity": "Bengaluru",
+    "arrivalCity": "Hyderabad",
+    "date": "2026-04-04",
+    "departureTime": "18:30",
+    "arrivalTime": "02:00",
+    "duration": "14h 15m",
+    "stops": "1 Stop",
+    "basePrice": 5030,
+    "totalFare": 5530,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 104,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 5030,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 12575,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-896",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Mumbai",
+    "to": "Delhi",
+    "departureCity": "Mumbai",
+    "arrivalCity": "Delhi",
+    "date": "2026-04-16",
+    "departureTime": "05:00",
+    "arrivalTime": "00:15",
+    "duration": "8h 15m",
+    "stops": "Non Stop",
+    "basePrice": 9567,
+    "totalFare": 10067,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 20,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 9567,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 23917.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-150",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Mumbai",
+    "to": "Delhi",
+    "departureCity": "Mumbai",
+    "arrivalCity": "Delhi",
+    "date": "2026-04-16",
+    "departureTime": "01:45",
+    "arrivalTime": "09:00",
+    "duration": "3h 30m",
+    "stops": "1 Stop",
+    "basePrice": 7676,
+    "totalFare": 8176,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 41,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 7676,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 19190,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-448",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Delhi",
+    "to": "Bengaluru",
+    "departureCity": "Delhi",
+    "arrivalCity": "Bengaluru",
+    "date": "2026-04-08",
+    "departureTime": "07:00",
+    "arrivalTime": "21:45",
+    "duration": "10h 30m",
+    "stops": "Non Stop",
+    "basePrice": 4812,
+    "totalFare": 5312,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 177,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 4812,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 12030,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-897",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Delhi",
+    "to": "Bengaluru",
+    "departureCity": "Delhi",
+    "arrivalCity": "Bengaluru",
+    "date": "2026-04-13",
+    "departureTime": "15:30",
+    "arrivalTime": "05:45",
+    "duration": "6h 45m",
+    "stops": "Non Stop",
+    "basePrice": 6466,
+    "totalFare": 6966,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 94,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 6466,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 16165,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-126",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Mumbai",
+    "to": "Chennai",
+    "departureCity": "Mumbai",
+    "arrivalCity": "Chennai",
+    "date": "2026-04-11",
+    "departureTime": "04:00",
+    "arrivalTime": "21:45",
+    "duration": "4h 30m",
+    "stops": "1 Stop",
+    "basePrice": 12857,
+    "totalFare": 13357,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 20,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 12857,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 32142.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Vistara",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-570",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/UK.png",
+    "from": "Delhi",
+    "to": "Hyderabad",
+    "departureCity": "Delhi",
+    "arrivalCity": "Hyderabad",
+    "date": "2026-04-09",
+    "departureTime": "03:00",
+    "arrivalTime": "15:00",
+    "duration": "3h 30m",
+    "stops": "1 Stop",
+    "basePrice": 5570,
+    "totalFare": 6070,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 46,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 5570,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 13925,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "SpiceJet",
+    "airlineName": "SpiceJet",
+    "flightNumber": "SG-812",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/SG.png",
+    "from": "Hyderabad",
+    "to": "Delhi",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Delhi",
+    "date": "2026-04-16",
+    "departureTime": "12:30",
+    "arrivalTime": "20:00",
+    "duration": "9h 15m",
+    "stops": "Non Stop",
+    "basePrice": 6739,
+    "totalFare": 7239,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 129,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 6739,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 16847.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-775",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Pune",
+    "to": "Kolkata",
+    "departureCity": "Pune",
+    "arrivalCity": "Kolkata",
+    "date": "2026-04-09",
+    "departureTime": "02:15",
+    "arrivalTime": "09:00",
+    "duration": "3h 30m",
+    "stops": "1 Stop",
+    "basePrice": 5157,
+    "totalFare": 5657,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 173,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 5157,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 12892.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-699",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Goa",
+    "to": "Kolkata",
+    "departureCity": "Goa",
+    "arrivalCity": "Kolkata",
+    "date": "2026-04-08",
+    "departureTime": "11:00",
+    "arrivalTime": "11:15",
+    "duration": "1h 0m",
+    "stops": "1 Stop",
+    "basePrice": 4549,
+    "totalFare": 5049,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 156,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 4549,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 11372.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-858",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Hyderabad",
+    "to": "Mumbai",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Mumbai",
+    "date": "2026-04-06",
+    "departureTime": "16:15",
+    "arrivalTime": "04:30",
+    "duration": "12h 30m",
+    "stops": "Non Stop",
+    "basePrice": 7670,
+    "totalFare": 8170,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 40,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 7670,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 19175,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-745",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Chennai",
+    "to": "Goa",
+    "departureCity": "Chennai",
+    "arrivalCity": "Goa",
+    "date": "2026-04-08",
+    "departureTime": "11:45",
+    "arrivalTime": "17:45",
+    "duration": "7h 30m",
+    "stops": "Non Stop",
+    "basePrice": 5615,
+    "totalFare": 6115,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 41,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 5615,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 14037.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "SpiceJet",
+    "airlineName": "SpiceJet",
+    "flightNumber": "SG-631",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/SG.png",
+    "from": "Hyderabad",
+    "to": "Goa",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Goa",
+    "date": "2026-04-05",
+    "departureTime": "05:15",
+    "arrivalTime": "11:45",
+    "duration": "3h 15m",
+    "stops": "1 Stop",
+    "basePrice": 9163,
+    "totalFare": 9663,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 156,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 9163,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 22907.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Vistara",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-264",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/UK.png",
+    "from": "Hyderabad",
+    "to": "Chennai",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Chennai",
+    "date": "2026-04-18",
+    "departureTime": "16:30",
+    "arrivalTime": "04:00",
+    "duration": "2h 0m",
+    "stops": "Non Stop",
+    "basePrice": 9486,
+    "totalFare": 9986,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 98,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 9486,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 23715,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Vistara",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-330",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/UK.png",
+    "from": "Pune",
+    "to": "Delhi",
+    "departureCity": "Pune",
+    "arrivalCity": "Delhi",
+    "date": "2026-04-15",
+    "departureTime": "07:30",
+    "arrivalTime": "04:00",
+    "duration": "3h 45m",
+    "stops": "1 Stop",
+    "basePrice": 10635,
+    "totalFare": 11135,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 21,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 10635,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 26587.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-217",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Bengaluru",
+    "to": "Goa",
+    "departureCity": "Bengaluru",
+    "arrivalCity": "Goa",
+    "date": "2026-04-11",
+    "departureTime": "19:00",
+    "arrivalTime": "12:30",
+    "duration": "6h 15m",
+    "stops": "Non Stop",
+    "basePrice": 9576,
+    "totalFare": 10076,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 20,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 9576,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 23940,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-233",
+    "flightType": "Domestic",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Kolkata",
+    "to": "Delhi",
+    "departureCity": "Kolkata",
+    "arrivalCity": "Delhi",
+    "date": "2026-04-15",
+    "departureTime": "12:45",
+    "arrivalTime": "00:00",
+    "duration": "4h 0m",
+    "stops": "Non Stop",
+    "basePrice": 4427,
+    "totalFare": 4927,
+    "currency": "INR",
+    "passportRequired": false,
+    "visaRequired": false,
+    "availableSeats": 134,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 4427,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 11067.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-636",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Chennai",
+    "to": "Singapore",
+    "departureCity": "Chennai",
+    "arrivalCity": "Singapore",
+    "date": "2026-04-07",
+    "departureTime": "14:45",
+    "arrivalTime": "12:15",
+    "duration": "3h 15m",
+    "stops": "1 Stop",
+    "basePrice": 39010,
+    "totalFare": 39510,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 143,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 39010,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 97525,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Vistara",
+    "airlineName": "Vistara",
+    "flightNumber": "UK-850",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/UK.png",
+    "from": "Mumbai",
+    "to": "Paris",
+    "departureCity": "Mumbai",
+    "arrivalCity": "Paris",
+    "date": "2026-04-10",
+    "departureTime": "12:00",
+    "arrivalTime": "07:15",
+    "duration": "11h 45m",
+    "stops": "Non Stop",
+    "basePrice": 37059,
+    "totalFare": 37559,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 162,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 37059,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 92647.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-884",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Chennai",
+    "to": "Bangkok",
+    "departureCity": "Chennai",
+    "arrivalCity": "Bangkok",
+    "date": "2026-04-13",
+    "departureTime": "21:45",
+    "arrivalTime": "16:15",
+    "duration": "8h 45m",
+    "stops": "Non Stop",
+    "basePrice": 22281,
+    "totalFare": 22781,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": false,
+    "availableSeats": 46,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 22281,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 55702.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-336",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Goa",
+    "to": "Male",
+    "departureCity": "Goa",
+    "arrivalCity": "Male",
+    "date": "2026-04-18",
+    "departureTime": "03:30",
+    "arrivalTime": "22:00",
+    "duration": "2h 15m",
+    "stops": "1 Stop",
+    "basePrice": 34302,
+    "totalFare": 34802,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": false,
+    "availableSeats": 157,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 34302,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 85755,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-865",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Hyderabad",
+    "to": "Dubai",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Dubai",
+    "date": "2026-04-09",
+    "departureTime": "06:30",
+    "arrivalTime": "07:30",
+    "duration": "3h 45m",
+    "stops": "1 Stop",
+    "basePrice": 20626,
+    "totalFare": 21126,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 77,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 20626,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 51565,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-612",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Pune",
+    "to": "Tokyo",
+    "departureCity": "Pune",
+    "arrivalCity": "Tokyo",
+    "date": "2026-04-11",
+    "departureTime": "06:45",
+    "arrivalTime": "12:45",
+    "duration": "5h 45m",
+    "stops": "1 Stop",
+    "basePrice": 46826,
+    "totalFare": 47326,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 87,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 46826,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 117065,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-972",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Hyderabad",
+    "to": "Singapore",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Singapore",
+    "date": "2026-04-14",
+    "departureTime": "03:45",
+    "arrivalTime": "11:15",
+    "duration": "10h 45m",
+    "stops": "1 Stop",
+    "basePrice": 24745,
+    "totalFare": 25245,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 157,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 24745,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 61862.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-222",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Pune",
+    "to": "Tokyo",
+    "departureCity": "Pune",
+    "arrivalCity": "Tokyo",
+    "date": "2026-04-10",
+    "departureTime": "17:30",
+    "arrivalTime": "11:30",
+    "duration": "4h 15m",
+    "stops": "Non Stop",
+    "basePrice": 54016,
+    "totalFare": 54516,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 18,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 54016,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 135040,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-734",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Goa",
+    "to": "Bangkok",
+    "departureCity": "Goa",
+    "arrivalCity": "Bangkok",
+    "date": "2026-04-11",
+    "departureTime": "17:00",
+    "arrivalTime": "03:30",
+    "duration": "5h 15m",
+    "stops": "Non Stop",
+    "basePrice": 25878,
+    "totalFare": 26378,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 103,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 25878,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 64695,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-733",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Goa",
+    "to": "Bangkok",
+    "departureCity": "Goa",
+    "arrivalCity": "Bangkok",
+    "date": "2026-04-17",
+    "departureTime": "01:00",
+    "arrivalTime": "01:15",
+    "duration": "14h 15m",
+    "stops": "Non Stop",
+    "basePrice": 19698,
+    "totalFare": 20198,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": false,
+    "availableSeats": 176,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 19698,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 49245,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-470",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Mumbai",
+    "to": "Bangkok",
+    "departureCity": "Mumbai",
+    "arrivalCity": "Bangkok",
+    "date": "2026-04-09",
+    "departureTime": "01:00",
+    "arrivalTime": "14:45",
+    "duration": "4h 30m",
+    "stops": "1 Stop",
+    "basePrice": 24111,
+    "totalFare": 24611,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": false,
+    "availableSeats": 137,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 24111,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 60277.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-231",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Goa",
+    "to": "New York",
+    "departureCity": "Goa",
+    "arrivalCity": "New York",
+    "date": "2026-04-04",
+    "departureTime": "18:45",
+    "arrivalTime": "00:15",
+    "duration": "4h 30m",
+    "stops": "Non Stop",
+    "basePrice": 48062,
+    "totalFare": 48562,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 103,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 48062,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 120155,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-186",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Chennai",
+    "to": "New York",
+    "departureCity": "Chennai",
+    "arrivalCity": "New York",
+    "date": "2026-04-09",
+    "departureTime": "01:30",
+    "arrivalTime": "15:15",
+    "duration": "9h 0m",
+    "stops": "Non Stop",
+    "basePrice": 16158,
+    "totalFare": 16658,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": false,
+    "availableSeats": 159,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 16158,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 40395,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "SpiceJet",
+    "airlineName": "SpiceJet",
+    "flightNumber": "SG-259",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/SG.png",
+    "from": "Bengaluru",
+    "to": "New York",
+    "departureCity": "Bengaluru",
+    "arrivalCity": "New York",
+    "date": "2026-04-05",
+    "departureTime": "07:15",
+    "arrivalTime": "10:30",
+    "duration": "7h 30m",
+    "stops": "Non Stop",
+    "basePrice": 23735,
+    "totalFare": 24235,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 102,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 23735,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 59337.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "SpiceJet",
+    "airlineName": "SpiceJet",
+    "flightNumber": "SG-564",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/SG.png",
+    "from": "Bengaluru",
+    "to": "London",
+    "departureCity": "Bengaluru",
+    "arrivalCity": "London",
+    "date": "2026-04-09",
+    "departureTime": "09:00",
+    "arrivalTime": "15:15",
+    "duration": "9h 45m",
+    "stops": "1 Stop",
+    "basePrice": 36500,
+    "totalFare": 37000,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 172,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 36500,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 91250,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-582",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Kolkata",
+    "to": "Tokyo",
+    "departureCity": "Kolkata",
+    "arrivalCity": "Tokyo",
+    "date": "2026-04-16",
+    "departureTime": "00:15",
+    "arrivalTime": "05:30",
+    "duration": "13h 0m",
+    "stops": "1 Stop",
+    "basePrice": 41779,
+    "totalFare": 42279,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": false,
+    "availableSeats": 66,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 41779,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 104447.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Air India",
+    "airlineName": "Air India",
+    "flightNumber": "AI-950",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/AI.png",
+    "from": "Goa",
+    "to": "Tokyo",
+    "departureCity": "Goa",
+    "arrivalCity": "Tokyo",
+    "date": "2026-04-07",
+    "departureTime": "23:45",
+    "arrivalTime": "18:30",
+    "duration": "13h 0m",
+    "stops": "Non Stop",
+    "basePrice": 31589,
+    "totalFare": 32089,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 15,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 31589,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 78972.5,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "IndiGo",
+    "airlineName": "IndiGo",
+    "flightNumber": "6E-957",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/6E.png",
+    "from": "Kolkata",
+    "to": "Paris",
+    "departureCity": "Kolkata",
+    "arrivalCity": "Paris",
+    "date": "2026-04-07",
+    "departureTime": "18:15",
+    "arrivalTime": "05:30",
+    "duration": "2h 45m",
+    "stops": "1 Stop",
+    "basePrice": 37940,
+    "totalFare": 38440,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": false,
+    "availableSeats": 114,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 37940,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 94850,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "SpiceJet",
+    "airlineName": "SpiceJet",
+    "flightNumber": "SG-463",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/SG.png",
+    "from": "Delhi",
+    "to": "London",
+    "departureCity": "Delhi",
+    "arrivalCity": "London",
+    "date": "2026-04-07",
+    "departureTime": "03:15",
+    "arrivalTime": "14:45",
+    "duration": "5h 45m",
+    "stops": "Non Stop",
+    "basePrice": 33400,
+    "totalFare": 33900,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": false,
+    "availableSeats": 51,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 33400,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 83500,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  },
+  {
+    "airline": "Emirates",
+    "airlineName": "Emirates",
+    "flightNumber": "EK-910",
+    "flightType": "International",
+    "logo": "https://images.ixigo.com/img/common-resources/airline-new/EK.png",
+    "from": "Hyderabad",
+    "to": "Paris",
+    "departureCity": "Hyderabad",
+    "arrivalCity": "Paris",
+    "date": "2026-04-10",
+    "departureTime": "22:00",
+    "arrivalTime": "06:00",
+    "duration": "4h 30m",
+    "stops": "1 Stop",
+    "basePrice": 25110,
+    "totalFare": 25610,
+    "currency": "INR",
+    "passportRequired": true,
+    "visaRequired": true,
+    "availableSeats": 141,
+    "fares": [
+      {
+        "type": "Economy",
+        "price": 25110,
+        "benefits": [
+          "Cabin Baggage",
+          "Check-in Baggage 15kg"
+        ]
+      },
+      {
+        "type": "Business",
+        "price": 62775,
+        "benefits": [
+          "Priority Boarding",
+          "Lounge Access",
+          "Extra Legroom"
+        ]
+      }
+    ],
+    "occupiedSeats": []
+  }
+]

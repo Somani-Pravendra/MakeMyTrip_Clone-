@@ -1,0 +1,3152 @@
+[
+  {
+    "name": "Delhi Resort Plaza",
+    "category": "Resort",
+    "location": {
+      "city": "Delhi",
+      "address": "4 Main Street, Delhi",
+      "state": "Delhi",
+      "pincode": "100060"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Delhi.",
+    "rating": 3.5,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 13622,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 24519.600000000002,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 192,
+    "availableRooms": 6,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel10.com",
+      "website": "www.hotel73.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Kolkata Hotel Plaza",
+    "category": "Hotel",
+    "location": {
+      "city": "Kolkata",
+      "address": "26 Main Street, Kolkata",
+      "state": "Kolkata",
+      "pincode": "100040"
+    },
+    "description": "Experience luxury and comfort at our premier Hotel in the heart of Kolkata.",
+    "rating": 3.3,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 13461,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 24229.8,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 26,
+    "availableRooms": 9,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel47.com",
+      "website": "www.hotel85.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Dubai Boutique Hotel Inn",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Dubai",
+      "address": "8 Main Street, Dubai",
+      "state": "Dubai",
+      "pincode": "100067"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Dubai.",
+    "rating": 4.4,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 13254,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 23857.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 127,
+    "availableRooms": 22,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel46.com",
+      "website": "www.hotel87.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "London Villa Residency",
+    "category": "Villa",
+    "location": {
+      "city": "London",
+      "address": "77 Main Street, London",
+      "state": "London",
+      "pincode": "100039"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of London.",
+    "rating": 4.6,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 3122,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 5619.6,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 193,
+    "availableRooms": 12,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel27.com",
+      "website": "www.hotel63.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Hyderabad Boutique Hotel Inn",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Hyderabad",
+      "address": "88 Main Street, Hyderabad",
+      "state": "Hyderabad",
+      "pincode": "100065"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Hyderabad.",
+    "rating": 3.6,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 6985,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 12573,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 34,
+    "availableRooms": 15,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel39.com",
+      "website": "www.hotel97.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Paris Villa Grand",
+    "category": "Villa",
+    "location": {
+      "city": "Paris",
+      "address": "15 Main Street, Paris",
+      "state": "Paris",
+      "pincode": "100078"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Paris.",
+    "rating": 4.5,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 10964,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 19735.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 30,
+    "availableRooms": 6,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel88.com",
+      "website": "www.hotel32.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Male Resort Grand",
+    "category": "Resort",
+    "location": {
+      "city": "Male",
+      "address": "84 Main Street, Male",
+      "state": "Male",
+      "pincode": "100031"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Male.",
+    "rating": 5,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 7941,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 14293.800000000001,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 147,
+    "availableRooms": 25,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel20.com",
+      "website": "www.hotel56.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "New York Villa Grand",
+    "category": "Villa",
+    "location": {
+      "city": "New York",
+      "address": "79 Main Street, New York",
+      "state": "New York",
+      "pincode": "100070"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of New York.",
+    "rating": 3.8,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 11996,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 21592.8,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 102,
+    "availableRooms": 31,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel88.com",
+      "website": "www.hotel77.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Kolkata Villa Plaza",
+    "category": "Villa",
+    "location": {
+      "city": "Kolkata",
+      "address": "38 Main Street, Kolkata",
+      "state": "Kolkata",
+      "pincode": "100018"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Kolkata.",
+    "rating": 3.5,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 10395,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 18711,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 164,
+    "availableRooms": 121,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel12.com",
+      "website": "www.hotel86.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Hyderabad Boutique Hotel Plaza",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Hyderabad",
+      "address": "5 Main Street, Hyderabad",
+      "state": "Hyderabad",
+      "pincode": "100085"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Hyderabad.",
+    "rating": 3.8,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 9770,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 17586,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 188,
+    "availableRooms": 33,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel80.com",
+      "website": "www.hotel95.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Paris Resort Grand",
+    "category": "Resort",
+    "location": {
+      "city": "Paris",
+      "address": "57 Main Street, Paris",
+      "state": "Paris",
+      "pincode": "100025"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Paris.",
+    "rating": 4,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 6539,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 11770.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 151,
+    "availableRooms": 34,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel83.com",
+      "website": "www.hotel94.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Chennai Villa Residency",
+    "category": "Villa",
+    "location": {
+      "city": "Chennai",
+      "address": "81 Main Street, Chennai",
+      "state": "Chennai",
+      "pincode": "100060"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Chennai.",
+    "rating": 3.8,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 9087,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 16356.6,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 162,
+    "availableRooms": 53,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel15.com",
+      "website": "www.hotel39.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Delhi Villa Palace",
+    "category": "Villa",
+    "location": {
+      "city": "Delhi",
+      "address": "100 Main Street, Delhi",
+      "state": "Delhi",
+      "pincode": "100024"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Delhi.",
+    "rating": 3.9,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 9799,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 17638.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 136,
+    "availableRooms": 133,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel29.com",
+      "website": "www.hotel13.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Mumbai Villa Residency",
+    "category": "Villa",
+    "location": {
+      "city": "Mumbai",
+      "address": "65 Main Street, Mumbai",
+      "state": "Mumbai",
+      "pincode": "100056"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Mumbai.",
+    "rating": 4.4,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 7624,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 13723.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 25,
+    "availableRooms": 5,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel80.com",
+      "website": "www.hotel34.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Dubai Resort Inn",
+    "category": "Resort",
+    "location": {
+      "city": "Dubai",
+      "address": "10 Main Street, Dubai",
+      "state": "Dubai",
+      "pincode": "100077"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Dubai.",
+    "rating": 3.3,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 8708,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 15674.4,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 102,
+    "availableRooms": 68,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel31.com",
+      "website": "www.hotel99.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "London Hotel Plaza",
+    "category": "Hotel",
+    "location": {
+      "city": "London",
+      "address": "46 Main Street, London",
+      "state": "London",
+      "pincode": "100094"
+    },
+    "description": "Experience luxury and comfort at our premier Hotel in the heart of London.",
+    "rating": 4.7,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 4246,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 7642.8,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 134,
+    "availableRooms": 85,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel26.com",
+      "website": "www.hotel40.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Mumbai Resort Grand",
+    "category": "Resort",
+    "location": {
+      "city": "Mumbai",
+      "address": "68 Main Street, Mumbai",
+      "state": "Mumbai",
+      "pincode": "100028"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Mumbai.",
+    "rating": 3.9,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 4050,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 7290,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 46,
+    "availableRooms": 30,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel97.com",
+      "website": "www.hotel25.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Male Resort Inn",
+    "category": "Resort",
+    "location": {
+      "city": "Male",
+      "address": "91 Main Street, Male",
+      "state": "Male",
+      "pincode": "100041"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Male.",
+    "rating": 3.9,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 12758,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 22964.4,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 78,
+    "availableRooms": 6,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel10.com",
+      "website": "www.hotel30.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Pune Resort Palace",
+    "category": "Resort",
+    "location": {
+      "city": "Pune",
+      "address": "75 Main Street, Pune",
+      "state": "Pune",
+      "pincode": "100055"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Pune.",
+    "rating": 4.5,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 12221,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 21997.8,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 65,
+    "availableRooms": 24,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel20.com",
+      "website": "www.hotel92.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Delhi Boutique Hotel Inn",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Delhi",
+      "address": "3 Main Street, Delhi",
+      "state": "Delhi",
+      "pincode": "100048"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Delhi.",
+    "rating": 4.2,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 5163,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 9293.4,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 76,
+    "availableRooms": 69,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel91.com",
+      "website": "www.hotel13.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Pune Boutique Hotel Palace",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Pune",
+      "address": "4 Main Street, Pune",
+      "state": "Pune",
+      "pincode": "100053"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Pune.",
+    "rating": 4.7,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 14015,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 25227,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 192,
+    "availableRooms": 187,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel66.com",
+      "website": "www.hotel52.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Paris Boutique Hotel Grand",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Paris",
+      "address": "93 Main Street, Paris",
+      "state": "Paris",
+      "pincode": "100015"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Paris.",
+    "rating": 4.7,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 4013,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 7223.400000000001,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 189,
+    "availableRooms": 95,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel85.com",
+      "website": "www.hotel94.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "New York Villa Residency",
+    "category": "Villa",
+    "location": {
+      "city": "New York",
+      "address": "79 Main Street, New York",
+      "state": "New York",
+      "pincode": "100039"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of New York.",
+    "rating": 3.5,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 11824,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 21283.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 49,
+    "availableRooms": 35,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel91.com",
+      "website": "www.hotel27.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "New York Hotel Inn",
+    "category": "Hotel",
+    "location": {
+      "city": "New York",
+      "address": "98 Main Street, New York",
+      "state": "New York",
+      "pincode": "100032"
+    },
+    "description": "Experience luxury and comfort at our premier Hotel in the heart of New York.",
+    "rating": 4.2,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 3054,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 5497.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 118,
+    "availableRooms": 97,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel76.com",
+      "website": "www.hotel42.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Kolkata Villa Palace",
+    "category": "Villa",
+    "location": {
+      "city": "Kolkata",
+      "address": "39 Main Street, Kolkata",
+      "state": "Kolkata",
+      "pincode": "100064"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Kolkata.",
+    "rating": 3.6,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 7756,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 13960.800000000001,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 104,
+    "availableRooms": 15,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel90.com",
+      "website": "www.hotel77.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "New York Resort Residency",
+    "category": "Resort",
+    "location": {
+      "city": "New York",
+      "address": "26 Main Street, New York",
+      "state": "New York",
+      "pincode": "100015"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of New York.",
+    "rating": 4.2,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 5323,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 9581.4,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 46,
+    "availableRooms": 5,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel91.com",
+      "website": "www.hotel20.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Kolkata Boutique Hotel Grand",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Kolkata",
+      "address": "87 Main Street, Kolkata",
+      "state": "Kolkata",
+      "pincode": "100021"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Kolkata.",
+    "rating": 3.8,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 3757,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 6762.6,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 29,
+    "availableRooms": 11,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel81.com",
+      "website": "www.hotel39.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Delhi Boutique Hotel Residency",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Delhi",
+      "address": "21 Main Street, Delhi",
+      "state": "Delhi",
+      "pincode": "100027"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Delhi.",
+    "rating": 4.4,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 11511,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 20719.8,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 43,
+    "availableRooms": 40,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel53.com",
+      "website": "www.hotel79.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Tokyo Boutique Hotel Residency",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Tokyo",
+      "address": "36 Main Street, Tokyo",
+      "state": "Tokyo",
+      "pincode": "100030"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Tokyo.",
+    "rating": 4.3,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 11635,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 20943,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 64,
+    "availableRooms": 8,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel52.com",
+      "website": "www.hotel66.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Goa Hotel Grand",
+    "category": "Hotel",
+    "location": {
+      "city": "Goa",
+      "address": "68 Main Street, Goa",
+      "state": "Goa",
+      "pincode": "100016"
+    },
+    "description": "Experience luxury and comfort at our premier Hotel in the heart of Goa.",
+    "rating": 3.5,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 10285,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 18513,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 151,
+    "availableRooms": 88,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel67.com",
+      "website": "www.hotel80.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Kolkata Hotel Plaza",
+    "category": "Hotel",
+    "location": {
+      "city": "Kolkata",
+      "address": "16 Main Street, Kolkata",
+      "state": "Kolkata",
+      "pincode": "100090"
+    },
+    "description": "Experience luxury and comfort at our premier Hotel in the heart of Kolkata.",
+    "rating": 3.8,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 11705,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 21069,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 186,
+    "availableRooms": 26,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel76.com",
+      "website": "www.hotel71.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Singapore Villa Grand",
+    "category": "Villa",
+    "location": {
+      "city": "Singapore",
+      "address": "34 Main Street, Singapore",
+      "state": "Singapore",
+      "pincode": "100051"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Singapore.",
+    "rating": 3.4,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 12772,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 22989.600000000002,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 64,
+    "availableRooms": 49,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel99.com",
+      "website": "www.hotel95.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Paris Boutique Hotel Grand",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Paris",
+      "address": "90 Main Street, Paris",
+      "state": "Paris",
+      "pincode": "100093"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Paris.",
+    "rating": 3.7,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 5305,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 9549,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 153,
+    "availableRooms": 115,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel57.com",
+      "website": "www.hotel52.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "London Resort Palace",
+    "category": "Resort",
+    "location": {
+      "city": "London",
+      "address": "20 Main Street, London",
+      "state": "London",
+      "pincode": "100052"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of London.",
+    "rating": 4.4,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 9074,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 16333.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 176,
+    "availableRooms": 118,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel32.com",
+      "website": "www.hotel45.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "London Resort Residency",
+    "category": "Resort",
+    "location": {
+      "city": "London",
+      "address": "40 Main Street, London",
+      "state": "London",
+      "pincode": "100043"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of London.",
+    "rating": 4.1,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 3941,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 7093.8,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 73,
+    "availableRooms": 61,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel68.com",
+      "website": "www.hotel98.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Bengaluru Resort Residency",
+    "category": "Resort",
+    "location": {
+      "city": "Bengaluru",
+      "address": "77 Main Street, Bengaluru",
+      "state": "Bengaluru",
+      "pincode": "100084"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Bengaluru.",
+    "rating": 3.4,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 8950,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 16110,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 82,
+    "availableRooms": 59,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel80.com",
+      "website": "www.hotel27.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Delhi Villa Plaza",
+    "category": "Villa",
+    "location": {
+      "city": "Delhi",
+      "address": "54 Main Street, Delhi",
+      "state": "Delhi",
+      "pincode": "100028"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Delhi.",
+    "rating": 4.2,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 6150,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 11070,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 152,
+    "availableRooms": 149,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel61.com",
+      "website": "www.hotel80.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Dubai Resort Palace",
+    "category": "Resort",
+    "location": {
+      "city": "Dubai",
+      "address": "24 Main Street, Dubai",
+      "state": "Dubai",
+      "pincode": "100096"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Dubai.",
+    "rating": 3.5,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 5832,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 10497.6,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 81,
+    "availableRooms": 51,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel89.com",
+      "website": "www.hotel36.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Singapore Villa Residency",
+    "category": "Villa",
+    "location": {
+      "city": "Singapore",
+      "address": "80 Main Street, Singapore",
+      "state": "Singapore",
+      "pincode": "100071"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Singapore.",
+    "rating": 3.5,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 12607,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 22692.600000000002,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 135,
+    "availableRooms": 10,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel67.com",
+      "website": "www.hotel86.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Kolkata Resort Palace",
+    "category": "Resort",
+    "location": {
+      "city": "Kolkata",
+      "address": "19 Main Street, Kolkata",
+      "state": "Kolkata",
+      "pincode": "100063"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Kolkata.",
+    "rating": 5,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 9868,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 17762.4,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 162,
+    "availableRooms": 42,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel15.com",
+      "website": "www.hotel50.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Singapore Villa Plaza",
+    "category": "Villa",
+    "location": {
+      "city": "Singapore",
+      "address": "57 Main Street, Singapore",
+      "state": "Singapore",
+      "pincode": "100086"
+    },
+    "description": "Experience luxury and comfort at our premier Villa in the heart of Singapore.",
+    "rating": 3.3,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 10974,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 19753.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 166,
+    "availableRooms": 138,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel18.com",
+      "website": "www.hotel84.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Tokyo Boutique Hotel Grand",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Tokyo",
+      "address": "94 Main Street, Tokyo",
+      "state": "Tokyo",
+      "pincode": "100033"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Tokyo.",
+    "rating": 4.8,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 6808,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 12254.4,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 48,
+    "availableRooms": 10,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel30.com",
+      "website": "www.hotel49.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "New York Resort Grand",
+    "category": "Resort",
+    "location": {
+      "city": "New York",
+      "address": "66 Main Street, New York",
+      "state": "New York",
+      "pincode": "100059"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of New York.",
+    "rating": 3.6,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 10911,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 19639.8,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 82,
+    "availableRooms": 37,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel95.com",
+      "website": "www.hotel35.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Singapore Boutique Hotel Residency",
+    "category": "Boutique Hotel",
+    "location": {
+      "city": "Singapore",
+      "address": "79 Main Street, Singapore",
+      "state": "Singapore",
+      "pincode": "100053"
+    },
+    "description": "Experience luxury and comfort at our premier Boutique Hotel in the heart of Singapore.",
+    "rating": 3.2,
+    "stars": 4,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 6385,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 11493,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 97,
+    "availableRooms": 69,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel93.com",
+      "website": "www.hotel84.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Singapore Hotel Grand",
+    "category": "Hotel",
+    "location": {
+      "city": "Singapore",
+      "address": "27 Main Street, Singapore",
+      "state": "Singapore",
+      "pincode": "100096"
+    },
+    "description": "Experience luxury and comfort at our premier Hotel in the heart of Singapore.",
+    "rating": 3.5,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 6687,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 12036.6,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 153,
+    "availableRooms": 118,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel54.com",
+      "website": "www.hotel23.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "New York Hotel Inn",
+    "category": "Hotel",
+    "location": {
+      "city": "New York",
+      "address": "5 Main Street, New York",
+      "state": "New York",
+      "pincode": "100056"
+    },
+    "description": "Experience luxury and comfort at our premier Hotel in the heart of New York.",
+    "rating": 3.1,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 14550,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 26190,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 187,
+    "availableRooms": 38,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel59.com",
+      "website": "www.hotel85.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Mumbai Hotel Palace",
+    "category": "Hotel",
+    "location": {
+      "city": "Mumbai",
+      "address": "17 Main Street, Mumbai",
+      "state": "Mumbai",
+      "pincode": "100026"
+    },
+    "description": "Experience luxury and comfort at our premier Hotel in the heart of Mumbai.",
+    "rating": 4.4,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 12497,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 22494.600000000002,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 143,
+    "availableRooms": 10,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Limited",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel53.com",
+      "website": "www.hotel74.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Paris Resort Inn",
+    "category": "Resort",
+    "location": {
+      "city": "Paris",
+      "address": "98 Main Street, Paris",
+      "state": "Paris",
+      "pincode": "100034"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Paris.",
+    "rating": 5,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 9142,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 16455.600000000002,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 144,
+    "availableRooms": 117,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel19.com",
+      "website": "www.hotel39.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Chennai Hotel Palace",
+    "category": "Hotel",
+    "location": {
+      "city": "Chennai",
+      "address": "29 Main Street, Chennai",
+      "state": "Chennai",
+      "pincode": "100021"
+    },
+    "description": "Experience luxury and comfort at our premier Hotel in the heart of Chennai.",
+    "rating": 3.3,
+    "stars": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 8849,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 15928.2,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 127,
+    "availableRooms": 86,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel64.com",
+      "website": "www.hotel31.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  },
+  {
+    "name": "Singapore Resort Grand",
+    "category": "Resort",
+    "location": {
+      "city": "Singapore",
+      "address": "55 Main Street, Singapore",
+      "state": "Singapore",
+      "pincode": "100080"
+    },
+    "description": "Experience luxury and comfort at our premier Resort in the heart of Singapore.",
+    "rating": 3.8,
+    "stars": 5,
+    "images": [
+      "https://images.unsplash.com/photo-1566073171526-8731307b22a0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542314831-c6a4d14d834e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+    ],
+    "roomTypes": [
+      {
+        "type": "Deluxe",
+        "pricePerNight": 9385,
+        "maxOccupancy": 2,
+        "amenities": [
+          "AC",
+          "TV",
+          "King Bed"
+        ]
+      },
+      {
+        "type": "Suite",
+        "pricePerNight": 16893,
+        "maxOccupancy": 4,
+        "amenities": [
+          "AC",
+          "TV",
+          "Mini Bar",
+          "Living Area"
+        ]
+      }
+    ],
+    "totalRooms": 37,
+    "availableRooms": 30,
+    "amenities": [
+      "Wi-Fi",
+      "AC",
+      "Restaurant",
+      "Swimming Pool"
+    ],
+    "checkInTime": "14:00",
+    "checkOutTime": "11:00",
+    "bookingStatus": "Available",
+    "contactInfo": {
+      "phone": "9876543210",
+      "email": "contact@hotel82.com",
+      "website": "www.hotel15.com"
+    },
+    "policies": {
+      "cancellationPolicy": "Free cancellation before 48 hours.",
+      "paymentPolicy": "Pay at hotel available.",
+      "checkInInstructions": "Govt ID required."
+    },
+    "isActive": true
+  }
+]

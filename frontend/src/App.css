@@ -1,0 +1,128 @@
+/* App.css - Final Refined Elite Navigation */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* 1. Definitive Elite Navbar (Redesigned for Dark Theme) */
+/* REMOVED - Unified Elite Navbar styles are now in theme.css for better maintenance and visibility */
+
+/* Auth Btns */
+.nav-right-guest {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(6, 90, 243, 0.4);
+}
+
+/* ══════════════════════════════════════════════════════
+   MODERN CARD DESIGN (GLOBAL)
+   ══════════════════════════════════════════════════════ */
+.premium-card {
+  background: var(--premium-card-bg);
+  backdrop-filter: var(--premium-card-blur);
+  -webkit-backdrop-filter: var(--premium-card-blur);
+  border: var(--premium-card-border);
+  border-radius: var(--premium-card-radius);
+  box-shadow: var(--premium-card-shadow);
+  color: var(--text-main);
+  transition: var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
+}
+
+.premium-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gradient-primary);
+  opacity: 0;
+  transition: var(--transition-smooth);
+}
+
+.premium-card:hover {
+  background: rgba(30, 41, 59, 0.9);
+  border-color: var(--border-accent);
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl), var(--shadow-glow);
+}
+
+.premium-card:hover::before {
+  opacity: 1;
+}
+
+/* Footer Section - Modern */
+.mmt-footer {
+  background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-darker) 100%);
+  color: var(--text-main);
+  padding: 60px 0 30px 0;
+  border-top: 1px solid var(--border-glass);
+  position: relative;
+}
+
+.mmt-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--gradient-primary);
+  opacity: 0.3;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  color: var(--primary-blue-light);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  color: var(--text-secondary);
+  font-size: 14px;
+  transition: var(--transition-smooth);
+  display: inline-block;
+}
+
+.footer-col ul li a:hover {
+  color: var(--primary-blue-light);
+  transform: translateX(4px);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid var(--border-glass);
+  margin-top: 40px;
+}
+
+.footer-bottom p {
+  color: var(--text-dim);
+  font-size: 14px;
+  margin: 0;
+}

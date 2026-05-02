@@ -1,0 +1,4615 @@
+[
+  {
+    "packageId": "PKG-A4CAA5F6",
+    "packageTitle": "Magical Pune Getaway",
+    "destination": "Pune",
+    "country": "India",
+    "city": "Pune",
+    "duration": "5N/6D",
+    "category": "Adventure",
+    "pricePerPerson": 28182,
+    "originalPrice": 33818,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Pune",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 20,
+    "rating": 4.1,
+    "totalReviews": 62,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-D9680B92",
+    "packageTitle": "Magical Goa Getaway",
+    "destination": "Goa",
+    "country": "India",
+    "city": "Goa",
+    "duration": "2N/3D",
+    "category": "Honeymoon",
+    "pricePerPerson": 19614,
+    "originalPrice": 23536,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Bengaluru",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 13,
+    "rating": 4.2,
+    "totalReviews": 25,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-30FF32F9",
+    "packageTitle": "Magical Kolkata Getaway",
+    "destination": "Kolkata",
+    "country": "India",
+    "city": "Kolkata",
+    "duration": "5N/6D",
+    "category": "Family",
+    "pricePerPerson": 32363,
+    "originalPrice": 38835,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Kolkata",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 12,
+    "rating": 4.3,
+    "totalReviews": 95,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-F096B19A",
+    "packageTitle": "Magical Chennai Getaway",
+    "destination": "Chennai",
+    "country": "India",
+    "city": "Chennai",
+    "duration": "4N/5D",
+    "category": "Family",
+    "pricePerPerson": 24056,
+    "originalPrice": 28867,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Kolkata",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 13,
+    "rating": 4.6,
+    "totalReviews": 36,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-46CD5AC8",
+    "packageTitle": "Magical Delhi Getaway",
+    "destination": "Delhi",
+    "country": "India",
+    "city": "Delhi",
+    "duration": "4N/5D",
+    "category": "Honeymoon",
+    "pricePerPerson": 24287,
+    "originalPrice": 29144,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Kolkata",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 20,
+    "rating": 4.5,
+    "totalReviews": 77,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-770B15A9",
+    "packageTitle": "Magical Goa Getaway",
+    "destination": "Goa",
+    "country": "India",
+    "city": "Goa",
+    "duration": "2N/3D",
+    "category": "Family",
+    "pricePerPerson": 27809,
+    "originalPrice": 33370,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Delhi",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 12,
+    "rating": 5,
+    "totalReviews": 79,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-87DD996C",
+    "packageTitle": "Magical Hyderabad Getaway",
+    "destination": "Hyderabad",
+    "country": "India",
+    "city": "Hyderabad",
+    "duration": "5N/6D",
+    "category": "Family",
+    "pricePerPerson": 31194,
+    "originalPrice": 37432,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Goa",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 17,
+    "rating": 4.5,
+    "totalReviews": 100,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-6CDAD274",
+    "packageTitle": "Magical Pune Getaway",
+    "destination": "Pune",
+    "country": "India",
+    "city": "Pune",
+    "duration": "5N/6D",
+    "category": "Family",
+    "pricePerPerson": 21310,
+    "originalPrice": 25572,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Pune",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 11,
+    "rating": 4.9,
+    "totalReviews": 37,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-6FCFE462",
+    "packageTitle": "Magical Goa Getaway",
+    "destination": "Goa",
+    "country": "India",
+    "city": "Goa",
+    "duration": "5N/6D",
+    "category": "Honeymoon",
+    "pricePerPerson": 23189,
+    "originalPrice": 27826,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Goa",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 16,
+    "rating": 4.2,
+    "totalReviews": 47,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-191F306C",
+    "packageTitle": "Magical Hyderabad Getaway",
+    "destination": "Hyderabad",
+    "country": "India",
+    "city": "Hyderabad",
+    "duration": "3N/4D",
+    "category": "Adventure",
+    "pricePerPerson": 19412,
+    "originalPrice": 23294,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Delhi",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 10,
+    "rating": 4.2,
+    "totalReviews": 51,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-DEE2F2A7",
+    "packageTitle": "Magical Kolkata Getaway",
+    "destination": "Kolkata",
+    "country": "India",
+    "city": "Kolkata",
+    "duration": "3N/4D",
+    "category": "Holiday",
+    "pricePerPerson": 33497,
+    "originalPrice": 40196,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Mumbai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Kolkata",
+        "description": "Enjoy a wonderful day exploring Kolkata.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 13,
+    "rating": 4.9,
+    "totalReviews": 81,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-ED5F9DB4",
+    "packageTitle": "Magical Mumbai Getaway",
+    "destination": "Mumbai",
+    "country": "India",
+    "city": "Mumbai",
+    "duration": "4N/5D",
+    "category": "Honeymoon",
+    "pricePerPerson": 21470,
+    "originalPrice": 25764,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Mumbai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 20,
+    "rating": 4.2,
+    "totalReviews": 44,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-83BC7DF5",
+    "packageTitle": "Magical Hyderabad Getaway",
+    "destination": "Hyderabad",
+    "country": "India",
+    "city": "Hyderabad",
+    "duration": "6N/7D",
+    "category": "Holiday",
+    "pricePerPerson": 33935,
+    "originalPrice": 40722,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Bengaluru",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 13,
+    "rating": 4.7,
+    "totalReviews": 64,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-41699E22",
+    "packageTitle": "Magical Bengaluru Getaway",
+    "destination": "Bengaluru",
+    "country": "India",
+    "city": "Bengaluru",
+    "duration": "4N/5D",
+    "category": "Honeymoon",
+    "pricePerPerson": 31290,
+    "originalPrice": 37548,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Goa",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Bengaluru",
+        "description": "Enjoy a wonderful day exploring Bengaluru.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Bengaluru",
+        "description": "Enjoy a wonderful day exploring Bengaluru.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Bengaluru",
+        "description": "Enjoy a wonderful day exploring Bengaluru.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Bengaluru",
+        "description": "Enjoy a wonderful day exploring Bengaluru.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Bengaluru",
+        "description": "Enjoy a wonderful day exploring Bengaluru.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 19,
+    "rating": 4.8,
+    "totalReviews": 16,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-6E87EC40",
+    "packageTitle": "Magical Chennai Getaway",
+    "destination": "Chennai",
+    "country": "India",
+    "city": "Chennai",
+    "duration": "6N/7D",
+    "category": "Holiday",
+    "pricePerPerson": 27131,
+    "originalPrice": 32557,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Pune",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 5,
+    "rating": 4.2,
+    "totalReviews": 47,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-8865FCE9",
+    "packageTitle": "Magical Goa Getaway",
+    "destination": "Goa",
+    "country": "India",
+    "city": "Goa",
+    "duration": "3N/4D",
+    "category": "Adventure",
+    "pricePerPerson": 31612,
+    "originalPrice": 37934,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Delhi",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 13,
+    "rating": 4.8,
+    "totalReviews": 19,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-77C92482",
+    "packageTitle": "Magical Chennai Getaway",
+    "destination": "Chennai",
+    "country": "India",
+    "city": "Chennai",
+    "duration": "6N/7D",
+    "category": "Adventure",
+    "pricePerPerson": 20355,
+    "originalPrice": 24426,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Bengaluru",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at Chennai",
+        "description": "Enjoy a wonderful day exploring Chennai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 8,
+    "rating": 4.2,
+    "totalReviews": 34,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-6780892E",
+    "packageTitle": "Magical Pune Getaway",
+    "destination": "Pune",
+    "country": "India",
+    "city": "Pune",
+    "duration": "2N/3D",
+    "category": "Family",
+    "pricePerPerson": 31801,
+    "originalPrice": 38161,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Goa",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 8,
+    "rating": 4.1,
+    "totalReviews": 90,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-C0F5276B",
+    "packageTitle": "Magical Goa Getaway",
+    "destination": "Goa",
+    "country": "India",
+    "city": "Goa",
+    "duration": "5N/6D",
+    "category": "Honeymoon",
+    "pricePerPerson": 33481,
+    "originalPrice": 40177,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Goa",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 19,
+    "rating": 4.1,
+    "totalReviews": 21,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-A6979519",
+    "packageTitle": "Magical Hyderabad Getaway",
+    "destination": "Hyderabad",
+    "country": "India",
+    "city": "Hyderabad",
+    "duration": "3N/4D",
+    "category": "Adventure",
+    "pricePerPerson": 27277,
+    "originalPrice": 32732,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Pune",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Hyderabad",
+        "description": "Enjoy a wonderful day exploring Hyderabad.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 20,
+    "rating": 4.6,
+    "totalReviews": 88,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-68848F78",
+    "packageTitle": "Magical Bengaluru Getaway",
+    "destination": "Bengaluru",
+    "country": "India",
+    "city": "Bengaluru",
+    "duration": "3N/4D",
+    "category": "Adventure",
+    "pricePerPerson": 15115,
+    "originalPrice": 18138,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Kolkata",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Bengaluru",
+        "description": "Enjoy a wonderful day exploring Bengaluru.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Bengaluru",
+        "description": "Enjoy a wonderful day exploring Bengaluru.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Bengaluru",
+        "description": "Enjoy a wonderful day exploring Bengaluru.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Bengaluru",
+        "description": "Enjoy a wonderful day exploring Bengaluru.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 5,
+    "rating": 4.4,
+    "totalReviews": 41,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-F9415BD3",
+    "packageTitle": "Magical Pune Getaway",
+    "destination": "Pune",
+    "country": "India",
+    "city": "Pune",
+    "duration": "3N/4D",
+    "category": "Honeymoon",
+    "pricePerPerson": 33301,
+    "originalPrice": 39961,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Delhi",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Pune",
+        "description": "Enjoy a wonderful day exploring Pune.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 5,
+    "rating": 4.4,
+    "totalReviews": 95,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-96CA89B8",
+    "packageTitle": "Magical Delhi Getaway",
+    "destination": "Delhi",
+    "country": "India",
+    "city": "Delhi",
+    "duration": "6N/7D",
+    "category": "Honeymoon",
+    "pricePerPerson": 34277,
+    "originalPrice": 41132,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Hyderabad",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at Delhi",
+        "description": "Enjoy a wonderful day exploring Delhi.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 6,
+    "rating": 4.1,
+    "totalReviews": 44,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-5B8B7874",
+    "packageTitle": "Magical Goa Getaway",
+    "destination": "Goa",
+    "country": "India",
+    "city": "Goa",
+    "duration": "5N/6D",
+    "category": "Adventure",
+    "pricePerPerson": 18999,
+    "originalPrice": 22798,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Chennai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Goa",
+        "description": "Enjoy a wonderful day exploring Goa.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 18,
+    "rating": 4.9,
+    "totalReviews": 67,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-DBBD4755",
+    "packageTitle": "Magical Mumbai Getaway",
+    "destination": "Mumbai",
+    "country": "India",
+    "city": "Mumbai",
+    "duration": "4N/5D",
+    "category": "Adventure",
+    "pricePerPerson": 24133,
+    "originalPrice": 28959,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Hyderabad",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Mumbai",
+        "description": "Enjoy a wonderful day exploring Mumbai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 20,
+    "rating": 4.7,
+    "totalReviews": 13,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-8CF6FB44",
+    "packageTitle": "Magical Paris Getaway",
+    "destination": "Paris",
+    "country": "Paris",
+    "city": "Paris",
+    "duration": "4N/5D",
+    "category": "Family",
+    "pricePerPerson": 109290,
+    "originalPrice": 131148,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Kolkata",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 11,
+    "rating": 4.6,
+    "totalReviews": 98,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-4C83E6B2",
+    "packageTitle": "Magical Paris Getaway",
+    "destination": "Paris",
+    "country": "Paris",
+    "city": "Paris",
+    "duration": "6N/7D",
+    "category": "Family",
+    "pricePerPerson": 113166,
+    "originalPrice": 135799,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Mumbai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 6,
+    "rating": 4.4,
+    "totalReviews": 45,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-A0A73009",
+    "packageTitle": "Magical New York Getaway",
+    "destination": "New York",
+    "country": "New York",
+    "city": "New York",
+    "duration": "4N/5D",
+    "category": "Honeymoon",
+    "pricePerPerson": 51953,
+    "originalPrice": 62343,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Kolkata",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 13,
+    "rating": 4.2,
+    "totalReviews": 56,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-7D40458F",
+    "packageTitle": "Magical Dubai Getaway",
+    "destination": "Dubai",
+    "country": "Dubai",
+    "city": "Dubai",
+    "duration": "4N/5D",
+    "category": "Family",
+    "pricePerPerson": 42308,
+    "originalPrice": 50769,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Mumbai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 9,
+    "rating": 4.6,
+    "totalReviews": 85,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-4226C417",
+    "packageTitle": "Magical Singapore Getaway",
+    "destination": "Singapore",
+    "country": "Singapore",
+    "city": "Singapore",
+    "duration": "3N/4D",
+    "category": "Holiday",
+    "pricePerPerson": 59490,
+    "originalPrice": 71388,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Chennai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 15,
+    "rating": 4.2,
+    "totalReviews": 45,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-FFB92FDD",
+    "packageTitle": "Magical Singapore Getaway",
+    "destination": "Singapore",
+    "country": "Singapore",
+    "city": "Singapore",
+    "duration": "2N/3D",
+    "category": "Honeymoon",
+    "pricePerPerson": 116890,
+    "originalPrice": 140268,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Delhi",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 15,
+    "rating": 4.5,
+    "totalReviews": 95,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-ABE086B2",
+    "packageTitle": "Magical Paris Getaway",
+    "destination": "Paris",
+    "country": "Paris",
+    "city": "Paris",
+    "duration": "2N/3D",
+    "category": "Honeymoon",
+    "pricePerPerson": 108193,
+    "originalPrice": 129831,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Mumbai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 6,
+    "rating": 4.5,
+    "totalReviews": 21,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-96FFA4FD",
+    "packageTitle": "Magical New York Getaway",
+    "destination": "New York",
+    "country": "New York",
+    "city": "New York",
+    "duration": "2N/3D",
+    "category": "Holiday",
+    "pricePerPerson": 70091,
+    "originalPrice": 84109,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Chennai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 12,
+    "rating": 4.9,
+    "totalReviews": 18,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-67EE8D42",
+    "packageTitle": "Magical Singapore Getaway",
+    "destination": "Singapore",
+    "country": "Singapore",
+    "city": "Singapore",
+    "duration": "3N/4D",
+    "category": "Family",
+    "pricePerPerson": 108777,
+    "originalPrice": 130532,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Goa",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Singapore",
+        "description": "Enjoy a wonderful day exploring Singapore.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 5,
+    "rating": 4.2,
+    "totalReviews": 31,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-2613E797",
+    "packageTitle": "Magical London Getaway",
+    "destination": "London",
+    "country": "London",
+    "city": "London",
+    "duration": "5N/6D",
+    "category": "Honeymoon",
+    "pricePerPerson": 82992,
+    "originalPrice": 99590,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Pune",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 18,
+    "rating": 4.8,
+    "totalReviews": 35,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-8045CAE9",
+    "packageTitle": "Magical London Getaway",
+    "destination": "London",
+    "country": "London",
+    "city": "London",
+    "duration": "6N/7D",
+    "category": "Adventure",
+    "pricePerPerson": 69638,
+    "originalPrice": 83565,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Chennai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at London",
+        "description": "Enjoy a wonderful day exploring London.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 7,
+    "rating": 4.5,
+    "totalReviews": 87,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-1F4F98A1",
+    "packageTitle": "Magical Bangkok Getaway",
+    "destination": "Bangkok",
+    "country": "Bangkok",
+    "city": "Bangkok",
+    "duration": "6N/7D",
+    "category": "Holiday",
+    "pricePerPerson": 42693,
+    "originalPrice": 51231,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Mumbai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 7,
+    "rating": 4.3,
+    "totalReviews": 62,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-578002DF",
+    "packageTitle": "Magical Tokyo Getaway",
+    "destination": "Tokyo",
+    "country": "Tokyo",
+    "city": "Tokyo",
+    "duration": "5N/6D",
+    "category": "Adventure",
+    "pricePerPerson": 68568,
+    "originalPrice": 82281,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Bengaluru",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 20,
+    "rating": 4,
+    "totalReviews": 89,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-4C85E7CF",
+    "packageTitle": "Magical Male Getaway",
+    "destination": "Male",
+    "country": "Male",
+    "city": "Male",
+    "duration": "4N/5D",
+    "category": "Family",
+    "pricePerPerson": 110817,
+    "originalPrice": 132980,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Goa",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 16,
+    "rating": 4.1,
+    "totalReviews": 33,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-63E3098C",
+    "packageTitle": "Magical Tokyo Getaway",
+    "destination": "Tokyo",
+    "country": "Tokyo",
+    "city": "Tokyo",
+    "duration": "4N/5D",
+    "category": "Family",
+    "pricePerPerson": 90128,
+    "originalPrice": 108153,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Pune",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 18,
+    "rating": 4.8,
+    "totalReviews": 84,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-6ECD203A",
+    "packageTitle": "Magical Dubai Getaway",
+    "destination": "Dubai",
+    "country": "Dubai",
+    "city": "Dubai",
+    "duration": "6N/7D",
+    "category": "Honeymoon",
+    "pricePerPerson": 109467,
+    "originalPrice": 131360,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Pune",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at Dubai",
+        "description": "Enjoy a wonderful day exploring Dubai.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 8,
+    "rating": 4.8,
+    "totalReviews": 58,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-8338B386",
+    "packageTitle": "Magical Paris Getaway",
+    "destination": "Paris",
+    "country": "Paris",
+    "city": "Paris",
+    "duration": "2N/3D",
+    "category": "Family",
+    "pricePerPerson": 101424,
+    "originalPrice": 121708,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Goa",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 5,
+    "rating": 4.3,
+    "totalReviews": 84,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-89B28CD6",
+    "packageTitle": "Magical Paris Getaway",
+    "destination": "Paris",
+    "country": "Paris",
+    "city": "Paris",
+    "duration": "4N/5D",
+    "category": "Family",
+    "pricePerPerson": 51303,
+    "originalPrice": 61563,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Chennai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 15,
+    "rating": 4.6,
+    "totalReviews": 12,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-74DA651D",
+    "packageTitle": "Magical Bangkok Getaway",
+    "destination": "Bangkok",
+    "country": "Bangkok",
+    "city": "Bangkok",
+    "duration": "5N/6D",
+    "category": "Holiday",
+    "pricePerPerson": 60652,
+    "originalPrice": 72782,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Chennai",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Bangkok",
+        "description": "Enjoy a wonderful day exploring Bangkok.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 6,
+    "rating": 4.6,
+    "totalReviews": 23,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-70D2D869",
+    "packageTitle": "Magical New York Getaway",
+    "destination": "New York",
+    "country": "New York",
+    "city": "New York",
+    "duration": "3N/4D",
+    "category": "Holiday",
+    "pricePerPerson": 74027,
+    "originalPrice": 88832,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Delhi",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at New York",
+        "description": "Enjoy a wonderful day exploring New York.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 17,
+    "rating": 4.6,
+    "totalReviews": 10,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-C94615F6",
+    "packageTitle": "Magical Paris Getaway",
+    "destination": "Paris",
+    "country": "Paris",
+    "city": "Paris",
+    "duration": "6N/7D",
+    "category": "Holiday",
+    "pricePerPerson": 94402,
+    "originalPrice": 113282,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Delhi",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 5,
+    "rating": 4.5,
+    "totalReviews": 87,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-03DAFED8",
+    "packageTitle": "Magical Tokyo Getaway",
+    "destination": "Tokyo",
+    "country": "Tokyo",
+    "city": "Tokyo",
+    "duration": "2N/3D",
+    "category": "Adventure",
+    "pricePerPerson": 69595,
+    "originalPrice": 83514,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Delhi",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Tokyo",
+        "description": "Enjoy a wonderful day exploring Tokyo.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 6,
+    "rating": 4.2,
+    "totalReviews": 33,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-05CC4F73",
+    "packageTitle": "Magical Male Getaway",
+    "destination": "Male",
+    "country": "Male",
+    "city": "Male",
+    "duration": "5N/6D",
+    "category": "Holiday",
+    "pricePerPerson": 111653,
+    "originalPrice": 133983,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Bengaluru",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Male",
+        "description": "Enjoy a wonderful day exploring Male.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 16,
+    "rating": 4.1,
+    "totalReviews": 83,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-925B5499",
+    "packageTitle": "Magical Paris Getaway",
+    "destination": "Paris",
+    "country": "Paris",
+    "city": "Paris",
+    "duration": "6N/7D",
+    "category": "Family",
+    "pricePerPerson": 48530,
+    "originalPrice": 58236,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Bengaluru",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Day 7 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 15,
+    "rating": 4.9,
+    "totalReviews": 22,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  },
+  {
+    "packageId": "PKG-C4147C18",
+    "packageTitle": "Magical Paris Getaway",
+    "destination": "Paris",
+    "country": "Paris",
+    "city": "Paris",
+    "duration": "5N/6D",
+    "category": "Adventure",
+    "pricePerPerson": 46335,
+    "originalPrice": 55602,
+    "discount": 20,
+    "currency": "INR",
+    "startLocation": "Hyderabad",
+    "transportType": "Flight + Cab",
+    "hotelType": "4 Star",
+    "mealsIncluded": "Breakfast",
+    "highlights": [
+      "Sightseeing",
+      "Luxury Stay",
+      "Transfers Included"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Day 1 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Day 2 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Day 3 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Day 4 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Day 5 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Day 6 at Paris",
+        "description": "Enjoy a wonderful day exploring Paris.",
+        "activities": [
+          "City Tour",
+          "Local Dinner"
+        ]
+      }
+    ],
+    "included": [
+      "Accommodation",
+      "Breakfast",
+      "Airport Transfers"
+    ],
+    "excluded": [
+      "Lunch",
+      "Entry Fees"
+    ],
+    "thumbnailImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "availableFrom": "2026-04-04T00:00:00.000Z",
+    "availableTo": "2026-04-18T00:00:00.000Z",
+    "seatsAvailable": 19,
+    "rating": 4.8,
+    "totalReviews": 72,
+    "reviews": [],
+    "bookings": [],
+    "status": "Active"
+  }
+]

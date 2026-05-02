@@ -1,0 +1,2124 @@
+/* ═══════════════════════════════════════════════════════
+   Premium AdminPackages.css - Elite UI Enhancement
+   ═══════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary: #0077ff;
+    --secondary: #00d2ff;
+    --dark-bg: #030a15;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --accent-orange: #ff3e00;
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --gradient-primary: linear-gradient(135deg, #0077ff 0%, #00d2ff 100%);
+    --gradient-dark: linear-gradient(180deg, #030a15 0%, #05142b 100%);
+    --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.4);
+    --radius-lg: 30px;
+    --radius-md: 20px;
+    --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Global Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin-packages-container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 32px;
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: var(--text-primary);
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Animated Background */
+.admin-packages-container::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(99, 102, 241, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(168, 85, 247, 0.02) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(236, 72, 153, 0.02) 0%, transparent 50%);
+    z-index: -1;
+    animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    33% { transform: translateY(-20px) rotate(1deg); }
+    66% { transform: translateY(10px) rotate(-1deg); }
+}
+
+/* Header Section */
+.packages-header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding: 32px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.packages-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--primary-gradient);
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.packages-header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 12px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.packages-header p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Packages Controls */
+.packages-controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    padding: 16px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    flex: 1;
+    max-width: 400px;
+}
+
+.search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-primary);
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.search-box input::placeholder {
+    color: var(--text-muted);
+}
+
+.btn-add {
+    background: var(--success-gradient);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-add:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.filter-select {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    color: var(--text-primary);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.filter-select:hover {
+    border-color: rgba(99, 102, 241, 0.3);
+}
+
+/* Packages Grid */
+.admin-packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.package-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: var(--transition);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.package-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(168, 85, 247, 0.02));
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.package-card:hover::before {
+    opacity: 1;
+}
+
+.package-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(99, 102, 241, 0.3);
+}
+
+.package-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--glass-border);
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.05));
+}
+
+.package-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 8px 0;
+}
+
+.package-type {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: var(--radius-full);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.package-type.premium {
+    background: var(--warning-gradient);
+    color: white;
+}
+
+.package-type.standard {
+    background: var(--success-gradient);
+    color: white;
+}
+
+.package-type.basic {
+    background: var(--secondary-gradient);
+    color: white;
+}
+
+.package-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.package-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.package-detail-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.package-detail-value {
+    font-size: 14px;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.package-price {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin: 16px 0;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.package-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.feature-badge {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-sm);
+    padding: 4px 8px;
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.package-footer {
+    padding: 16px 20px;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(168, 85, 247, 0.02));
+    border-top: 1px solid var(--glass-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-top: auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), transparent);
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.btn:hover::before {
+    opacity: 1;
+}
+
+.btn-primary {
+    background: var(--primary-gradient);
+    color: white;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--glass-border);
+}
+
+.btn-secondary:hover {
+    background: var(--glass-bg);
+    border-color: rgba(99, 102, 241, 0.3);
+}
+
+.btn-danger {
+    background: var(--danger-gradient);
+    color: white;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-danger:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .admin-packages-container {
+        padding: 20px;
+    }
+    
+    .packages-header {
+        margin-bottom: 32px;
+        padding: 24px;
+    }
+    
+    .packages-header h1 {
+        font-size: 28px;
+    }
+    
+    .admin-packages-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .packages-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .package-card {
+        padding: 16px;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .admin-packages-container {
+        padding: 16px;
+    }
+    
+    .packages-header h1 {
+        font-size: 24px;
+    }
+    
+    .package-card {
+        padding: 12px;
+    }
+    
+    .btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+/* User Theme Admin Override */
+:root {
+  --admin-user-bg: #07111f;
+  --admin-user-bg-soft: #0c1828;
+  --admin-user-surface: rgba(12, 24, 40, 0.82);
+  --admin-user-surface-strong: rgba(15, 29, 48, 0.92);
+  --admin-user-border: rgba(148, 163, 184, 0.16);
+  --admin-user-border-strong: rgba(148, 163, 184, 0.26);
+  --admin-user-text: #f8fafc;
+  --admin-user-text-soft: rgba(226, 232, 240, 0.78);
+  --admin-user-text-muted: rgba(148, 163, 184, 0.8);
+  --admin-user-accent: #4f8cff;
+  --admin-user-accent-strong: #6ea8ff;
+  --admin-user-accent-alt: #7c6cff;
+  --admin-user-accent-soft: rgba(79, 140, 255, 0.14);
+  --admin-user-gradient: linear-gradient(135deg, #4f8cff 0%, #7c6cff 100%);
+  --admin-user-shadow: 0 24px 60px rgba(2, 8, 23, 0.38);
+  --admin-user-shadow-soft: 0 12px 30px rgba(2, 8, 23, 0.22);
+}
+
+:is(
+  .admin-management-container,
+  .admin-flights-container,
+  .admin-hotels-container,
+  .admin-trains-container,
+  .admin-buses-container,
+  .admin-cabs-container,
+  .admin-packages-container,
+  .admin-holiday-container,
+  .admin-feedback-container,
+  .admin-icons-container,
+  .admin-offers-container,
+  .admin-overview-container,
+  .admin-bookings,
+  .admin-users-page
+) {
+  background:
+    radial-gradient(circle at top left, rgba(79, 140, 255, 0.12) 0%, transparent 32%),
+    radial-gradient(circle at top right, rgba(124, 108, 255, 0.12) 0%, transparent 26%),
+    linear-gradient(180deg, var(--admin-user-bg) 0%, var(--admin-user-bg-soft) 100%) !important;
+  color: var(--admin-user-text) !important;
+}
+
+:is(
+  .admin-management-container,
+  .admin-flights-container,
+  .admin-hotels-container,
+  .admin-trains-container,
+  .admin-buses-container,
+  .admin-cabs-container,
+  .admin-packages-container,
+  .admin-holiday-container,
+  .admin-feedback-container,
+  .admin-icons-container,
+  .admin-offers-container,
+  .admin-overview-container,
+  .admin-users-page
+)::before {
+  background:
+    radial-gradient(circle at 20% 80%, rgba(79, 140, 255, 0.08) 0%, transparent 46%),
+    radial-gradient(circle at 80% 20%, rgba(124, 108, 255, 0.08) 0%, transparent 42%),
+    radial-gradient(circle at 50% 50%, rgba(14, 165, 233, 0.05) 0%, transparent 42%) !important;
+}
+
+:is(
+  .management-header,
+  .flights-header,
+  .hotels-header,
+  .trains-header,
+  .buses-header,
+  .holiday-header,
+  .feedback-header,
+  .icons-header,
+  .offers-header,
+  .overview-header,
+  .bookings-header,
+  .admin-users-header,
+  .admin-header,
+  .section-header,
+  .preview-header,
+  .result-header,
+  .confirm-header,
+  .modal-header
+) {
+  background: var(--admin-user-surface) !important;
+  border: 1px solid var(--admin-user-border) !important;
+  box-shadow: var(--admin-user-shadow-soft) !important;
+}
+
+:is(
+  .management-header::before,
+  .flights-header::before,
+  .hotels-header::before,
+  .trains-header::before,
+  .buses-header::before,
+  .holiday-header::before,
+  .feedback-header::before,
+  .icons-header::before,
+  .offers-header::before,
+  .overview-header::before,
+  .admin-header::before,
+  .admin-users-header::before
+) {
+  background: linear-gradient(135deg, rgba(79, 140, 255, 0.16), rgba(124, 108, 255, 0.12)) !important;
+  opacity: 1 !important;
+}
+
+:is(
+  .management-header h1,
+  .flights-header h1,
+  .hotels-header h1,
+  .trains-header h1,
+  .buses-header h1,
+  .holiday-header h1,
+  .feedback-header h1,
+  .icons-header h1,
+  .offers-header h1,
+  .overview-header h1,
+  .bookings-header h1,
+  .admin-users-header h1,
+  .admin-header h1,
+  .admin-header h2,
+  .section-header h3,
+  .modal-header h3,
+  .preview-header h4,
+  .result-header h4,
+  .confirm-header h4
+) {
+  background: var(--admin-user-gradient) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+}
+
+:is(
+  .management-header p,
+  .flights-header p,
+  .hotels-header p,
+  .trains-header p,
+  .buses-header p,
+  .holiday-header p,
+  .feedback-header p,
+  .icons-header p,
+  .offers-header p,
+  .overview-header p,
+  .bookings-header p,
+  .admin-users-header .subtitle,
+  .cabs-header p
+) {
+  color: var(--admin-user-text-soft) !important;
+}
+
+:is(
+  .management-controls,
+  .flights-controls,
+  .hotels-controls,
+  .trains-controls,
+  .buses-controls,
+  .packages-controls,
+  .holiday-controls,
+  .offers-controls,
+  .feedback-controls,
+  .icons-controls,
+  .admin-users-search,
+  .bookings-tabs,
+  .tab-buttons,
+  .management-tabs,
+  .preview-summary,
+  .upload-info,
+  .bookings-table,
+  .data-table-container,
+  .admin-users-table-card,
+  .admin-users-detail-card,
+  .admin-users-highlight-card,
+  .admin-users-metric-card,
+  .summary-card,
+  .stat-card,
+  .management-card,
+  .flight-card,
+  .hotel-card,
+  .train-card,
+  .bus-card,
+  .offer-card,
+  .offer-card-v4,
+  .cab-type-card,
+  .booking-card,
+  .chart-card,
+  .activity-card,
+  .feedback-card,
+  .icon-card,
+  .package-card,
+  .holiday-card,
+  .management-modal,
+  .modal,
+  .admin-modal,
+  .admin-modal-v4,
+  .luxury-modal-content
+) {
+  background: var(--admin-user-surface) !important;
+  border-color: var(--admin-user-border) !important;
+  box-shadow: var(--admin-user-shadow-soft) !important;
+}
+
+:is(.search-box, .search-input, .filter-select, .status-select, .form-input, .form-group input, .form-group select, .form-group textarea, .form-field input, .form-field select, .form-field textarea, .admin-users-search input) {
+  background: rgba(15, 29, 48, 0.86) !important;
+  border-color: var(--admin-user-border) !important;
+  color: var(--admin-user-text) !important;
+}
+
+:is(.search-box input::placeholder, .admin-users-search input::placeholder, .form-group input::placeholder, .form-group textarea::placeholder) {
+  color: var(--admin-user-text-muted) !important;
+}
+
+:is(.btn-add, .add-btn, .refresh-btn, .upload-btn, .export-btn, .submit-btn, .analysis-close-btn, .tab-btn.active, .tab-link.active, .page-btn.active, .page-num.active, .admin-users-toggle-btn, .confirm-btn, .assign-btn) {
+  background: var(--admin-user-gradient) !important;
+  border-color: transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 12px 28px rgba(79, 140, 255, 0.28) !important;
+}
+
+:is(.btn-add:hover, .add-btn:hover, .refresh-btn:hover, .upload-btn:hover, .export-btn:hover, .submit-btn:hover, .analysis-close-btn:hover, .admin-users-toggle-btn:hover, .confirm-btn:hover, .assign-btn:hover) {
+  filter: brightness(1.06) !important;
+  transform: translateY(-2px) !important;
+}
+
+:is(.btn-danger, .delete-btn, .cancel-btn, .cancel-btn-table, .admin-users-delete-btn) {
+  background: rgba(255, 107, 107, 0.12) !important;
+  border-color: rgba(255, 107, 107, 0.24) !important;
+  color: #ff8a8a !important;
+}
+
+:is(.btn-danger:hover, .delete-btn:hover, .cancel-btn:hover, .cancel-btn-table:hover, .admin-users-delete-btn:hover) {
+  background: rgba(255, 107, 107, 0.18) !important;
+  color: #ffffff !important;
+}
+
+:is(.data-table th, .bookings-table th, .passenger-table th, .mini-data-table th) {
+  background: rgba(15, 29, 48, 0.92) !important;
+  color: var(--admin-user-text) !important;
+  border-bottom-color: var(--admin-user-border) !important;
+}
+
+:is(.data-table td, .bookings-table td, .passenger-table td, .mini-data-table td, .management-detail-value, .offer-desc, .meta-item .value, .error-item, .preview-errors, .upload-info p, .file-requirements li, .route-info, .booking-info p, .cab-type-details p) {
+  color: var(--admin-user-text-soft) !important;
+}
+
+:is(.management-detail-label, .meta-item .label, .stat-label, .booking-status, .category-name, .feature-tag, .service-tag-mini, .booking-badge, .status-badge, .admin-users-kicker, .preview-header span, .summary-card .label) {
+  color: var(--admin-user-text-muted) !important;
+}
+
+/* Admin Button Theme Override */
+:is(
+  .btn,
+  .btn-add,
+  .btn-primary,
+  .btn-secondary,
+  .btn-danger,
+  .add-btn,
+  .refresh-btn,
+  .upload-btn,
+  .export-btn,
+  .submit-btn,
+  .analysis-close-btn,
+  .inline-add-btn,
+  .tab-btn,
+  .tab-link,
+  .page-btn,
+  .page-num,
+  .page-nav,
+  .edit-btn,
+  .delete-btn,
+  .confirm-btn,
+  .assign-btn,
+  .cancel-btn,
+  .cancel-btn-table,
+  .admin-users-toggle-btn,
+  .admin-users-delete-btn,
+  .btn-icon,
+  .toggle-btn-v4,
+  .close-btn,
+  .home-btn-sidebar,
+  .logout-btn-sidebar
+) {
+  border-radius: 16px !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  transition: all 0.25s ease !important;
+}
+
+:is(
+  .btn,
+  .btn-add,
+  .btn-primary,
+  .add-btn,
+  .refresh-btn,
+  .upload-btn,
+  .export-btn,
+  .submit-btn,
+  .analysis-close-btn,
+  .inline-add-btn,
+  .tab-btn.active,
+  .tab-link.active,
+  .page-btn.active,
+  .page-num.active,
+  .confirm-btn,
+  .assign-btn,
+  .admin-users-toggle-btn,
+  .home-btn-sidebar
+) {
+  background: linear-gradient(135deg, #4f8cff 0%, #7c6cff 100%) !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+  box-shadow: 0 12px 28px rgba(79, 140, 255, 0.28) !important;
+}
+
+:is(
+  .btn-secondary,
+  .tab-btn,
+  .tab-link,
+  .page-btn,
+  .page-num,
+  .page-nav,
+  .btn-icon,
+  .close-btn
+) {
+  background: rgba(12, 24, 40, 0.78) !important;
+  color: #dbe7ff !important;
+  border-color: rgba(148, 163, 184, 0.14) !important;
+}
+
+:is(
+  .btn-danger,
+  .delete-btn,
+  .cancel-btn,
+  .cancel-btn-table,
+  .admin-users-delete-btn,
+  .logout-btn-sidebar
+) {
+  background: rgba(255, 107, 107, 0.12) !important;
+  color: #ff9a9a !important;
+  border-color: rgba(255, 107, 107, 0.24) !important;
+  box-shadow: none !important;
+}
+
+:is(
+  .btn:hover,
+  .btn-add:hover,
+  .btn-primary:hover,
+  .btn-secondary:hover,
+  .btn-danger:hover,
+  .add-btn:hover,
+  .refresh-btn:hover,
+  .upload-btn:hover,
+  .export-btn:hover,
+  .submit-btn:hover,
+  .analysis-close-btn:hover,
+  .inline-add-btn:hover,
+  .tab-btn:hover,
+  .tab-link:hover,
+  .page-btn:hover,
+  .page-num:hover,
+  .page-nav:hover,
+  .edit-btn:hover,
+  .delete-btn:hover,
+  .confirm-btn:hover,
+  .assign-btn:hover,
+  .cancel-btn:hover,
+  .cancel-btn-table:hover,
+  .admin-users-toggle-btn:hover,
+  .admin-users-delete-btn:hover,
+  .btn-icon:hover,
+  .toggle-btn-v4:hover,
+  .close-btn:hover,
+  .home-btn-sidebar:hover,
+  .logout-btn-sidebar:hover
+) {
+  transform: translateY(-2px) !important;
+  filter: brightness(1.06) !important;
+}
+
+:is(
+  .btn:active,
+  .btn-add:active,
+  .btn-primary:active,
+  .btn-secondary:active,
+  .btn-danger:active,
+  .add-btn:active,
+  .refresh-btn:active,
+  .upload-btn:active,
+  .export-btn:active,
+  .submit-btn:active,
+  .analysis-close-btn:active,
+  .inline-add-btn:active,
+  .tab-btn:active,
+  .tab-link:active,
+  .page-btn:active,
+  .page-num:active,
+  .page-nav:active,
+  .edit-btn:active,
+  .delete-btn:active,
+  .confirm-btn:active,
+  .assign-btn:active,
+  .cancel-btn:active,
+  .cancel-btn-table:active,
+  .admin-users-toggle-btn:active,
+  .admin-users-delete-btn:active,
+  .btn-icon:active,
+  .toggle-btn-v4:active,
+  .close-btn:active,
+  .home-btn-sidebar:active,
+  .logout-btn-sidebar:active
+) {
+  transform: translateY(0) scale(0.98) !important;
+}
+
+/* Admin Arrow Style Removal Override */
+:is(.btn, .btn-add, .btn-primary, .btn-secondary, .btn-danger, .add-btn, .refresh-btn, .upload-btn, .export-btn, .submit-btn, .analysis-close-btn, .inline-add-btn, .tab-btn, .tab-link, .page-btn, .page-num, .page-nav, .edit-btn, .delete-btn, .confirm-btn, .assign-btn, .cancel-btn, .cancel-btn-table, .admin-users-toggle-btn, .admin-users-delete-btn, .btn-icon, .toggle-btn-v4, .close-btn, .home-btn-sidebar, .logout-btn-sidebar)::before,
+:is(.btn, .btn-add, .btn-primary, .btn-secondary, .btn-danger, .add-btn, .refresh-btn, .upload-btn, .export-btn, .submit-btn, .analysis-close-btn, .inline-add-btn, .tab-btn, .tab-link, .page-btn, .page-num, .page-nav, .edit-btn, .delete-btn, .confirm-btn, .assign-btn, .cancel-btn, .cancel-btn-table, .admin-users-toggle-btn, .admin-users-delete-btn, .btn-icon, .toggle-btn-v4, .close-btn, .home-btn-sidebar, .logout-btn-sidebar)::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.page-nav,
+.page-btn,
+.page-num,
+.tab-btn,
+.tab-link,
+.sidebar-item {
+  background-image: none !important;
+}
+
+/* Admin Clean Table Row Override */
+.management-container .data-table,
+.admin-bookings .data-table,
+.admin-users-page .data-table,
+.admin-overview-container .data-table,
+.admin-cabs-container .data-table,
+.admin-buses-container .data-table,
+.admin-trains-container .data-table,
+.admin-flights-container .data-table,
+.admin-hotels-container .data-table,
+.admin-packages-container .data-table,
+.admin-holiday-container .data-table,
+.admin-feedback-container .data-table,
+.admin-icons-container .data-table,
+.admin-offers-container .data-table {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+}
+
+.management-container .data-table tbody tr,
+.management-container .data-table tbody tr:hover,
+.management-container .data-table tbody tr:focus-within,
+.admin-bookings .data-table tbody tr,
+.admin-bookings .data-table tbody tr:hover,
+.admin-bookings .data-table tbody tr:focus-within,
+.admin-users-page .data-table tbody tr,
+.admin-users-page .data-table tbody tr:hover,
+.admin-users-page .data-table tbody tr:focus-within,
+.admin-overview-container .data-table tbody tr,
+.admin-overview-container .data-table tbody tr:hover,
+.admin-overview-container .data-table tbody tr:focus-within,
+.admin-cabs-container .data-table tbody tr,
+.admin-cabs-container .data-table tbody tr:hover,
+.admin-cabs-container .data-table tbody tr:focus-within,
+.admin-buses-container .data-table tbody tr,
+.admin-buses-container .data-table tbody tr:hover,
+.admin-buses-container .data-table tbody tr:focus-within,
+.admin-trains-container .data-table tbody tr,
+.admin-trains-container .data-table tbody tr:hover,
+.admin-trains-container .data-table tbody tr:focus-within,
+.admin-flights-container .data-table tbody tr,
+.admin-flights-container .data-table tbody tr:hover,
+.admin-flights-container .data-table tbody tr:focus-within,
+.admin-hotels-container .data-table tbody tr,
+.admin-hotels-container .data-table tbody tr:hover,
+.admin-hotels-container .data-table tbody tr:focus-within,
+.admin-packages-container .data-table tbody tr,
+.admin-packages-container .data-table tbody tr:hover,
+.admin-packages-container .data-table tbody tr:focus-within,
+.admin-holiday-container .data-table tbody tr,
+.admin-holiday-container .data-table tbody tr:hover,
+.admin-holiday-container .data-table tbody tr:focus-within,
+.admin-feedback-container .data-table tbody tr,
+.admin-feedback-container .data-table tbody tr:hover,
+.admin-feedback-container .data-table tbody tr:focus-within,
+.admin-icons-container .data-table tbody tr,
+.admin-icons-container .data-table tbody tr:hover,
+.admin-icons-container .data-table tbody tr:focus-within,
+.admin-offers-container .data-table tbody tr,
+.admin-offers-container .data-table tbody tr:hover,
+.admin-offers-container .data-table tbody tr:focus-within {
+  background: transparent !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.management-container .data-table tbody tr::before,
+.management-container .data-table tbody tr::after,
+.admin-bookings .data-table tbody tr::before,
+.admin-bookings .data-table tbody tr::after,
+.admin-users-page .data-table tbody tr::before,
+.admin-users-page .data-table tbody tr::after,
+.admin-overview-container .data-table tbody tr::before,
+.admin-overview-container .data-table tbody tr::after,
+.admin-cabs-container .data-table tbody tr::before,
+.admin-cabs-container .data-table tbody tr::after,
+.admin-buses-container .data-table tbody tr::before,
+.admin-buses-container .data-table tbody tr::after,
+.admin-trains-container .data-table tbody tr::before,
+.admin-trains-container .data-table tbody tr::after,
+.admin-flights-container .data-table tbody tr::before,
+.admin-flights-container .data-table tbody tr::after,
+.admin-hotels-container .data-table tbody tr::before,
+.admin-hotels-container .data-table tbody tr::after,
+.admin-packages-container .data-table tbody tr::before,
+.admin-packages-container .data-table tbody tr::after,
+.admin-holiday-container .data-table tbody tr::before,
+.admin-holiday-container .data-table tbody tr::after,
+.admin-feedback-container .data-table tbody tr::before,
+.admin-feedback-container .data-table tbody tr::after,
+.admin-icons-container .data-table tbody tr::before,
+.admin-icons-container .data-table tbody tr::after,
+.admin-offers-container .data-table tbody tr::before,
+.admin-offers-container .data-table tbody tr::after {
+  content: none !important;
+  display: none !important;
+}
+
+.management-container .data-table tbody td,
+.management-container .data-table tbody tr:hover td,
+.management-container .data-table tbody tr:focus-within td,
+.admin-bookings .data-table tbody td,
+.admin-bookings .data-table tbody tr:hover td,
+.admin-bookings .data-table tbody tr:focus-within td,
+.admin-users-page .data-table tbody td,
+.admin-users-page .data-table tbody tr:hover td,
+.admin-users-page .data-table tbody tr:focus-within td,
+.admin-overview-container .data-table tbody td,
+.admin-overview-container .data-table tbody tr:hover td,
+.admin-overview-container .data-table tbody tr:focus-within td,
+.admin-cabs-container .data-table tbody td,
+.admin-cabs-container .data-table tbody tr:hover td,
+.admin-cabs-container .data-table tbody tr:focus-within td,
+.admin-buses-container .data-table tbody td,
+.admin-buses-container .data-table tbody tr:hover td,
+.admin-buses-container .data-table tbody tr:focus-within td,
+.admin-trains-container .data-table tbody td,
+.admin-trains-container .data-table tbody tr:hover td,
+.admin-trains-container .data-table tbody tr:focus-within td,
+.admin-flights-container .data-table tbody td,
+.admin-flights-container .data-table tbody tr:hover td,
+.admin-flights-container .data-table tbody tr:focus-within td,
+.admin-hotels-container .data-table tbody td,
+.admin-hotels-container .data-table tbody tr:hover td,
+.admin-hotels-container .data-table tbody tr:focus-within td,
+.admin-packages-container .data-table tbody td,
+.admin-packages-container .data-table tbody tr:hover td,
+.admin-packages-container .data-table tbody tr:focus-within td,
+.admin-holiday-container .data-table tbody td,
+.admin-holiday-container .data-table tbody tr:hover td,
+.admin-holiday-container .data-table tbody tr:focus-within td,
+.admin-feedback-container .data-table tbody td,
+.admin-feedback-container .data-table tbody tr:hover td,
+.admin-feedback-container .data-table tbody tr:focus-within td,
+.admin-icons-container .data-table tbody td,
+.admin-icons-container .data-table tbody tr:hover td,
+.admin-icons-container .data-table tbody tr:focus-within td,
+.admin-offers-container .data-table tbody td,
+.admin-offers-container .data-table tbody tr:hover td,
+.admin-offers-container .data-table tbody tr:focus-within td {
+  background: transparent !important;
+}
+
+/* Admin Header Single Row Override */
+.management-header,
+.flights-header,
+.hotels-header,
+.trains-header,
+.buses-header,
+.holiday-header,
+.feedback-header,
+.icons-header,
+.offers-header,
+.overview-header,
+.bookings-header,
+.admin-header,
+.admin-users-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 24px !important;
+}
+
+.header-main {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  text-align: left !important;
+}
+
+.management-actions,
+.header-buttons,
+.management-controls,
+.flights-controls,
+.hotels-controls,
+.trains-controls,
+.buses-controls,
+.packages-controls,
+.holiday-controls,
+.offers-controls,
+.feedback-controls,
+.icons-controls,
+.cabs-controls {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  flex-wrap: nowrap !important;
+  gap: 14px !important;
+}
+
+.management-actions {
+  flex: 0 1 auto !important;
+  min-width: max-content !important;
+}
+
+.management-actions .search-box,
+.management-controls .search-box,
+.flights-controls .search-box,
+.hotels-controls .search-box,
+.trains-controls .search-box,
+.buses-controls .search-box,
+.packages-controls .search-box,
+.holiday-controls .search-box,
+.offers-controls .search-box,
+.feedback-controls .search-box,
+.icons-controls .search-box,
+.cabs-controls .search-box {
+  flex: 0 0 320px !important;
+  width: 320px !important;
+  max-width: 320px !important;
+  margin: 0 !important;
+}
+
+.header-buttons > *,
+.management-actions > *,
+.management-controls > *,
+.flights-controls > *,
+.hotels-controls > *,
+.trains-controls > *,
+.buses-controls > *,
+.packages-controls > *,
+.holiday-controls > *,
+.offers-controls > *,
+.feedback-controls > *,
+.icons-controls > *,
+.cabs-controls > * {
+  flex: 0 0 auto !important;
+}
+
+@media (max-width: 1200px) {
+  .management-header,
+  .flights-header,
+  .hotels-header,
+  .trains-header,
+  .buses-header,
+  .holiday-header,
+  .feedback-header,
+  .icons-header,
+  .offers-header,
+  .overview-header,
+  .bookings-header,
+  .admin-header,
+  .admin-users-header {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .management-actions,
+  .header-buttons,
+  .management-controls,
+  .flights-controls,
+  .hotels-controls,
+  .trains-controls,
+  .buses-controls,
+  .packages-controls,
+  .holiday-controls,
+  .offers-controls,
+  .feedback-controls,
+  .icons-controls,
+  .cabs-controls {
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+  }
+
+  .management-actions .search-box,
+  .management-controls .search-box,
+  .flights-controls .search-box,
+  .hotels-controls .search-box,
+  .trains-controls .search-box,
+  .buses-controls .search-box,
+  .packages-controls .search-box,
+  .holiday-controls .search-box,
+  .offers-controls .search-box,
+  .feedback-controls .search-box,
+  .icons-controls .search-box,
+  .cabs-controls .search-box {
+    flex: 1 1 280px !important;
+    width: 100% !important;
+    max-width: 420px !important;
+  }
+}
+
+/* Admin Header Two Row Override */
+.management-header,
+.flights-header,
+.hotels-header,
+.trains-header,
+.buses-header,
+.holiday-header,
+.feedback-header,
+.icons-header,
+.offers-header,
+.overview-header,
+.bookings-header,
+.admin-header,
+.admin-users-header {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  gap: 20px !important;
+}
+
+.header-main {
+  width: 100% !important;
+  flex: 0 0 auto !important;
+  text-align: left !important;
+}
+
+.management-actions,
+.management-controls,
+.flights-controls,
+.hotels-controls,
+.trains-controls,
+.buses-controls,
+.packages-controls,
+.holiday-controls,
+.offers-controls,
+.feedback-controls,
+.icons-controls,
+.cabs-controls,
+.header-buttons {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: nowrap !important;
+  gap: 14px !important;
+}
+
+.management-actions {
+  min-width: 0 !important;
+}
+
+.header-buttons {
+  width: auto !important;
+}
+
+.management-actions .search-box,
+.management-controls .search-box,
+.flights-controls .search-box,
+.hotels-controls .search-box,
+.trains-controls .search-box,
+.buses-controls .search-box,
+.packages-controls .search-box,
+.holiday-controls .search-box,
+.offers-controls .search-box,
+.feedback-controls .search-box,
+.icons-controls .search-box,
+.cabs-controls .search-box {
+  flex: 0 0 320px !important;
+  width: 320px !important;
+  max-width: 320px !important;
+  margin: 0 !important;
+}
+
+.management-actions > *,
+.management-controls > *,
+.flights-controls > *,
+.hotels-controls > *,
+.trains-controls > *,
+.buses-controls > *,
+.packages-controls > *,
+.holiday-controls > *,
+.offers-controls > *,
+.feedback-controls > *,
+.icons-controls > *,
+.cabs-controls > *,
+.header-buttons > * {
+  flex: 0 0 auto !important;
+}
+
+@media (max-width: 1200px) {
+  .management-actions,
+  .management-controls,
+  .flights-controls,
+  .hotels-controls,
+  .trains-controls,
+  .buses-controls,
+  .packages-controls,
+  .holiday-controls,
+  .offers-controls,
+  .feedback-controls,
+  .icons-controls,
+  .cabs-controls,
+  .header-buttons {
+    flex-wrap: wrap !important;
+  }
+
+  .management-actions .search-box,
+  .management-controls .search-box,
+  .flights-controls .search-box,
+  .hotels-controls .search-box,
+  .trains-controls .search-box,
+  .buses-controls .search-box,
+  .packages-controls .search-box,
+  .holiday-controls .search-box,
+  .offers-controls .search-box,
+  .feedback-controls .search-box,
+  .icons-controls .search-box,
+  .cabs-controls .search-box {
+    flex: 1 1 280px !important;
+    width: 100% !important;
+    max-width: 420px !important;
+  }
+}
+
+/* Admin Header Balance Override */
+.management-header,
+.flights-header,
+.hotels-header,
+.trains-header,
+.buses-header,
+.holiday-header,
+.feedback-header,
+.icons-header,
+.offers-header,
+.overview-header,
+.bookings-header,
+.admin-header,
+.admin-users-header {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.header-main {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.header-main h1,
+.header-main p,
+.management-header h1,
+.management-header p,
+.flights-header h1,
+.flights-header p,
+.hotels-header h1,
+.hotels-header p,
+.trains-header h1,
+.trains-header p,
+.buses-header h1,
+.buses-header p,
+.holiday-header h1,
+.holiday-header p,
+.feedback-header h1,
+.feedback-header p,
+.icons-header h1,
+.icons-header p,
+.offers-header h1,
+.offers-header p,
+.overview-header h1,
+.overview-header p,
+.bookings-header h1,
+.bookings-header p,
+.admin-header h1,
+.admin-header p,
+.admin-users-header h1,
+.admin-users-header p,
+.admin-users-header .subtitle {
+  text-align: center !important;
+}
+
+.management-actions,
+.management-controls,
+.flights-controls,
+.hotels-controls,
+.trains-controls,
+.buses-controls,
+.packages-controls,
+.holiday-controls,
+.offers-controls,
+.feedback-controls,
+.icons-controls,
+.cabs-controls,
+.header-buttons {
+  justify-content: center !important;
+}
+
+.management-actions .search-box,
+.management-controls .search-box,
+.flights-controls .search-box,
+.hotels-controls .search-box,
+.trains-controls .search-box,
+.buses-controls .search-box,
+.packages-controls .search-box,
+.holiday-controls .search-box,
+.offers-controls .search-box,
+.feedback-controls .search-box,
+.icons-controls .search-box,
+.cabs-controls .search-box {
+  flex: 0 0 420px !important;
+  width: 420px !important;
+  max-width: 420px !important;
+}
+
+@media (max-width: 1200px) {
+  .management-actions .search-box,
+  .management-controls .search-box,
+  .flights-controls .search-box,
+  .hotels-controls .search-box,
+  .trains-controls .search-box,
+  .buses-controls .search-box,
+  .packages-controls .search-box,
+  .holiday-controls .search-box,
+  .offers-controls .search-box,
+  .feedback-controls .search-box,
+  .icons-controls .search-box,
+  .cabs-controls .search-box {
+    flex: 1 1 320px !important;
+    width: min(100%, 520px) !important;
+    max-width: 520px !important;
+  }
+}
+
+/* Admin Header Split Actions Override */
+.management-header,
+.flights-header,
+.hotels-header,
+.trains-header,
+.buses-header,
+.holiday-header,
+.feedback-header,
+.icons-header,
+.offers-header,
+.overview-header,
+.bookings-header,
+.admin-header,
+.admin-users-header {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  gap: 22px !important;
+}
+
+.header-main {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.management-actions {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 18px !important;
+  flex-wrap: nowrap !important;
+}
+
+.header-buttons {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  flex-wrap: nowrap !important;
+  gap: 14px !important;
+  margin-left: auto !important;
+}
+
+.management-actions .search-box {
+  flex: 0 1 460px !important;
+  width: 460px !important;
+  max-width: 460px !important;
+  margin: 0 !important;
+}
+
+.header-buttons > * {
+  flex: 0 0 auto !important;
+}
+
+@media (max-width: 1200px) {
+  .management-actions {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  .management-actions .search-box {
+    flex: 1 1 320px !important;
+    width: min(100%, 560px) !important;
+    max-width: 560px !important;
+  }
+
+  .header-buttons {
+    width: 100% !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+  }
+}
+
+/* Admin Upload Modal Premium Override */
+.upload-modal {
+  width: min(980px, 100%) !important;
+  max-height: min(92vh, 920px) !important;
+}
+
+.upload-section,
+.preview-results,
+.confirm-step,
+.upload-results {
+  padding: 28px 30px 30px !important;
+  overflow-y: auto !important;
+}
+
+.upload-info,
+.preview-header,
+.confirm-header,
+.result-header {
+  border-radius: 22px !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  background: rgba(12, 24, 40, 0.76) !important;
+  box-shadow: none !important;
+}
+
+.upload-info {
+  padding: 22px 24px !important;
+  margin-bottom: 22px !important;
+}
+
+.upload-info p,
+.result-stats p,
+.upload-progress p,
+.analysis-message,
+.error-list li,
+.invalid-record-item {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  color: rgba(226, 232, 240, 0.88) !important;
+}
+
+.file-upload-area {
+  margin-top: 8px !important;
+}
+
+.file-upload-label {
+  min-height: 280px !important;
+  border-radius: 28px !important;
+  border: 2px dashed rgba(79, 140, 255, 0.4) !important;
+  background:
+    radial-gradient(circle at top, rgba(79, 140, 255, 0.08) 0%, transparent 40%),
+    rgba(7, 17, 31, 0.86) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 18px !important;
+  padding: 28px !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  transition: all 0.25s ease !important;
+}
+
+.file-upload-label:hover {
+  border-color: rgba(110, 168, 255, 0.72) !important;
+  box-shadow: 0 18px 40px rgba(79, 140, 255, 0.14) !important;
+  transform: translateY(-2px) !important;
+}
+
+.file-upload-label.disabled {
+  opacity: 0.75 !important;
+  cursor: progress !important;
+}
+
+.upload-icon {
+  font-size: 52px !important;
+  line-height: 1 !important;
+}
+
+.upload-text {
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  color: #f8fafc !important;
+}
+
+.preview-header,
+.confirm-header,
+.result-header {
+  padding: 16px 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.preview-header h4,
+.confirm-header h4,
+.result-header h4 {
+  margin: 0 !important;
+  font-size: 22px !important;
+  line-height: 1.3 !important;
+  color: #f8fafc !important;
+}
+
+.file-analysis-results {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+}
+
+.analysis-stats-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 16px !important;
+}
+
+.analysis-stat-card {
+  padding: 20px 16px !important;
+  border-radius: 22px !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  background: rgba(12, 24, 40, 0.78) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  min-height: 124px !important;
+}
+
+.analysis-stat-card.total {
+  border-color: rgba(79, 140, 255, 0.24) !important;
+}
+
+.analysis-stat-card.valid {
+  border-color: rgba(50, 196, 141, 0.24) !important;
+}
+
+.analysis-stat-card.duplicate {
+  border-color: rgba(244, 183, 64, 0.26) !important;
+}
+
+.analysis-stat-card.invalid {
+  border-color: rgba(255, 107, 107, 0.24) !important;
+}
+
+.analysis-stat-number {
+  font-size: 40px !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+  color: #f8fafc !important;
+}
+
+.analysis-stat-label {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: rgba(191, 219, 254, 0.75) !important;
+}
+
+.invalid-records-section,
+.error-section {
+  padding: 20px 22px !important;
+  border-radius: 22px !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  background: rgba(10, 21, 38, 0.76) !important;
+}
+
+.invalid-records-title,
+.error-section h5 {
+  margin: 0 0 12px !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #f8fafc !important;
+}
+
+.invalid-record-item + .invalid-record-item,
+.error-list li + li {
+  margin-top: 8px !important;
+}
+
+.result-header.warning {
+  border-color: rgba(244, 183, 64, 0.3) !important;
+  background: rgba(244, 183, 64, 0.1) !important;
+}
+
+.result-header.success {
+  border-color: rgba(50, 196, 141, 0.3) !important;
+  background: rgba(50, 196, 141, 0.1) !important;
+}
+
+.result-stats {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 16px !important;
+  margin-bottom: 20px !important;
+}
+
+.result-stats p {
+  margin: 0 !important;
+  padding: 18px 20px !important;
+  border-radius: 20px !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  background: rgba(12, 24, 40, 0.78) !important;
+  text-align: center !important;
+}
+
+.upload-progress {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 16px !important;
+  padding: 36px 24px !important;
+  text-align: center !important;
+}
+
+.upload-results .form-actions,
+.preview-results .form-actions,
+.confirm-step .form-actions {
+  position: static !important;
+  justify-content: center !important;
+  background: transparent !important;
+  padding-top: 10px !important;
+}
+
+.preview-results .confirmation-actions,
+.upload-results .result-actions {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 16px !important;
+  flex-wrap: wrap !important;
+  margin-top: 24px !important;
+}
+
+.preview-results .confirmation-actions .cancel-btn,
+.preview-results .confirmation-actions .confirm-upload-btn,
+.upload-results .result-actions .close-btn,
+.upload-section > div[style*='justifyContent: center'] .cancel-btn {
+  min-width: 210px !important;
+  min-height: 58px !important;
+  padding: 0 28px !important;
+  border-radius: 20px !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+}
+
+.preview-results .confirmation-actions .confirm-upload-btn,
+.upload-results .result-actions .close-btn {
+  background: linear-gradient(135deg, #4f8cff 0%, #7c6cff 100%) !important;
+  border-color: transparent !important;
+  color: #ffffff !important;
+  box-shadow: 0 12px 28px rgba(79, 140, 255, 0.28) !important;
+}
+
+.preview-results .confirmation-actions .confirm-upload-btn:hover,
+.upload-results .result-actions .close-btn:hover {
+  filter: brightness(1.06) !important;
+  transform: translateY(-2px) !important;
+}
+
+.preview-results .confirmation-actions .cancel-btn,
+.upload-section > div[style*='justifyContent: center'] .cancel-btn {
+  background: rgba(255, 107, 107, 0.12) !important;
+  border-color: rgba(255, 107, 107, 0.24) !important;
+  color: #ff9a9a !important;
+  box-shadow: none !important;
+}
+
+.preview-results .confirmation-actions .cancel-btn:hover,
+.upload-section > div[style*='justifyContent: center'] .cancel-btn:hover {
+  background: rgba(255, 107, 107, 0.18) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+}
+
+.upload-results .result-stats {
+  margin-bottom: 28px !important;
+}
+
+.upload-results .result-stats p {
+  min-height: 92px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+@media (max-width: 900px) {
+  .analysis-stats-grid,
+  .result-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .upload-section,
+  .preview-results,
+  .confirm-step,
+  .upload-results {
+    padding: 20px !important;
+  }
+
+  .file-upload-label {
+    min-height: 220px !important;
+  }
+
+  .upload-text {
+    font-size: 22px !important;
+  }
+
+  .analysis-stats-grid,
+  .result-stats {
+    grid-template-columns: 1fr !important;
+  }
+
+  .preview-results .confirmation-actions,
+  .upload-results .result-actions {
+    flex-direction: column !important;
+  }
+
+  .preview-results .confirmation-actions .cancel-btn,
+  .preview-results .confirmation-actions .confirm-upload-btn,
+  .upload-results .result-actions .close-btn,
+  .upload-section > div[style*='justifyContent: center'] .cancel-btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+
+/* Package Status Badge Theme */
+.status-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 108px !important;
+  min-height: 42px !important;
+  padding: 10px 16px !important;
+  border-radius: 999px !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  background: rgba(12, 24, 40, 0.82) !important;
+  color: #dbe7ff !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  box-shadow: 0 10px 24px rgba(2, 8, 23, 0.16) !important;
+  cursor: pointer !important;
+}
+
+.status-badge.active,
+.status-badge.available {
+  background: rgba(50, 196, 141, 0.12) !important;
+  border-color: rgba(50, 196, 141, 0.26) !important;
+  color: #58e3ad !important;
+}
+
+.status-badge.inactive,
+.status-badge.cancelled {
+  background: rgba(255, 107, 107, 0.12) !important;
+  border-color: rgba(255, 107, 107, 0.24) !important;
+  color: #ff9a9a !important;
+}
+
+.status-badge.pending,
+.status-badge.limited {
+  background: rgba(244, 183, 64, 0.12) !important;
+  border-color: rgba(244, 183, 64, 0.24) !important;
+  color: #ffd369 !important;
+}
+
+.status-select-wrapper {
+  position: relative !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.status-select-inline {
+  min-width: 148px !important;
+  height: 42px !important;
+  padding: 0 40px 0 14px !important;
+  border-radius: 14px !important;
+  border: 1px solid rgba(79, 140, 255, 0.28) !important;
+  background: rgba(15, 29, 48, 0.96) !important;
+  color: #f8fafc !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  outline: none !important;
+  cursor: pointer !important;
+  box-shadow: 0 0 0 3px rgba(79, 140, 255, 0.12) !important;
+}
+
+.status-select-wrapper::after {
+  content: "" !important;
+  position: absolute !important;
+  right: 14px !important;
+  top: 50% !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-right: 2px solid rgba(191, 219, 254, 0.9) !important;
+  border-bottom: 2px solid rgba(191, 219, 254, 0.9) !important;
+  transform: translateY(-60%) rotate(45deg) !important;
+  pointer-events: none !important;
+}
+
+.status-select-inline.active {
+  color: #58e3ad !important;
+}
+
+.status-select-inline.inactive {
+  color: #ff9a9a !important;
+}
+
+.status-select-inline option {
+  background: #0f1d30 !important;
+  color: #f8fafc !important;
+}
+
+/* Admin Package Modal Premium Override */
+.modal-overlay.package-modal {
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 28px !important;
+  background: rgba(2, 8, 23, 0.78) !important;
+  backdrop-filter: blur(14px) !important;
+}
+
+.package-modal .package-modal-content {
+  width: min(1120px, 100%) !important;
+  max-width: min(1120px, 100%) !important;
+  max-height: min(92vh, 980px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  border-radius: 32px !important;
+  border: 1px solid rgba(148, 163, 184, 0.16) !important;
+  background:
+    radial-gradient(circle at top right, rgba(79, 140, 255, 0.08), transparent 26%),
+    linear-gradient(180deg, rgba(7, 17, 31, 0.98) 0%, rgba(9, 21, 38, 0.98) 100%) !important;
+  box-shadow: 0 28px 80px rgba(2, 8, 23, 0.5) !important;
+}
+
+.package-modal .modal-header {
+  flex: 0 0 auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 28px 36px !important;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12) !important;
+  background: rgba(15, 29, 48, 0.72) !important;
+  margin-bottom: 0 !important;
+}
+
+.package-modal .modal-header h3 {
+  margin: 0 !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em !important;
+}
+
+.package-modal .modal-close {
+  width: 56px !important;
+  height: 56px !important;
+  border-radius: 50% !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 32px !important;
+  line-height: 1 !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(148, 163, 184, 0.16) !important;
+  color: #f8fafc !important;
+}
+
+.package-modal form {
+  flex: 1 1 auto !important;
+  overflow-y: auto !important;
+  padding: 26px 36px 28px !important;
+}
+
+.package-modal .admin-form-sections {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+}
+
+.package-modal .form-section {
+  padding: 24px !important;
+  border-radius: 24px !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  background: rgba(12, 24, 40, 0.74) !important;
+}
+
+.package-modal .form-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 22px 24px !important;
+  align-items: start !important;
+}
+
+.package-modal .form-group,
+.package-modal .itinerary-edit-row {
+  min-width: 0 !important;
+}
+
+.package-modal .form-group {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  margin: 0 !important;
+}
+
+.package-modal .form-group.full-width {
+  grid-column: 1 / -1 !important;
+}
+
+.package-modal .form-group > label,
+.package-modal .form-section > h4 {
+  margin: 0 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.16em !important;
+  text-transform: uppercase !important;
+  color: rgba(191, 219, 254, 0.82) !important;
+}
+
+.package-modal .form-section > h4 {
+  font-size: 18px !important;
+  letter-spacing: -0.01em !important;
+  text-transform: none !important;
+  color: #f8fafc !important;
+  margin-bottom: 18px !important;
+}
+
+.package-modal .form-group input,
+.package-modal .form-group select,
+.package-modal .form-group textarea,
+.package-modal .itinerary-edit-row textarea {
+  width: 100% !important;
+  min-height: 64px !important;
+  padding: 18px 20px !important;
+  border-radius: 22px !important;
+  border: 1px solid rgba(148, 163, 184, 0.14) !important;
+  background: rgba(15, 29, 48, 0.92) !important;
+  color: #f8fafc !important;
+  font-size: 16px !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02) !important;
+}
+
+.package-modal .form-group textarea,
+.package-modal .itinerary-edit-row textarea {
+  min-height: 120px !important;
+  resize: vertical !important;
+}
+
+.package-modal .form-group input:focus,
+.package-modal .form-group select:focus,
+.package-modal .form-group textarea:focus,
+.package-modal .itinerary-edit-row textarea:focus {
+  border-color: rgba(110, 168, 255, 0.48) !important;
+  box-shadow: 0 0 0 4px rgba(79, 140, 255, 0.12) !important;
+  outline: none !important;
+}
+
+.package-modal .itinerary-edit-row {
+  border: 1px solid rgba(148, 163, 184, 0.12) !important;
+  padding: 18px !important;
+  border-radius: 20px !important;
+  margin-bottom: 14px !important;
+  background: rgba(255, 255, 255, 0.02) !important;
+}
+
+.package-modal .form-section > div[style*='space-between'] {
+  margin-bottom: 18px !important;
+}
+
+.package-modal .form-section button[type="button"] {
+  min-height: 50px !important;
+  padding: 0 20px !important;
+  border-radius: 16px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.package-modal .itinerary-edit-row > button[type="button"] {
+  margin-top: 12px !important;
+}
+
+.package-modal .form-actions {
+  position: sticky !important;
+  bottom: 0 !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  gap: 16px !important;
+  margin-top: 28px !important;
+  padding: 20px 0 6px !important;
+  background: linear-gradient(180deg, rgba(7, 17, 31, 0) 0%, rgba(7, 17, 31, 0.96) 28%) !important;
+  border-top: 1px solid rgba(148, 163, 184, 0.08) !important;
+}
+
+.package-modal .form-actions .cancel-btn,
+.package-modal .form-actions .save-btn {
+  min-width: 210px !important;
+  min-height: 58px !important;
+  padding: 0 28px !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+}
+
+@media (max-width: 960px) {
+  .package-modal .package-modal-content {
+    width: 100% !important;
+    max-height: 94vh !important;
+  }
+
+  .package-modal .modal-header,
+  .package-modal form {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+
+  .package-modal .form-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .package-modal .form-actions {
+    flex-direction: column-reverse !important;
+  }
+
+  .package-modal .form-actions .cancel-btn,
+  .package-modal .form-actions .save-btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}

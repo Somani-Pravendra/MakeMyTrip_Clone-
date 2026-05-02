@@ -1,0 +1,452 @@
+.feedback-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(3, 10, 21, 0.75);
+    backdrop-filter: blur(12px) saturate(180%);
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 20px;
+    overflow: hidden;
+}
+
+.feedback-modal {
+    max-width: 560px;
+    width: 100%;
+    position: relative;
+    padding: 36px !important;
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable;
+    margin: auto 0;
+    animation: modalPop 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    background: rgba(15, 22, 36, 0.95) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+}
+
+.feedback-modal h3 {
+    margin: 0;
+    padding-right: 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #ffffff;
+}
+
+.feedback-modal h3 span {
+    color: #fbbf24;
+    font-size: 28px;
+}
+
+.feedback-modal::-webkit-scrollbar {
+    width: 10px;
+}
+
+.feedback-modal::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 999px;
+}
+
+.feedback-modal::-webkit-scrollbar-thumb {
+    background: rgba(0, 210, 255, 0.22);
+    border-radius: 999px;
+}
+
+.feedback-modal::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 210, 255, 0.34);
+}
+
+.close-btn-ins {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.close-btn-ins:hover {
+    background: #f87171;
+    border-color: #ef4444;
+    color: white;
+    transform: rotate(90deg);
+}
+
+.subtitle-ins {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.56);
+    margin-top: 10px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+.feedback-auto-banner {
+    margin-bottom: 18px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(0, 210, 255, 0.14), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(0, 210, 255, 0.2);
+    color: #dbeafe;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.booking-mini-info {
+    background:
+        radial-gradient(circle at top right, rgba(0, 140, 255, 0.16), transparent 38%),
+        linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    padding: 18px 20px;
+    margin-bottom: 22px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+.booking-mini-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.booking-mini-info p:first-child {
+    font-size: 15px;
+}
+
+.feedback-focus-wrap {
+    margin-bottom: 28px;
+}
+
+.feedback-focus-title {
+    margin: 0 0 10px;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 700;
+}
+
+.feedback-focus-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.feedback-focus-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.feedback-question-block label,
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.feedback-question-block,
+.form-group {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.feedback-helper {
+    margin: -2px 0 12px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.feedback-toggle-row,
+.feedback-choice-grid,
+.feedback-summary-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.feedback-toggle-btn,
+.feedback-choice-chip {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    color: rgba(255, 255, 255, 0.82);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+}
+
+.feedback-toggle-btn:hover,
+.feedback-choice-chip:hover {
+    border-color: rgba(0, 210, 255, 0.32);
+    background: rgba(0, 210, 255, 0.08);
+}
+
+.feedback-toggle-btn.active,
+.feedback-choice-chip.active {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.24), rgba(0, 210, 255, 0.18));
+    border-color: rgba(0, 210, 255, 0.38);
+    color: #ffffff;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+.rating-selector {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px;
+    margin-top: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+.star-btn {
+    font-size: 38px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.05);
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    padding: 0;
+    line-height: 1;
+    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.star-btn.active {
+    color: #fbbf24;
+    text-shadow: 0 0 15px rgba(251, 191, 36, 0.4);
+}
+
+.star-btn:hover:not(:disabled) {
+    transform: scale(1.3);
+    color: #fbbf24;
+}
+
+.rating-text {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 8px;
+    min-width: 56px;
+}
+
+/* ── Form Styling ── */
+.form-input {
+    background: rgba(6, 12, 22, 0.88) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 14px !important;
+    color: white !important;
+    padding: 14px 16px !important;
+    transition: all 0.3s ease !important;
+    width: 100%;
+    font-size: 15px;
+}
+
+.form-input:focus {
+    border-color: var(--blue-mmt) !important;
+    box-shadow: 0 0 0 4px rgba(0, 140, 255, 0.15) !important;
+    background: rgba(4, 10, 20, 0.96) !important;
+    outline: none !important;
+}
+
+.feedback-select {
+    width: 100%;
+    appearance: none;
+    cursor: not-allowed;
+    opacity: 0.95;
+    color: rgba(255, 255, 255, 0.88) !important;
+    background-image:
+        linear-gradient(45deg, transparent 50%, rgba(255, 255, 255, 0.6) 50%),
+        linear-gradient(135deg, rgba(255, 255, 255, 0.6) 50%, transparent 50%);
+    background-position:
+        calc(100% - 18px) calc(50% - 3px),
+        calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px;
+    background-repeat: no-repeat;
+}
+
+.textArea {
+    resize: none;
+    min-height: 150px;
+    line-height: 1.6;
+}
+
+.textArea::placeholder {
+    color: rgba(255, 255, 255, 0.32);
+}
+
+.custom-checkbox span {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    user-select: none;
+}
+
+.feedback-note {
+    font-size: 13px;
+    color: #34d399;
+    font-weight: 600;
+    text-align: center;
+    background: rgba(52, 211, 153, 0.1);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.feedback-view-note {
+    margin-top: 20px;
+}
+
+.feedback-view-mode {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-summary-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.feedback-summary-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.feedback-summary-label {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+.feedback-summary-value {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.feedback-summary-message {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.feedback-view-mode {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.feedback-modal .booking-btn-primary {
+    width: 100%;
+    min-height: 52px;
+    border: 0;
+    border-radius: 16px;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #008cff 0%, #4f8cff 52%, #6f6bff 100%);
+    color: #ffffff;
+    box-shadow: 0 18px 35px rgba(0, 140, 255, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.feedback-modal .booking-btn-primary:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 22px 40px rgba(0, 140, 255, 0.32);
+}
+
+.feedback-modal .booking-btn-primary:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+@media (max-width: 640px) {
+    .feedback-overlay {
+        padding: 12px;
+    }
+
+    .feedback-modal {
+        padding: 24px !important;
+        max-height: calc(100vh - 24px);
+        border-radius: 20px;
+    }
+
+    .feedback-modal h3 {
+        font-size: 24px;
+        padding-right: 40px;
+    }
+
+    .rating-selector {
+        gap: 8px;
+        padding: 14px 16px;
+    }
+
+    .star-btn {
+        font-size: 32px;
+    }
+}
+
+@keyframes modalPop {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.w-100 { width: 100%; }
+.mt-20 { margin-top: 20px; }
+.mt-30 { margin-top: 30px; }
+.dim-text { color: rgba(255, 255, 255, 0.4); font-size: 12px; }
